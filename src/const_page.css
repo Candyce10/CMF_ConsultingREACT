@@ -1,0 +1,36 @@
+.const-image{
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.contactInfo{
+    line-height: 8px;
+}
+
+
+
+
+a.lang{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+a.lang:hover{
+    color:rgb(47, 46, 46);
+    text-decoration: underline;
+
+}
+
+a.lang.active{
+    color: white;
+    text-decoration: underline;
+}
+
+a.contact.active{
+    text-decoration: none;
+    border-color: var(--brand);
+    background-color: var(--brand);
+    color: white;
+}
