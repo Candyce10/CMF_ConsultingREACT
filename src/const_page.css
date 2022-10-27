@@ -12,25 +12,37 @@
 
 
 
-a.lang{
-    text-decoration: none;
-    font-size: 20px;
-}
 
-a.lang:hover{
+
+button:hover{
     color:rgb(47, 46, 46);
     text-decoration: underline;
 
 }
 
-a.lang.active{
-    color: white;
-    text-decoration: underline;
-}
 
-a.contact.active{
+
+button.active{
     text-decoration: none;
     border-color: var(--brand);
     background-color: var(--brand);
     color: white;
 }
+
+button {
+    background: none!important;
+    border: none;
+    padding: 0 8px;
+    /*optional*/
+    font-family: arial, sans-serif;
+    /*input has OS specific font-family*/
+    color: var(--dark);
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.4s ease;
+    font-weight: 500;
+  } 
+    
+    a:hover {
+        color: var(--brand);
+    }
