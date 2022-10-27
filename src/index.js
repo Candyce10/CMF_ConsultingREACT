@@ -1,18 +1,21 @@
-import React from 'react';
+import React, {Suspense} from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import './const_page.css';
+import './i18next';
 import { BrowserRouter as Router } from 'react-router-dom';
 
 import App from './App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <Router>
-    <React.StrictMode>
-      <App />
-    </React.StrictMode>
-  </Router>
+  <Suspense fallback={(<div>Loading~~~</div>)}>
+    <Router>
+      <React.StrictMode>
+        <App />
+      </React.StrictMode>
+    </Router>
+  </Suspense>
 );
 
 
