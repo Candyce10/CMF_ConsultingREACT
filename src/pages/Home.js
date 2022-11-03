@@ -1,8 +1,12 @@
 import React from 'react'
 
+
 function Home() {
+
+
+
   return (
-    <div>
+    <div  data-bs-spy="scroll" data-bs-target=".navbar">
       <div class="top-nav" id="home">
         <div class="container">
             <div class="row justify-content-between">
@@ -139,7 +143,7 @@ function Home() {
             </div>
         </div>
     </div>
-    <div class="col-lg-5">
+    <div class="col-lg-5 mx-4">
         <img class="about-img" src="https://www.hubspot.com/hubfs/Consultant%20using%20fast%20tips%20to%20win%20consulting%20clients.jpg" alt=""/>
     </div>
 </div>
