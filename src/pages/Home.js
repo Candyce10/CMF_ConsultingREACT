@@ -1,203 +1,405 @@
 import React from 'react'
-import { useTranslation } from 'react-i18next';
 
-
-
-function Home(){
-
-const { t, i18n } = useTranslation();
-
-function handleClick(lang){
-    i18n.changeLanguage(lang);
-}
-
-const langEl = document.querySelector('.langWrap')
-
-const link = document.querySelectorAll('button')
-
-link.forEach(el =>{
-    el.addEventListener('click', () =>{
-        langEl.querySelector('.active').classList.remove('active')
-        el.classList.add('active');
-        const attr = el.getAttribute('language');
-    })})
-
-
-    return(
-        <div>
-            
-
-            <div class="top-nav" id="home">
-                <div class="container">
-                    <div class="">
-                        <div class="row justify-content-center ">
-                            <div class="langWrap">
-                              
-                                <button onClick={()=>handleClick('en')} language="english" class="active lang">English</button>
-                                <button onClick={()=>handleClick('es')} language="spanish" class="lang">Español</button>
-                             
-                            </div>
-                        </div>
-                    </div>
+function Home() {
+  return (
+    <div>
+      <div class="top-nav" id="home">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-auto">
+                    <p> <i class='bx bxs-envelope'></i> info.rgoldsteinconsulting@gmail.com</p>
+                    <p> <i class='bx bxs-phone-call'></i> (702) 701-2992</p>
+                </div>
+                <div class="col-auto social-icons">
+                    <a href="#"><i class='bx bxl-facebook'></i></a>
+                    <a href="#"><i class='bx bxl-twitter'></i></a>
+                    <a href="#"><i class='bx bxl-instagram'></i></a>
                 </div>
             </div>
-            <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
-                <div class="container">
-                    <a class="navbar-brand " href="/">CMF CONSULTANTS</a>
+        </div>
+    </div>
+<nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
+    <div class="container">
+        <a class="navbar-brand" href="#">CMF CONSULTANTS<span class="dot">.</span></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#services">Services</a>
+                </li>
                 
-                    <div class="">
-                        <a href="#contact" class="btn btn-brand ms-lg-3 contact">{t('trans.contact')}</a>
-                    </div>
-                </div>
-            </nav>
+                <li class="nav-item">
+                    <a class="nav-link" href="#team">Team</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#reviews">Reviews</a>
+                </li>   
+            </ul>
+            <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-brand ms-lg-3">Contact</a>
+        </div>
+    </div>
+</nav>
 
 
-            <div class="const-image" style={{"background-color": "#03213c"}}>
-                <div class="container">
-                    <div class="px-4 py-5 text-center justify-content-center">
-                        <h4 class="construction" style={{"color":"rgb(241, 241, 241)"}}>{t('trans.construction')}<br/></h4>
-                        <i class='bx bxs-wrench bx-sm' style={{"color":"white"}}></i>
-                        <h6 class="construction2" style={{"color":"rgb(241, 241, 241)"}}>{t('trans.construction2')}</h6>
-                        <div class="container p-0 rounded-4 mt-4 mb-4" style={{"width": "175px", "height": "100px", "background-color": "green", "font-size": "60px", "color":"rgb(241, 241, 241) "}}>CMF</div>
-                        <h1 class="display-8 mt-4" style={{"color":"rgb(241, 241, 241)"}}>COMMERCIAL & MINORITY</h1>
-                        <h1 class="display-8 mb-2" style={{"color":"rgb(241, 241, 241)"}}>FUNDING CONSULTANTS</h1>
-                        <div class="col-lg-12 mx-auto">
-                        <p class="lead headqt" style={{"color":"rgb(241, 241, 241)"}}>{t('trans.headqt')}</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-<div class="px-4 py-5" style={{"background-color": "rgb(241, 241, 241)"}}>
-    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3 ">
-        <div class="col d-flex align-items-start">
-            <div class="icon-square d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3" style={{"border-radius": "50%", "background-color": "green"}}>
-                <span class="material-symbols-outlined" style={{"font-size": "36px", "color": "white"}}>
-                    attach_money
-                </span>
-            </div>
-            <div>
-                <h3 class="fs-3 t1">{t('trans.t1')}</h3>
-                <p class="p1">{t('trans.p1')}</p>
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+  <div class="carousel-inner">
+    <div class="carousel-item  active">
+      <div class="slide slide1"> 
+        <div class="row">
+          <div class="col-12 text-center text-white">
+              <h6 class="text-white text-uppercase">"Helping minorities and businesses reach their funding goals"</h6>
+              <h1 class="display-3 my-4">COMMERCIAL & MINORITY<br />FUNDING CONSULTANTS</h1>
+              <a href="#" class="btn btn-brand">Get Started</a>
+              <a href="#" class="btn btn-outline-light ms-3">Our work</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item  ">
+      <div class="slide slide2">
+        <div class="row">
+            <div class="col-12 text-white">
+                <h6 class="text-white text-uppercase">We shop for loans and grants that fit your needs!</h6>
+                <h1 class="display-3 my-4">MANAGEMENT CONSULTING <br />& BUSINESS TURNAROUND</h1>
+                <a href="#" class="btn btn-brand">Get Started</a>
+                <a href="#" class="btn btn-outline-light ms-3">Our work</a>
             </div>
         </div>
-        <div class="col d-flex align-items-start">
-            <div class="icon-square d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3" style={{"border-radius": "50%", "background-color": "green"}}>
-                <span class="material-symbols-outlined" style={{"font-size": "36px", "color": "white"}}>
-                    attach_money
-                </span>
-            </div>
-            <div>
-                <h3 class="fs-3 t2">{t('trans.t2')}</h3>
-                <p class="p2">{t('trans.p2')}</p>
+      </div>
+    </div>
+    
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+
+
+
+
+
+
+
+<section id="about">
+<div class="container">
+<div class="row justify-content-center ">
+    <div class="row ">
+        <div class="col-12 ">
+            <div class="intro ">
+                <h1>About Us</h1>
+                <p class="mx-auto">Give a brief description of your company.</p>
             </div>
         </div>
-        <div class="col d-flex align-items-start">
-            <div class="icon-square d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3" style={{"border-radius": "50%", "background-color": "green"}}>
-                <span class="material-symbols-outlined" style={{"font-size": "36px", "color": "white"}}>
-                    attach_money
-                </span>
+    </div>
+    <div class="col-lg-5 py-5">
+        <div class="row">
+          
+            <div class="col-12 ">
+                <div class="info-box about-sec">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Eo_circle_green_checkmark.svg/2048px-Eo_circle_green_checkmark.svg.png" alt=""/>
+                    <div class="ms-4">
+                        <h5>Loans & Grants For Start Ups</h5>
+                        <p>description of services goes here, description of services goes here, description of services</p>
+                    </div>
+                </div>
             </div>
-            <div>
-                <h3 class="fs-3 t3">{t('trans.t3')}</h3>
-                <p class="p3">{t('trans.p3')}</p>
+            <div class="col-12 mt-4">
+                <div class="info-box">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Eo_circle_green_checkmark.svg/2048px-Eo_circle_green_checkmark.svg.png" alt=""/>
+                    <div class="ms-4">
+                        <h5>Certification For Women & Minority Loans & Grants</h5>
+                        <p>description of services goes here, description of services goes here, description of services</p>
+                    </div>
+                </div>
             </div>
+            <div class="col-12 mt-4">
+                <div class="info-box">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Eo_circle_green_checkmark.svg/2048px-Eo_circle_green_checkmark.svg.png" alt=""/>
+                    <div class="ms-4">
+                        <h5>Business Plans & Grant Writing</h5>
+                        <p>description of services goes here, description of services goes here, description of services</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-5">
+        <img class="about-img" src="https://www.hubspot.com/hubfs/Consultant%20using%20fast%20tips%20to%20win%20consulting%20clients.jpg" alt=""/>
+    </div>
+</div>
+</div>
+</section>
+
+<section id="milestone">
+<div class="container">
+<div class="row text-center justify-content-center gy-4">
+    <div class="col-lg-2 col-sm-6">
+        <h1 class="display-4">90K+</h1>
+        <p class="mb-0">Insert Stat</p>
+    </div>
+    <div class="col-lg-2 col-sm-6">
+        <h1 class="display-4">45M</h1>
+        <p class="mb-0">Insert Stat</p>
+    </div>
+    <div class="col-lg-2 col-sm-6">
+        <h1 class="display-4">190</h1>
+        <p class="mb-0">Insert Stat</p>
+    </div>
+    <div class="col-lg-2 col-sm-6">
+        <h1 class="display-4">380K</h1>
+        <p class="mb-0">Insert Stat</p>
+    </div>
+</div>
+</div>
+</section>
+
+<section id="services" class="text-center">
+<div class="container">
+<div class="row">
+    <div class="col-12">
+        <div class="intro">
+            <h6>Our Services</h6>
+            <h1>What We Do?</h1>
+            <p class="mx-auto">Give a brief description of your services and how it can benefit the customer.</p>
         </div>
     </div>
 </div>
-
-<section id="milestone">
-    <div class="container">
-        <div class="row text-center justify-content-center ">
-            <div class="col-lg-10 col-sm-6">
-                <h1 class="display-6 greenct">{t('trans.greenct')}</h1>
-                <p class="mb-0 greenct2" style={{"font-size": "20px"}}>{t('trans.greenct2')}</p>
-            </div>
+<div class="row g-4">
+    <div class="col-lg-4 col-md-6">
+        <div class="service">
+            <img src="img/icon1.png" alt=""/>
+            <h5>Service</h5>
+            <p>Service description goes here. Service description goes here. Service description goes here. Service description goes here.</p>
         </div>
     </div>
+    <div class="col-lg-4 col-md-6">
+        <div class="service">
+            <img src="img/icon2.png" alt=""/>
+            <h5>Service</h5>
+            <p>Service description goes here. Service description goes here. Service description goes here. Service description goes here.</p>
+        </div>
+    </div>
+    <div class="col-lg-4 col-md-6">
+        <div class="service">
+            <img src="img/icon3.png" alt=""/>
+            <h5>Service</h5>
+            <p>Service description goes here. Service description goes here. Service description goes here. Service description goes here.</p>
+        </div>
+    </div>
+    <div class="col-lg-4 col-md-6">
+        <div class="service">
+            <img src="img/icon4.png" alt=""/>
+            <h5>Service</h5>
+            <p>Service description goes here. Service description goes here. Service description goes here. Service description goes here.</p>
+        </div>
+    </div>
+    <div class="col-lg-4 col-md-6">
+        <div class="service">
+            <img src="img/icon5.png" alt=""/>
+            <h5>Service</h5>
+            <p>Service description goes here. Service description goes here. Service description goes here. Service description goes here.</p>
+        </div>
+    </div>
+    <div class="col-lg-4 col-md-6">
+        <div class="service">
+            <img src="img/icon6.png" alt=""/>
+            <h5>Service</h5>
+            <p>Service description goes here. Service description goes here. Service description goes here. Service description goes here.</p>
+        </div>
+    </div>
+</div>
+</div>
 </section>
 
 
-<div class=" px-4 py-5 " style={{"background-color": "rgb(241, 241, 241)"}}>
-    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3 text-center align-items-start justify-content-center">
-        <div class="feature col">
-            <div class="d-inline-flex text-center align-items-center justify-content-center fs-4 " style={{"border-radius": "50%", "background-color": "green"}}>
-                <span class="material-symbols-outlined" style={{"font-size": "36px", "color": "white"}}>
-                    attach_money
-                </span>
-            </div>
-            <h3 class="fs-2 t4">{t('trans.t4')}</h3>
-        </div>
-        <div class="feature col">
-            <div class="d-inline-flex align-items-center text-center justify-content-center fs-4 flex-shrink-0" style={{"border-radius": "50%", "background-color": "green"}}>
-                <span class="material-symbols-outlined" style={{"font-size": "36px", "color": "white"}}>
-                    attach_money
-                </span>
-            </div>
-            <h3 class="fs-2 t5">{t('trans.t5')}</h3>
-        </div>
-        <div class="feature col">
-            <div class="d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0" style={{"border-radius": "50%", "background-color": "green"}}>
-                <span class="material-symbols-outlined" style={{"font-size": "36px", "color": "white"}}>
-                    attach_money
-                </span>
-            </div>
-            <h3 class="fs-2 t6">{t('trans.t6')}</h3>
+
+<section id="team">
+<div class="container">
+<div class="row">
+    <div class="col-12">
+        <div class="intro">
+            <h6>Team</h6>
+            <h1>Team Members</h1>
+            <p class="mx-auto">Insert a brief statement of how great the team is. A max of three lines could make the content look great. </p>
         </div>
     </div>
-  </div>
-
-
-
-
-    <footer id="contact" class="text-white text-center text-lg-start bg-primary ">
-        <div class="container p-4">
-            <div class="row mt-4">
-                <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
-                    <h5 class="text-uppercase mb-4 text-center" style={{"color": "rgb(241, 241, 241)"}}>CMF CONSULTANTS</h5>
-
-                    <p class="text-center">
-                        <i class='bx bxs-envelope'></i> info@cmfconsultants.net
-                    </p>
+</div>
+<div class="row justify-content-center team-member-container">
+    <div class="col-lg-3 col-md-8">
+        <div class="team-member">
+            <div class="image">
+                <img src="https://images.squarespace-cdn.com/content/v1/530ce8d1e4b067ea68a9f821/1602201459458-2HFNJRLKR5GJDZZT9HJ8/corporate+business+headshots+los+angeles_Danielle+Spires.jpg" alt=""/>
+                <div class="social-icons">
+                    <a href="#"><i class='bx bxl-facebook'></i></a>
+                    <a href="#"><i class='bx bxl-twitter'></i></a>
+                    <a href="#"><i class='bx bxl-instagram'></i></a>
                 </div>
-                <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
-                    <h5 class=" mb-4 text-center nv" style={{"color":"rgb(241, 241, 241)"}}>{t('trans.nv')}</h5>
-                        <p class="d-flex justify-content-center align-items-center">
-                            <i class='bx bxs-phone-call'></i> (702) 701-2992
-                        </p>
-                    
-                        <p class="d-flex justify-content-center align-items-center text-center">
-                            4132 S. Rainbow Rd #200
-                            <br/>
-                            Las Vegas, NV 89103
-                        </p> 
+                <div class="overlay"></div>
+            </div>
+
+            <h5>Person 1</h5>
+            <p>Title</p>
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-8">
+        <div class="team-member">
+            <div class="image">
+                <img src="https://images.squarespace-cdn.com/content/v1/530ce8d1e4b067ea68a9f821/1602201459458-2HFNJRLKR5GJDZZT9HJ8/corporate+business+headshots+los+angeles_Danielle+Spires.jpg" alt=""/>
+                <div class="social-icons">
+                    <a href="#"><i class='bx bxl-facebook'></i></a>
+                    <a href="#"><i class='bx bxl-twitter'></i></a>
+                    <a href="#"><i class='bx bxl-instagram'></i></a>
                 </div>
-            
-                <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
-                    <h5 class=" mb-4 text-center fl" style={{"color":"rgb(241, 241, 241)"}}>{t('trans.fl')}</h5>
+                <div class="overlay"></div>
+            </div>
+
+            <h5>Person 2</h5>
+            <p>Title</p>
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-8">
+        <div class="team-member">
+            <div class="image">
+                <img src="https://images.squarespace-cdn.com/content/v1/530ce8d1e4b067ea68a9f821/1602201459458-2HFNJRLKR5GJDZZT9HJ8/corporate+business+headshots+los+angeles_Danielle+Spires.jpg" alt=""/>
+                <div class="social-icons">
+                    <a href="#"><i class='bx bxl-facebook'></i></a>
+                    <a href="#"><i class='bx bxl-twitter'></i></a>
+                    <a href="#"><i class='bx bxl-instagram'></i></a>
+                </div>
+                <div class="overlay"></div>
+            </div>
+
+            <h5>Person 3</h5>
+            <p>Title</p>
+        </div>
+    </div>
+</div>
+</div>
+</section>
+
+<section class="bg-light" id="reviews">
+
+<div class="owl-theme owl-carousel reviews-slider container">
+<div class="review">
+    
+    <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut quis, rem culpa labore voluptate
+        ullam! In, nostrum. Dicta, vero nihil. Delectus minus vitae rerum voluptatum, excepturi incidunt ut,
+        enim nam exercitationem optio ducimus!</h3>
+    <div class="stars">
+        <i class='bx bxs-star'></i>
+        <i class='bx bxs-star'></i>
+        <i class='bx bxs-star'></i>
+        <i class='bx bxs-star'></i>
+        <i class='bx bxs-star'></i>
+    </div>
+    <i class='bx bxs-quote-alt-left'></i>
+</div>
+<div class="review">
+    
+    <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut quis, rem culpa labore voluptate
+        ullam! In, nostrum. Dicta, vero nihil. Delectus minus vitae rerum voluptatum, excepturi incidunt ut,
+        enim nam exercitationem optio ducimus!</h3>
+
+    <div class="stars">
+        <i class='bx bxs-star'></i>
+        <i class='bx bxs-star'></i>
+        <i class='bx bxs-star'></i>
+        <i class='bx bxs-star'></i>
+        <i class="bx bxs-star-half"></i>
+    </div>
+    <i class='bx bxs-quote-alt-left'></i>
+</div>
+<div class="review">
+    
+    <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut quis, rem culpa labore voluptate
+        ullam! In, nostrum. Dicta, vero nihil. Delectus minus vitae rerum voluptatum, excepturi incidunt ut,
+        enim nam exercitationem optio ducimus!</h3>
+    <div class="stars">
+        <i class='bx bxs-star'></i>
+        <i class='bx bxs-star'></i>
+        <i class='bx bxs-star'></i>
+        <i class='bx bxs-star'></i>
+        <i class="bx bxs-star-half"></i>
+    </div>
+    <i class='bx bxs-quote-alt-left'></i>
+</div>
+</div>
+</section>
 
 
-                    
-                    <p class="d-flex justify-content-center align-items-center">
-                        <i class='bx bxs-phone-call'></i> (786) 200-2080
-                    </p>
-                
-                    <p class="d-flex justify-content-center text-center">
-                        221 W. Hallandale Beach Blvd
-                    <br/>
-                        Hallandale Beach, FL 33009
-                    </p> 
-                
+
+
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered modal-xl">
+<div class="modal-content">
+    <div class="modal-body p-0">
+        <div class="container-fluid">
+            <div class="row gy-4">
+                <div class="col-lg-4 col-sm-12 bg-cover"
+                    style={{"background-image": "url(https://image.cnbcfm.com/api/v1/image/104107461-GettyImages-534572717.jpg?v=1529473279)", "min-height":"300px"}}>
+                    <div>
+                        
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <form class="p-lg-5 col-12 row g-3">
+                        <div>
+                            <h1>Get in touch</h1>
+                        <p>Feel free to contact us and we will get back to you as soon as possible</p>
+                        </div>
+                        <div class="col-lg-6">
+                            <label for="userName" class="form-label">First name</label>
+                            <input type="text" class="form-control" placeholder="Jon" id="userName"
+                                aria-describedby="emailHelp"/>
+                        </div>
+                        <div class="col-lg-6">
+                            <label for="userName" class="form-label">Last name</label>
+                            <input type="text" class="form-control" placeholder="Doe" id="userName"
+                                aria-describedby="emailHelp"/>
+                        </div>
+                        <div class="col-12">
+                            <label for="userName" class="form-label">Email address</label>
+                            <input type="email" class="form-control" placeholder="Johndoe@example.com" id="userName"
+                                aria-describedby="emailHelp"/>
+                        </div>
+                        <div class="col-12">
+                            <label for="exampleInputEmail1" class="form-label">Enter Message</label>
+                            <textarea name="" placeholder="Leave your message here." class="form-control" id=""  rows="4"></textarea>
+                        </div>
+
+                        <div class="col-12">
+                            <button type="submit" class="btn btn-brand">Send Message</button>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
-        <div class="text-center footer p-3" style={{"background-color": "rgba(0, 0, 0, 0.2)"}}>
-        {t('trans.footer')}
-        </div>
-    </footer>
-  
-        </div>
-    )
+    </div>
+
+</div>
+</div>
+</div>
+
+
+    </div>
+  )
 }
 
 export default Home

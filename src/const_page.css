@@ -14,7 +14,7 @@
 
 
 
-button:hover{
+/* button:hover{
     color:rgb(47, 46, 46);
     text-decoration: underline;
 
@@ -33,16 +33,14 @@ button {
     background: none!important;
     border: none;
     padding: 0 8px;
-    /*optional*/
     font-family: arial, sans-serif;
-    /*input has OS specific font-family*/
     color: var(--dark);
     text-decoration: none;
     cursor: pointer;
     transition: all 0.4s ease;
     font-weight: 500;
-  } 
+  }  */
     
-    a:hover {
-        color: var(--brand);
-    }
+a:hover {
+    color: var(--brand);
+}
