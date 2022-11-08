@@ -378,19 +378,25 @@ input.form-control {
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-  height: 100px;
-  width: 10px;
+    height: 100px;
+    width: 10px;
 }
 
 .carousel-control-next-icon:after
 {
-  content: '>';
-  font-size: 55px;
-  color: var(--brand);
+    content: '>';
+    font-size: 55px;
+    color: var(--brand);
 }
 
 .carousel-control-prev-icon:after {
-  content: '<';
-  font-size: 55px;
-  color: var(--brand);
+    content: '<';
+    font-size: 55px;
+    color: var(--brand);
+}
+
+.divider{
+    width: 350px;
+    color: var(--brand);
+    margin: auto
 }

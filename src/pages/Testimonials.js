@@ -20,7 +20,7 @@ function Testimonials() {
         </div>
         <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
             <div class="container">
-                <a class="navbar-brand" href="#">CMF CONSULTANTS<span class="dot">.</span></a>
+                <a class="navbar-brand" href="/">CMF CONSULTANTS<span class="dot">.</span></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -52,15 +52,18 @@ function Testimonials() {
             <div class="row">
                 <div class="col-12">
                     <div class="intro">
-                        <h1 class="mt-5">Testimonials</h1>
-                        <p class="mx-auto fs-4">See what our customers are saying about us!</p>
+                        <h1 class="mt-5">Testimonials</h1>   <hr class="divider text-center justify-content-center"></hr>
+                        <p class="mx-auto fs-4 mt-3">See what our customers are saying about us!</p>
+                     
+
+
                     </div>
                 </div>
             </div>
         
         
 
-            <div class="row featurette mt-4">
+            <div class="row mt-2">
 
          
             <div >
@@ -126,7 +129,6 @@ function Testimonials() {
     
     </div>
 
-    <hr class="featurette-divider"></hr>
 
         
     </div>    
@@ -139,21 +141,3 @@ function Testimonials() {
 export default Testimonials
 
 
-// .carousel-control-prev-icon,
-// .carousel-control-next-icon {
-//   height: 100px;
-//   width: 10px;
-// }
-
-// .carousel-control-next-icon:after
-// {
-//   content: '>';
-//   font-size: 55px;
-//   color: var(--brand);
-// }
-
-// .carousel-control-prev-icon:after {
-//   content: '<';
-//   font-size: 55px;
-//   color: var(--brand);
-// }

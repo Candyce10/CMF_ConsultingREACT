@@ -99,6 +99,7 @@ function Home() {
                 <div class="col-12 ">
                     <div class="intro ">
                         <h1>About Us</h1>
+                        <hr class="divider text-center justify-content-center"></hr>
                     </div>
                 </div>
             </div>
@@ -152,183 +153,114 @@ function Home() {
         <section id="milestone">
         <div class="container">
         <div class="row text-center justify-content-center gy-4">
-            <div class="col-lg-2 col-sm-6">
-                <h1 class="display-4">90K+</h1>
-                <p class="mb-0">Insert Stat</p>
+            <div class="col-lg-12 col-sm-6">
+                <h6 class="fs-4 fw-semibold">We help with application processing for minority certification to get SBA (or other) loans & grants</h6>
             </div>
-            <div class="col-lg-2 col-sm-6">
-                <h1 class="display-4">45M</h1>
-                <p class="mb-0">Insert Stat</p>
-            </div>
-            <div class="col-lg-2 col-sm-6">
-                <h1 class="display-4">190</h1>
-                <p class="mb-0">Insert Stat</p>
-            </div>
-            <div class="col-lg-2 col-sm-6">
-                <h1 class="display-4">380K</h1>
-                <p class="mb-0">Insert Stat</p>
-            </div>
+         
         </div>
         </div>
         </section>
 
         <section id="services" class="text-center">
         <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <div class="intro">
-                    <h6>Our Services</h6>
-                    <h1>What We Do?</h1>
-                    <p class="mx-auto">We help with application processing for minority certification to get SBA (or other) loans & grants</p>
-                </div>
-            </div>
-        </div>
-        <div class="row g-4">
-            <div class="col-lg-4 col-md-6">
-                <div class="service">
-                    <div class="icon-square d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-1 bg-gradient fs-4 rounded-3" style={{ "background-color": "green"}}>
-                        <span class="material-symbols-outlined " style={{"font-size": "36px", "color": "white"}}>
-                           psychology
-                        </span>
+            <div class="row">
+                <div class="col-12">
+                    <div class="intro text-center ">
+                        <h1 class="text-center ">Our Services</h1>
+                        <hr class="divider text-center justify-content-center"></hr>
                     </div>
-                    <h5 class="mt-2">Comprehensive Consultation</h5>
-                    <p>
-                        We will begin with a comprehensive consultation and will learn about the nuts and bolts of your business & help with business structure.
-                    </p>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="service">
-                    <div class="icon-square d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-1  bg-gradient fs-4 rounded-3" style={{"background-color": "green"}}>
-                        <span class="material-symbols-outlined " style={{"font-size": "36px", "color": "white"}}>
-                            edit
-                        </span>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="service">
+                        <div class="icon-square d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-1 bg-gradient fs-4 rounded-3" style={{ "background-color": "green"}}>
+                            <span class="material-symbols-outlined " style={{"font-size": "36px", "color": "white"}}>
+                            psychology
+                            </span>
+                        </div>
+                        <h5 class="mt-2">Comprehensive Consultation</h5>
+                        <p>
+                            We will begin with a comprehensive consultation and will learn about the nuts and bolts of your business & help with business structure.
+                        </p>
                     </div>
-                    <h5 class="mt-2">Business Plan</h5>
-                    <p>
-                        Business plan consulting includes learning about your business objectives and goals and writing a plan for what you would like to achieve.
-                    </p>
                 </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="service">
-                    <div class="icon-square d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-1  bg-gradient fs-4 rounded-3" style={{"background-color": "green"}}>
-                        <span class="material-symbols-outlined " style={{"font-size": "36px", "color": "white"}}>
-                            attach_money
-                        </span>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service">
+                        <div class="icon-square d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-1  bg-gradient fs-4 rounded-3" style={{"background-color": "green"}}>
+                            <span class="material-symbols-outlined " style={{"font-size": "36px", "color": "white"}}>
+                                edit
+                            </span>
+                        </div>
+                        <h5 class="mt-2">Business Plan</h5>
+                        <p>
+                            Business plan consulting includes learning about your business objectives and goals and writing a plan for what you would like to achieve.
+                        </p>
                     </div>
-                    <h5 class="mt-2">Funding Solutions</h5>
-                    <p>
-                        Partner your business with traditional and non-traditional funding sources including grant research & contracting opportunities.
-                    </p>
                 </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="service">
-                    <div class="icon-square d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-1 bg-gradient fs-4 rounded-3" style={{"background-color": "green"}}>
-                        <span class="material-symbols-outlined " style={{"font-size": "36px", "color": "white"}}>
-                            feed
-                        </span>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service">
+                        <div class="icon-square d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-1  bg-gradient fs-4 rounded-3" style={{"background-color": "green"}}>
+                            <span class="material-symbols-outlined " style={{"font-size": "36px", "color": "white"}}>
+                                attach_money
+                            </span>
+                        </div>
+                        <h5 class="mt-2">Funding Solutions</h5>
+                        <p>
+                            Partner your business with traditional and non-traditional funding sources including grant research & contracting opportunities.
+                        </p>
                     </div>
-                    <h5 class="mt-2">Business Certification</h5>
-                    <p>
-                        Assist with minority business certifications including Minority (MBE), Disadvantaged (DBE), & Women (WBE) Business Enterprises.
-                    </p>
                 </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="service">
-                    <div class="icon-square d-inline-flex fs-4 flex-shrink-0 me-1 align-items-center justify-content-center bg-gradient fs-4 rounded-3" style={{"background-color": "green"}}>
-                        <span class="material-symbols-outlined " style={{"font-size": "36px", "color": "white"}}>
-                            insights
-                        </span>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service">
+                        <div class="icon-square d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-1 bg-gradient fs-4 rounded-3" style={{"background-color": "green"}}>
+                            <span class="material-symbols-outlined " style={{"font-size": "36px", "color": "white"}}>
+                                feed
+                            </span>
+                        </div>
+                        <h5 class="mt-2">Business Certification</h5>
+                        <p>
+                            Assist with minority business certifications including Minority (MBE), Disadvantaged (DBE), & Women (WBE) Business Enterprises.
+                        </p>
                     </div>
-                    <h5 class="mt-2">Social Media Assistance</h5>
-                    <p>
-                        We will do all the marketing and social media while making sure that the statistics are reaching out to your target customers.
-                    </p>
                 </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="service h-100">
-                    <div class="icon-square d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-1 bg-gradient fs-4 rounded-3" style={{"background-color": "green"}}>
-                        <span class="material-symbols-outlined " style={{"font-size": "36px", "color": "white"}}>
-                            handshake
-                        </span>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service">
+                        <div class="icon-square d-inline-flex fs-4 flex-shrink-0 me-1 align-items-center justify-content-center bg-gradient fs-4 rounded-3" style={{"background-color": "green"}}>
+                            <span class="material-symbols-outlined " style={{"font-size": "36px", "color": "white"}}>
+                                insights
+                            </span>
+                        </div>
+                        <h5 class="mt-2">Social Media Assistance</h5>
+                        <p>
+                            We will do all the marketing and social media while making sure that the statistics are reaching out to your target customers.
+                        </p>
                     </div>
-                    <h5 class="mt-2">Licensing & Permits</h5>
-                    <p>
-                        We register your business properly and ensure that all the paperwork for your business licensing & permits are filed.
-                    </p>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service h-100">
+                        <div class="icon-square d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-1 bg-gradient fs-4 rounded-3" style={{"background-color": "green"}}>
+                            <span class="material-symbols-outlined " style={{"font-size": "36px", "color": "white"}}>
+                                handshake
+                            </span>
+                        </div>
+                        <h5 class="mt-2">Licensing & Permits</h5>
+                        <p>
+                            We register your business properly and ensure that all the paperwork for your business licensing & permits are filed.
+                        </p>
+                    </div>
                 </div>
             </div>
-        </div>
+            <a href="/services" class="icon-link d-inline-flex align-items-center mt-3 fs-5 text-decoration-none">
+                    Learn More <span class="material-symbols-outlined">
+            chevron_right
+            </span>
+            </a>
+
         </div>
         </section>
 
-        <section id="team">
-        <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <div class="intro">
-                    <h6>Team</h6>
-                    <h1>Team Members</h1>
-                    <p class="mx-auto">Insert a brief statement of how great the team is. A max of three lines could make the content look great. </p>
-                </div>
-            </div>
-        </div>
-        <div class="row justify-content-center team-member-container">
-            <div class="col-lg-3 col-md-8">
-                <div class="team-member">
-                    <div class="image">
-                        <img src="https://images.squarespace-cdn.com/content/v1/530ce8d1e4b067ea68a9f821/1602201459458-2HFNJRLKR5GJDZZT9HJ8/corporate+business+headshots+los+angeles_Danielle+Spires.jpg" alt=""/>
-                        <div class="social-icons">
-                            <a href="#"><i class='bx bxl-facebook'></i></a>
-                            <a href="#"><i class='bx bxl-twitter'></i></a>
-                            <a href="#"><i class='bx bxl-instagram'></i></a>
-                        </div>
-                        <div class="overlay"></div>
-                    </div>
-
-                    <h5>Person 1</h5>
-                    <p>Title</p>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-8">
-                <div class="team-member">
-                    <div class="image">
-                        <img src="https://images.squarespace-cdn.com/content/v1/530ce8d1e4b067ea68a9f821/1602201459458-2HFNJRLKR5GJDZZT9HJ8/corporate+business+headshots+los+angeles_Danielle+Spires.jpg" alt=""/>
-                        <div class="social-icons">
-                            <a href="#"><i class='bx bxl-facebook'></i></a>
-                            <a href="#"><i class='bx bxl-twitter'></i></a>
-                            <a href="#"><i class='bx bxl-instagram'></i></a>
-                        </div>
-                        <div class="overlay"></div>
-                    </div>
-
-                    <h5>Person 2</h5>
-                    <p>Title</p>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-8">
-                <div class="team-member">
-                    <div class="image">
-                        <img src="https://images.squarespace-cdn.com/content/v1/530ce8d1e4b067ea68a9f821/1602201459458-2HFNJRLKR5GJDZZT9HJ8/corporate+business+headshots+los+angeles_Danielle+Spires.jpg" alt=""/>
-                        <div class="social-icons">
-                            <a href="#"><i class='bx bxl-facebook'></i></a>
-                            <a href="#"><i class='bx bxl-twitter'></i></a>
-                            <a href="#"><i class='bx bxl-instagram'></i></a>
-                        </div>
-                        <div class="overlay"></div>
-                    </div>
-
-                    <h5>Person 3</h5>
-                    <p>Title</p>
-                </div>
-            </div>
-        </div>
-        </div>
-        </section>
+        
 
         
 
