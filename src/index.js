@@ -1,8 +1,11 @@
 import React, {Suspense} from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+import './services.css';
 import './const_page.css';
+import './affiliates.css';
 import './i18next';
+import './404.css';
 import { BrowserRouter as Router } from 'react-router-dom';
 
 import App from './App';

@@ -1,0 +1,35 @@
+.serv-header{
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(rgba(10, 10, 10, 0.5), rgba(13, 13, 13, 0.5)), url(https://wallpapercave.com/wp/wp4712960.jpg);
+
+}
+
+.serv-p{
+    color: rgb(240, 235, 235);
+    text-shadow: 1px 1px 2px black;
+}
+
+.get-started{
+    background: hsla(102, 55%, 52%, 1);
+    background: linear-gradient(90deg, hsla(102, 55%, 52%, 1) 0%, hsla(101, 73%, 25%, 1) 100%);
+    background: -moz-linear-gradient(90deg, hsla(102, 55%, 52%, 1) 0%, hsla(101, 73%, 25%, 1) 100%);
+    background: -webkit-linear-gradient(90deg, hsla(102, 55%, 52%, 1) 0%, hsla(101, 73%, 25%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#68C740", endColorstr="#2F6F11", GradientType=1 );
+    color: rgb(240, 235, 235);
+    text-shadow: 1px 1px 2px black;
+}
+
+.service-img{
+    margin-top: 100px;
+    position: absolute;
+    width: 400px;
+}
+
+.green2{
+    background: var(--brand);
+    width: 400px;
+    height: 280px;
+    margin-top: 40px;
+    margin-left: 40px;
+}

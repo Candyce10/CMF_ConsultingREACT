@@ -12,9 +12,9 @@ function Footer() {
                             <i class='bx bxs-envelope mt-2'></i> info@cmfconsultants.net
                         </p>
                         <div class="col-auto social-icons">
-                            <a href="#"><i class='bx bxl-facebook'></i></a>
-                            <a href="#"><i class='bx bxl-twitter'></i></a>
-                            <a href="#"><i class='bx bxl-linkedin'></i></a>
+                            {/* <a href="#"><i class='bx bxl-facebook'></i></a> */}
+                            <a href="https://twitter.com/cmf2022cmf"><i class='bx bxl-twitter'></i></a>
+                            <a href="https://www.linkedin.com/in/robert-cmf-consultants-8b15a6250/"><i class='bx bxl-linkedin'></i></a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 mb-4 mb-md-0">

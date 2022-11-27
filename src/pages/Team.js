@@ -3,14 +3,58 @@ import React from 'react'
 function Team() {
   return (
     <div>
+        <div class="top-nav" id="home">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col-auto">
+                        <p> <i class='bx bxs-envelope'></i> info@cmfconsultants.net</p>
+                    </div>
+                    <div class="col-auto social-icons">
+                        {/* <a href="#"><i class='bx bxl-facebook'></i></a> */}
+                        <a href="https://twitter.com/cmf2022cmf"><i class='bx bxl-twitter'></i></a>
+                        <a href="https://www.linkedin.com/in/robert-cmf-consultants-8b15a6250/"><i class='bx bxl-linkedin'></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
+            <div class="container">
+                <a class="navbar-brand" href="/">CMF CONSULTANTS<span class="dot">.</span></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="/">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/servicesandworkshops">Services & Workshops</a>
+                        </li>
+                       
+                        <li class="nav-item">
+                            <a class="nav-link" href="/team">Team</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/testimonials">Testimonials</a>
+                        </li>   
+                        <li class="nav-item">
+                            <a class="nav-link" href="/affiliates">Affiliates</a>
+                        </li>   
+                    </ul>
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-brand ms-lg-3">Contact</a>
+                    <a href="/application" class="btn btn-brand ms-lg-3">Apply</a>
+                </div>
+            </div>
+        </nav>
        <section id="team">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
                         <div class="intro">
-                            <h6>Team</h6>
-                            <h1>Team Members</h1>
-                            <p class="mx-auto">Insert a brief statement of how great the team is. A max of three lines could make the content look great. </p>
+                            <h1>Meet the Team</h1>
+                            <p class="mx-auto ">Check out our talented and amazing team behind our services! </p>
                         </div>
                     </div>
                 </div>
@@ -19,11 +63,6 @@ function Team() {
                         <div class="team-member">
                             <div class="image">
                                 <img src="https://images.squarespace-cdn.com/content/v1/5f43f120e7d66a0be3d78d98/1601487584428-ZAXRT5NI5RDCGQLGUV9H/Rob+G.png?format=750w" alt=""/>
-                                <div class="social-icons">
-                                    <a href="#"><i class='bx bxl-facebook'></i></a>
-                                    <a href="#"><i class='bx bxl-twitter'></i></a>
-                                    <a href="#"><i class='bx bxl-linkedin'></i></a>
-                                </div>
                                 <div class="overlay"></div>
                             </div>
 
@@ -36,7 +75,7 @@ function Team() {
                 </div>
                 <div class="col-lg-12 text-center col-sm-3">
                     <p>
-                        <a class="btn btn-success " data-bs-toggle="collapse" href="#multiCollapse1" role="button" aria-expanded="false" aria-controls="collapseExample">
+                        <a class="btn btn-brand " data-bs-toggle="collapse" href="#multiCollapse1" role="button" aria-expanded="false" aria-controls="collapseExample">
                             Bio
                         </a>
                                
@@ -90,49 +129,39 @@ function Team() {
                     </div>
                         
                 </div>
-                <div class="row justify-content-center team-member-container mt-5">
+                {/* <div class="row justify-content-center team-member-container mt-5">
                     
-                        <div class="col-lg-3 col-sm-3">
-                            <div class="team-member">
-                                <div class="image">
-                                    <img src="https://images.squarespace-cdn.com/content/v1/530ce8d1e4b067ea68a9f821/1602201459458-2HFNJRLKR5GJDZZT9HJ8/corporate+business+headshots+los+angeles_Danielle+Spires.jpg" alt=""/>
-                                    <div class="social-icons">
-                                        <a href="#"><i class='bx bxl-facebook'></i></a>
-                                        <a href="#"><i class='bx bxl-twitter'></i></a>
-                                        <a href="#"><i class='bx bxl-linkedin'></i></a>
-                                    </div>
-                                    <div class="overlay"></div>
-                                </div>
-
-                                <h5>Person 1</h5>
-                                <p>Title</p>
-                                <div class="col-lg-12 col-sm-3">
-                                    <p>
-                                        <a class="btn btn-success " data-bs-toggle="collapse" href="#multiCollapse2" role="button" aria-expanded="false" aria-controls="collapseExample">
-                                            Bio
-                                        </a>
-                                    </p>
-                                    <div class="collapse" id="multiCollapse2">
-                                        <div class="card card-body  mb-5">
-                                        bio goes here
-                                        </div>
-                                    </div>
-                            
-                                </div> 
+                    <div class="col-lg-3 col-sm-3">
+                        <div class="team-member">
+                            <div class="image">
+                                <img src="https://images.squarespace-cdn.com/content/v1/530ce8d1e4b067ea68a9f821/1602201459458-2HFNJRLKR5GJDZZT9HJ8/corporate+business+headshots+los+angeles_Danielle+Spires.jpg" alt=""/>
+                                <div class="overlay"></div>
                             </div>
-                            
+
+                            <h5>Person 1</h5>
+                            <p>Title</p>
+                            <div class="col-lg-12 col-sm-3">
+                                <p>
+                                    <a class="btn btn-success " data-bs-toggle="collapse" href="#multiCollapse2" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                        Bio
+                                    </a>
+                                </p>
+                                <div class="collapse" id="multiCollapse2">
+                                    <div class="card card-body  mb-5">
+                                    bio goes here
+                                    </div>
+                                </div>
+                        
+                            </div> 
                         </div>
+                        
+                    </div>
                        
                     
                     <div class="col-lg-3 col-sm-3">
                         <div class="team-member">
                             <div class="image">
                                 <img src="https://images.squarespace-cdn.com/content/v1/530ce8d1e4b067ea68a9f821/1602201459458-2HFNJRLKR5GJDZZT9HJ8/corporate+business+headshots+los+angeles_Danielle+Spires.jpg" alt=""/>
-                                <div class="social-icons">
-                                    <a href="#"><i class='bx bxl-facebook'></i></a>
-                                    <a href="#"><i class='bx bxl-twitter'></i></a>
-                                    <a href="#"><i class='bx bxl-linkedin'></i></a>
-                                </div>
                                 <div class="overlay"></div>
                             </div>
 
@@ -145,7 +174,7 @@ function Team() {
                                         </a>
                                     </p>
                                     <div class="collapse" id="multiCollapse3">
-                                        <div class="card card-body  mb-5" style={{"width":"500px"}}>
+                                        <div class="card card-body  mb-5">
                                         bio goes here
                                         </div>
                                     </div>
@@ -157,32 +186,26 @@ function Team() {
                         <div class="team-member">
                             <div class="image">
                                 <img src="https://images.squarespace-cdn.com/content/v1/530ce8d1e4b067ea68a9f821/1602201459458-2HFNJRLKR5GJDZZT9HJ8/corporate+business+headshots+los+angeles_Danielle+Spires.jpg" alt=""/>
-                                <div class="social-icons">
-                                    <a href="#"><i class='bx bxl-facebook'></i></a>
-                                    <a href="#"><i class='bx bxl-twitter'></i></a>
-                                    <a href="#"><i class='bx bxl-linkedin'></i></a>
-                                </div>
                                 <div class="overlay"></div>
                             </div>
 
                             <h5>Person 3</h5>
                             <p>Title</p>
                             <div class="col-lg-12 col-sm-3">
-                                    <p>
-                                        <a class="btn btn-success " data-bs-toggle="collapse" href="#multiCollapse4" role="button" aria-expanded="false" aria-controls="collapseExample">
-                                            Bio
-                                        </a>
-                                    </p>
-                                    <div class="collapse" id="multiCollapse4">
-                                        <div class="card card-body  mb-5">
-                                        bio goes here
-                                        </div>
+                                <p>
+                                    <a class="btn btn-success " data-bs-toggle="collapse" href="#multiCollapse4" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                        Bio
+                                    </a>
+                                </p>
+                                <div class="collapse" id="multiCollapse4">
+                                    <div class="card card-body  mb-5">
+                                    bio goes here
                                     </div>
-                            
-                                </div> 
+                                </div>
+                            </div> 
                         </div>
                     </div>
-                </div>
+                </div> */}
             </div>
         </section>
         
