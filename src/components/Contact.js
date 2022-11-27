@@ -6,7 +6,7 @@ function Contact() {
     const sendEmail = e => {
    
 
-        emailjs.sendForm('service_4ihgvwr', 'template_5go2bil', e.target, 'TFPq4sR-Fx5jQNwoH' )
+        emailjs.sendForm(process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID, e.target, process.env.REACT_APP_PUBLIC_KEY)
     }
 
   return (
