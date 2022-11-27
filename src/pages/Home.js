@@ -48,7 +48,6 @@ function Home() {
                         </li>   
                     </ul>
                     <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-brand ms-lg-3">Contact</a>
-                    <a href="/application" class="btn btn-brand ms-lg-3">Apply</a>
 
                 </div>
             </div>
@@ -271,58 +270,43 @@ function Home() {
       
 
 
-        {/* <section id="blog">
+        <section class="mt-0">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
                         <div class="intro">
-                            <h6>Blog</h6>
-                            <h1>Blog Posts</h1>
-                            <p class="mx-auto">Contrary to popular belief, Lorem Ipsum is not simply random text. It has
-                                roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old</p>
+                            <h1>Sign Up Today</h1>
+                            <p class="mx-auto">Take your existing business to new levels for an exciting and profitable future!</p>
+                            <hr class="divider text-center justify-content-center"></hr>
+
                         </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-md-4">
-                        <article class="blog-post">
-                            <img src="https://lanecdr.org/wp-content/uploads/2019/08/placeholder.png" alt=""/>
-                            <Link to="/services#workshops" >Workshops</Link>
-                            <div class="content">
-                                <small>01 Dec, 2022</small>
-                                <h5>Web Design trends in 2022</h5>
+                <div class="row justify-content-center">
+                    <div class="col-md-4 ">  <Link to="/servicesandworkshops#workshops" class="blog-link" >
+                        <article class="pill card h-100">
+                            <img src="https://monkeypuzzletraining.co.uk/images/Blog-images/article-images/xl-critical-thinking.jpg" class="card-img-top h-100" alt=""/>
+                           
+                            <div class="content card-body">
+                               <h5>Workshops</h5>
                                 <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
                                     piece of classical Latin literature from</p>
                             </div>
-                        </article>
+                        </article></Link>
                     </div>
-                    <div class="col-md-4">
-                        <article class="blog-post">
-                            <img src="https://lanecdr.org/wp-content/uploads/2019/08/placeholder.png" alt=""/>
-                            <a href="#" class="tag">Programming</a>
-                            <div class="content">
-                                <small>01 Dec, 2022</small>
-                                <h5>Web Design trends in 2022</h5>
-                                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
-                                    piece of classical Latin literature from</p>
+              
+                    <div class="col-md-4 "><a href="affiliates" class="blog-link">
+                        <article class="pill card h-100">
+                            <img src="https://iristech.co/wp-content/uploads/2016/05/affiliate.png" class="card-img-top h-100 "  alt=""/>
+                            <div class="content card-body">
+                               <h5>Affiliates</h5>
+                                <p>Grow your business while helping others with our affiliate program. Make money by referring other people!</p>
                             </div>
-                        </article>
-                    </div>
-                    <div class="col-md-4">
-                        <article class="blog-post">
-                            <img src="https://lanecdr.org/wp-content/uploads/2019/08/placeholder.png" alt=""/>
-                            <a href="#" class="tag">Marketing</a>
-                            <div class="content">
-                                <small>01 Dec, 2022</small>
-                                <h5>Web Design trends in 2022</h5>
-                                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
-                                    piece of classical Latin literature from</p>
-                            </div>
-                        </article>
+                        </article></a>
                     </div>
                 </div>
             </div>
-        </section> */}
+        </section>
 
 
         

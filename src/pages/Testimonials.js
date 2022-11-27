@@ -222,7 +222,6 @@ function Testimonials() {
 
                     <p class="fs-5 lh-1 ">We're here to help! Contact us today to see what we can do for you and your business!</p>
                     <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-brand ms-lg-3">Contact</a>
-                    <a href="/application" class="btn btn-brand ms-lg-3">Apply</a>
         
 
                 </div>

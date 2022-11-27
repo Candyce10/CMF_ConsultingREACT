@@ -38,10 +38,10 @@ a {
     font-weight: 500;
     padding: 10px
 }
-
+/* 
 a:hover {
     color: var(--brand);
-}
+} */
 
 section {
     padding-top: 80px;
@@ -235,30 +235,7 @@ text-align: center;}
     margin-bottom: 4px;
 }
 
-.team-member .social-icons {
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 2;
-    opacity: 0;
-    transition: all 0.4s ease;
-}
 
-.team-member .social-icons a {
-    width: 40px;
-    height: 40px;
-}
-
-.team-member:hover .social-icons {
-    top: 50%;
-    opacity: 1;
-}
-
-.team-member:hover .overlay {
-    top: 0%;
-    opacity: 1;
-}
 
 #reviews {
     background-size: cover;
@@ -385,9 +362,9 @@ input.form-control {
     margin: auto
 }
 
-#workshops a:hover{
+/* #workshops a:hover{
     color: var(--dark);
-}
+} */
 
 .capitol{
     background-image: url(https://i.imgur.com/Hmk1YqC.png);
@@ -419,31 +396,31 @@ input.form-control {
     box-shadow: var(--shadow);
 }
 
-.blog-post .content {
+/* .blog-post .content {
     padding: 32px;
+} */
+
+
+
+a.blog-link {
+    background: none!important;
+    border: none;
+    padding: 0!important;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 100;
+  }
+
+a.blog-link:hover{
+    color:#516171
 }
 
-.blog-post a {
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    background-color: var(--brand);
-    padding: 2px 12px;
-    border-radius: 100px;
-    text-decoration: none;
-    color: #fff;
-}
 
 .blog-post h5 {
     margin-top: 12px;
     margin-bottom: 12px;
 }
 
-.blog-post small {
-    text-transform: uppercase;
-    color: var(--brand);
-    text-decoration: underline;
-}
 
 
 .project {
