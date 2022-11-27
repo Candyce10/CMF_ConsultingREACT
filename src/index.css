@@ -415,6 +415,10 @@ a.blog-link:hover{
     color:#516171
 }
 
+a:hover{
+    color:#516171
+}
+
 
 .blog-post h5 {
     margin-top: 12px;

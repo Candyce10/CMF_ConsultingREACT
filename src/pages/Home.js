@@ -62,7 +62,7 @@ function Home() {
                         <h6 class="text-white text-uppercase">"Helping minorities and businesses reach their funding goals"</h6>
                         <img class="mt-4" style={{"width":"150px", "height": "auto"}} src="https://i.imgur.com/5hGMabR.png"/>
                         <h1 class="display-3 my-4">COMMERCIAL & MINORITY<br />FUNDING CONSULTANTS</h1>
-                        <a href="/services" class="btn btn-brand">Get Started</a>
+                        <a href="/servicesandworkshops" class="btn btn-brand">Get Started</a>
                     </div>
                     </div>
                 </div>
@@ -289,8 +289,7 @@ function Home() {
                            
                             <div class="content card-body">
                                <h5>Workshops</h5>
-                                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
-                                    piece of classical Latin literature from</p>
+                                <p>Check out our virtual and in-person workshops to discover </p>
                             </div>
                         </article></Link>
                     </div>
