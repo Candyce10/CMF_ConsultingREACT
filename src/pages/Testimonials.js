@@ -46,7 +46,6 @@ function Testimonials() {
                         </li>   
                     </ul>
                     <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-brand ms-lg-3">Contact</a>
-                    <a href="/application" class="btn btn-brand ms-lg-3">Apply</a>
                 </div>
             </div>
         </nav>

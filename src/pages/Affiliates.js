@@ -72,7 +72,7 @@ function Affiliates() {
                 <label for="email">E-Mail</label>
                 <input type="text" id="email" name="email" placeholder="E-Mail Address"/>
                 <label for="contact">Contact No.</label>
-                <input type="tel" id="contact" name="contact" placeholder="(123) 456-7890"/>
+                <input type="text" id="contact" name="contact" placeholder="(123) 456-7890"/>
                 <label for="profession">Profession</label>
                 <input type="text" id="Profession" name="Profession" placeholder="Job Title"/>
 
