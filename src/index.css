@@ -168,7 +168,7 @@ section {
 text-align: center;}
 
 .intro p {
-    max-width: 500px;
+    max-width: 800px;
 }
 .intro h6{
     color: var(--brand);

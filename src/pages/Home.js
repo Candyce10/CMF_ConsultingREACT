@@ -97,12 +97,12 @@ function Home() {
                         <div class="col-12 ">
                             <div class="intro ">
                                 <h1>About Us</h1>
-                                <p class="mx-auto fw-semibold fs-5">We'll shop for loans & grants that suit your needs! </p>
-                                <p class="mx-auto fs-5 mb-3">CMF Consultants is a packager for minority certification. We have the knowledge and experience to provide funding solutions to small businesses in need of financing to grow your company!  </p>
+                                <p class="mx-auto fs-5 mb-3">Commercial and Minority Funding Consultants is a professional team that strives to assist Minorities and businesses with reaching their funding goals. We are committed to assisting businesses with full lifecycle development, from initial startup through growth and development stages, with restructuring if necessary. We have the knowledge and experience to grow your company and help you thrive!  </p>
+                                <p class="mx-auto fw-semibold mb-5 fs-5">We'll shop for loans & grants that suit your needs! </p>
                                 
                             
 
-                                <hr class="divider text-center justify-content-center"></hr>
+                                <hr class="divider mb-5 text-center justify-content-center"></hr>
                             </div>
                         </div>
                     </div>
@@ -167,7 +167,7 @@ function Home() {
             </div>
         </section>
 
-        <section class="text-center">
+        <section class="text-center ">
             <div class="container">
                 <div class="row">
                     <div class="col-12">

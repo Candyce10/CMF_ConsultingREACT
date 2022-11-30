@@ -116,14 +116,54 @@ function Affiliates() {
                 <input type="text" id="contact" name="contact" placeholder="(123) 456-7890" required/>
                 <label for="profession">Profession</label>
                 <input type="text" id="profession" name="profession" placeholder="Job Title" />
-
+                 <div class="message">
+                        <div class="success" id="success">Your Inquiry Has Successfully Sent!</div>
+                        <div class="danger" id="danger">Fields Can't be Empty!</div>
+                    </div>
                 <button type="submit" class="btn btn-brand" onClick={message} >Send</button>
-                <div class="message">
-                    <div class="success" id="success">Your Inquiry Has Successfully Sent!</div>
-                    <div class="danger" id="danger">Fields Can't be Empty!</div>
-                </div>
+            
             </form>
         </div>
+
+        <section class="container-fluid bg-light">
+            <div class="row text-center">
+                <div class="col-md-12">
+                <div id="myCarousel2" class="carousel slide carousel-dark" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <p class="lead font-italic mx-4 mx-md-5">
+                        "I have had the pleasure of working with Rob Goldstein and RG Consulting for many years.  Throughout that time, I have referred numerous clients to Rob and have experienced nothing but phenomenal results.  Rob is professional, empathetic, and highly experienced.  I will continue to refer clients and friends to Rob and RG Consulting for years to come.   "
+                        </p>
+                        
+                        <p class="text-muted mb-0">- A. G.</p>
+                    </div>
+
+                    <div class="carousel-item">
+                        <p class="lead font-italic mx-4 mx-md-5">
+                        "I just wanted to thank you so much for the services you provided to my clients.  You have saved both of them from bankruptcy through your efforts in securing loans during these dark and desperate times.  Your dedication and tenacity is second to none. I look forward to working with you in the future and with other clients whom are in need of your services."
+                        </p>
+                        
+                        <p class="text-muted mb-0">- C. J. M.</p>
+                    </div>
+
+                    </div>
+                    <div class=" d-flex justify-content-center">
+                        <button class="carousel-control-prev position-relative" type="button" data-bs-target="#myCarousel2"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon " aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next position-relative" type="button" data-bs-target="#myCarousel2"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    
+                </div>
+                </div>
+            </div>
+        </section>
       
     </div>
   )
