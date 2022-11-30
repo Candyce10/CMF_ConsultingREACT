@@ -1,6 +1,47 @@
 import React from 'react'
+import emailjs from '@emailjs/browser';
+
 
 function Affiliates() {
+    
+    function message(){
+        var fname = document.getElementById('fname');
+        var lname = document.getElementById('lname');
+        var email = document.getElementById('email');
+        var contact = document.getElementById('contact');
+        var profession = document.getElementById('profession');
+        const success = document.getElementById('success');
+        const danger = document.getElementById('danger');
+    
+        if(fname.value === '' || lname.vale === '' || email.value === '' || contact.value === '' || profession.value === ''){
+            danger.style.display = 'block';
+        }
+        else{
+            setTimeout(() => {
+                fname.value = '';
+                lname.value = '';
+                email.value = '';
+                contact.value = '';
+                profession.value = '';
+            }, 5000);
+    
+            success.style.display = 'block';
+        }
+    
+    
+        setTimeout(() => {
+            danger.style.display = 'none';
+            success.style.display = 'none';
+        }, 4000);
+    
+    }
+
+
+
+    const sendEmail = e => {
+        emailjs.sendForm(process.env.REACT_APP_SERVICE_ID, "template_0clbarg", e.target, process.env.REACT_APP_PUBLIC_KEY)
+    }
+
   return (
     <div>
         <div class="top-nav" id="home">
@@ -54,7 +95,7 @@ function Affiliates() {
                 <div class="col-lg-10  col-sm-10">
                     <h1 class="display-5 fw-bold lh-1 mb-3 ">Affiliates Program</h1>
                     <p class="lead fs-4">Want to earn money? Help your clients by helping us!</p>
-                    <p class="lead fs-5">We have a really great affiliate/referral program. Please sign up and we will have somebody contact you shorty!</p>
+                    <p class="lead fs-5">We have a really great affiliate/referral program. Please sign up and we will have somebody contact you shortly!</p>
                 </div>
             </div>
         </div>
@@ -62,23 +103,28 @@ function Affiliates() {
     
 
         <div class="container col-lg-5 col-sm-8 mt-0 mb-5" style={{"border-radius": "5px", "background-color":"#f2f2f2", "padding": "20px"}}>
-            <form action="/action_page.php">
+            <form onSubmit={sendEmail}>
                 <h3>Sign Up Form</h3>
-                <label for="fname">First Name</label>
-                <input type="text" id="fname" name="firstname" placeholder="First Name"/>
+                <label for="fname">First fname</label>
+                <input type="text" id="fname" name="firstname" placeholder="First fname" required/>
 
-                <label for="lname">Last Name</label>
-                <input type="text" id="lname" name="lastname" placeholder="Last Name"/>
+                <label for="lname">Last fname</label>
+                <input type="text" id="lname" name="lastname" placeholder="Last fname" required/>
                 <label for="email">E-Mail</label>
-                <input type="text" id="email" name="email" placeholder="E-Mail Address"/>
+                <input type="email" id="email" name="email" placeholder="E-Mail Address" required/>
                 <label for="contact">Contact No.</label>
-                <input type="text" id="contact" name="contact" placeholder="(123) 456-7890"/>
+                <input type="text" id="contact" name="contact" placeholder="(123) 456-7890" required/>
                 <label for="profession">Profession</label>
-                <input type="text" id="Profession" name="Profession" placeholder="Job Title"/>
+                <input type="text" id="profession" name="profession" placeholder="Job Title" />
 
-                <input type="submit" value="Submit"/>
+                <button type="submit" class="btn btn-brand" onClick={message} >Send</button>
+                <div class="message">
+                    <div class="success" id="success">Your Inquiry Has Successfully Sent!</div>
+                    <div class="danger" id="danger">Fields Can't be Empty!</div>
+                </div>
             </form>
         </div>
+      
     </div>
   )
 }

@@ -1,4 +1,4 @@
-input[type=text], textarea {
+input[type=text], input[type=email], textarea {
     width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
@@ -7,8 +7,12 @@ input[type=text], textarea {
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
+    border-color: var(--brand);
+
   }
   
+
+
   input[type=submit] {
     background-color:var(--brand);
     color: white;
@@ -22,4 +26,25 @@ input[type=text], textarea {
     background-color: #45a049;
   }
   
- 
+  .message{
+    width: 100%;
+    position: relative;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: center;
+}
+.message .success{
+    font-size: 20px;
+    color: green;
+    position: absolute;
+    animation: buttons .3s linear;
+    display: none;
+}
+.message .danger{
+    font-size: 20px;
+    color: red;
+    position: absolute;
+    transition: .3s;
+    animation: buttons .3s linear;
+    display: none;
+}

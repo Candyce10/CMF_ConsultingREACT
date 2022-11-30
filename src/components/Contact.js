@@ -5,8 +5,12 @@ import { useNavigate } from 'react-router-dom';
 function Contact() {
     
     let navigate = useNavigate();
+    function handleClick(){
+        navigate('/contactconfirmation')
+    }
 
     const sendEmail = e => {
+
         emailjs.sendForm(process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID, e.target, process.env.REACT_APP_PUBLIC_KEY)
     }
 
@@ -62,7 +66,7 @@ function Contact() {
                                         </div>
                                         <input type="hidden" name="_subject" value="New Contact Submission"></input>
                                         <div class="col-12">
-                                            <button type="submit" class="btn btn-brand" onClick={() => {navigate("/contactconfirmation")}}>Send Message</button>
+                                            <button type="submit" class="btn btn-brand" onClick={handleClick}>Send Message</button>
                                         </div>
                                     </form>
                                 </div>
