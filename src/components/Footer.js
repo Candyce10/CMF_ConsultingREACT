@@ -35,7 +35,7 @@ function Footer() {
                             <i class='bx bxs-phone-call mx-1'></i> (786) 200-2080
                         </p>
                         <p class="d-flex justify-content-center text-center">
-                            221 W. Hallandale Beach Blvd
+                            211 W. Hallandale Beach Blvd
                         <br/>
                             Hallandale Beach, FL 33009
                         </p> 
@@ -44,7 +44,7 @@ function Footer() {
                 </div>
             </div>
         <div class="text-center footer p-3" style={{"background-color": "rgba(0, 0, 0, 0.2)", "color":"white"}}>
-        "Over 35 years helping people & businesses with financial crisis management."
+        "Helping minorites and businesses reach their funding goals."
         </div>
         </footer>
     </div>

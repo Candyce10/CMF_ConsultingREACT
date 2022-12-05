@@ -1,6 +1,12 @@
 import React from 'react'
+import { useEffect } from 'react'
 
 function Team() {
+  
+  useEffect(() => {
+    document.title = 'Team - CMF Consultants';
+  }, []);
+
   return (
     <div>
         <div class="top-nav" id="home">
@@ -52,8 +58,8 @@ function Team() {
                 <div class="row">
                     <div class="col-12">
                         <div class="intro">
-                            <h1>Meet the Team</h1>
-                            <p class="mx-auto ">Check out our talented and amazing team behind our services! </p>
+                            <h1>Meet the Team</h1> <hr class="divider text-center justify-content-center"></hr>
+                            <p class="mx-auto  fs-4 mt-3">Check out our talented and amazing team behind our services! </p>
                         </div>
                     </div>
                 </div>

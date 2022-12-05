@@ -1,8 +1,10 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 
 
 function Testimonials() {
-
+    useEffect(() => {
+        document.title = 'Testimonials - CMF Consultants';
+      }, []);
   return (
     <div>
         <div class="top-nav" id="home">
@@ -87,6 +89,8 @@ function Testimonials() {
                                     <div class="user-content">
                                         <h3>"After attempting for two years to try to secure an EIDL loan from the SBA, I was introduced to CMF consulting. In less than eight weeks CMF was able to secure my loan in order for me to continue my business."</h3>
                                         <h5 class="mb-0">- I. J.</h5>
+                                        <h5 class="mt-0 fw-light fst-italic">Ohio</h5>
+
                                     </div>
                                     <div class="stars">
                                         <i class='bx bxs-star'></i>
@@ -122,6 +126,8 @@ function Testimonials() {
                                     <div class="user-content">
                                         <h3>"CMF Consultants are masters when it comes to resolving painful financial situations. I really appreciate their tenacity and skill working with credit card companies, lenders, and the SBA. They've won for me with all 3!"</h3>
                                         <h5 class="mb-0">- B. F.</h5>
+                                        <h5 class="mt-0 fw-light fst-italic">Texas</h5>
+
                                     </div>
                                     <div class="stars">
                                         <i class='bx bxs-star'></i>
@@ -151,6 +157,8 @@ function Testimonials() {
                                     <div class="user-content">
                                         <h3>"Your persistency and ingenuity, got me the funding I needed to save my business. Thank you!"</h3>
                                         <h5 class="mb-0">- F. M.</h5>
+                                        <h5 class="mt-0 fw-light fst-italic">New Mexico</h5>
+
                                     </div>
                                     <div class="stars">
                                         <i class='bx bxs-star'></i>
@@ -188,6 +196,8 @@ function Testimonials() {
                                 <h3>"After referred by a very trusted associate to handle my SBA loan, Rob & I are now friends.
                                         Why, after 9 months of required none stop monitoring, enduring mistaken cancellations, changing of many agents, file being lost several times, & fixing again, to have it actually hit the bank account .  Wow, I honestly would have never made it through what Rob does!  Cheers, Rob G! "</h3>
                                         <h5 class="mb-0">- C. C.</h5>
+                                        <h5 class="mt-0 fw-light fst-italic">New Jersey</h5>
+
                                 </div>
                                 <div class="stars">
                                     <i class='bx bxs-star'></i>

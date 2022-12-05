@@ -1,6 +1,9 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 
 function Services() {
+    useEffect(() => {
+        document.title = 'Services & Workshops - CMF Consultants';
+      }, []);
   return (
     <div>
         <div class="top-nav" id="home">
@@ -73,7 +76,7 @@ function Services() {
                     <p class="fs-5 lh-1 text-capitalize">Business Turnarounds</p>
                     <p class="fs-5 lh-1 text-capitalize">Asset Based Lenders (On Real Estate, A/R, Inventory, Equipment)</p>
                     <p class="fs-5 lh-1 text-capitalize">SBA Lenders (7A, 504 & CDC)</p>
-                    <p class="fs-5 lh-1 text-capitalize">Commercial Real Estate Loans (All Area’s Covered, Rehab, Bridge, Apartments, Retail)</p>
+                    <p class="fs-5 lh-1 text-capitalize">Commercial Real Estate Loans (All Areas Covered, Rehab, Bridge, Apartments, Retail)</p>
                     <p class="fs-5 lh-1 text-capitalize">Specialty Finance Areas (Cannabis, Gas Stations, Solar Areas & Trade Finance)</p>
                     <p class="fs-5 lh-1 text-capitalize">Hard Money Loans</p>
                     <p class="fs-5 lh-1 text-capitalize">Asset Liquidation and Disposition</p>
@@ -115,7 +118,73 @@ function Services() {
                 </div>
             </div>
             
+            <div class="row mt-2 ">
+                <div class="col-md-12   p-5">
+                    <h2 class="fw-normal lh-1  mb-2">Business Management Consulting (Main Street Businesses And Up To Middle Market Companies)</h2>
+                    <hr/>
+                    <p class="fs-5 lh-1 mb-0">CMF Consultants can assist in many of the needs your business might have.  We work closely with business owners and managers to help identify, address, and overcome obstacles to achieving a company’s goals. Business management consulting includes: </p>
+                    ‌<ul>
+                        <li>Assist in business planning and creating new businesses</li>
+                        <li>Identify obstacles that are preventing business growth and/or efficiency</li>
+                        <li>‌Determine what changes need to be made and help implement changes</li>
+                        <li>Provide any necessary training and resources to staff and management</li>
+                        <li>Bring out-of-the-box ideas to refresh a business</li>
+                        <li>Analyze a company’s budget, suggest adjustments, and help put those adjustments in place</li>
+                    </ul>
 
+
+                    <h2 class="fw-normal lh-1 mt-5 mb-2">Main Street And Early-Stage Venture Business Plans</h2>
+                    <hr/>
+                    <p class="fs-5 lh-1 ">Main Street is used to describe small and mid-sized businesses as part of a local economy. They are typically locally-owned and the likely buyer is generally local, as well. Main Street businesses do not enjoy the benefit of the so-called “size premium” when being valued; something that might apply to larger businesses that, by virtue of their size, would appear to present a lower level of risk. </p>
+                    <p class="fs-5 lh-1 ">Early-stage is a term used to characterize a startup business venture. It is characterized by activities such as research development, marketing research, and product business development, and generally have limited revenue, sales, and market share. The probability of success of venture depends heavily upon actions taken during this stage, and CMF Consultants can assist with mapping out your plan.</p>
+                    <p class="fs-5 lh-1 ">CMF Consultants will cultivate a strategic and comprehensive approach to catapult you and your business forward! </p>
+
+
+                    <h2 class="fw-normal lh-1 mt-5 mb-2">Venture Capital Consulting (Both Debt And Equity)</h2>
+                    <hr/>
+                    <p class="fs-5 lh-1 ">Venture capital is a type of financing and a form of private equity that investors provide to startup companies and small businesses that are believed to have long-term growth potential. We will help match your company with strategic venture capital investors, as well as strategic partners that will generate revenue for your company.  </p>
+
+
+                    <h2 class="fw-normal lh-1 mt-5 mb-2">Business Turnarounds</h2>
+                    <hr/>
+                    <p class="fs-5 lh-1 mb-0">If you find your business needing assistance with crisis management and cash flow challenges, CMF Consultants will prioritize your cash flow management, work with your lenders, and do what is needed to get your business back on track and ready for new growth. Your company may need turnaround services if: </p>
+                    ‌<ul>
+                        <li>Your sales are growing but you never have enough cash available</li>
+                        <li>Your debt keeps increasing or debt payments are eating up your cash</li>
+                        <li>You regularly struggle to make payroll</li>
+                        <li>Vendors and contractors are asking about late bills or threatening to stop doing business with you</li>
+                        <li> Your company is consistently profitable, but you are running out of cash</li>
+                        <li>Your company is suddenly unprofitable, and your accounting staff is unable to tell you why</li>
+                    </ul>
+
+
+                    <h2 class="fw-normal lh-1 mt-5 mb-2">Asset Based Lenders (On Real Estate, A/R, Inventory, Equipment)</h2>
+                    <hr/>
+                    <p class="fs-5 lh-1 mb-0">CMF Consultants can help leverage a variety of company assets—accounts receivable, inventory, fixed assets (including machinery & equipment), commercial real estate, and more to secure financing solutions, including revolving lines of credit, letters of credit, and term loans. We use our in-depth understanding of collateral and cash flow cycles to build customized solutions for companies experiencing high leverage, potential acquisitions, growth through new products or market expansion, recapitalizations, or turnarounds.</p>
+
+
+                    <h2 class="fw-normal lh-1 mt-5 mb-2">SBA Lenders (7A, 504 & CDC)</h2>
+                    <hr/>
+                    <p class="fs-5 lh-1 mb-0">The Small Business Administration (SBA) offers a variety of loans to finance your business. CMF Consultants can help you and your business become find and apply for a 7(a) or 504 loan to promote business growth and job creation. If your business is not already certified by Certified Development Companies (CDCs), we can help you apply so that you can be eligible for a 504 loan. </p>
+
+
+                    <h2 class="fw-normal lh-1 mt-5 mb-2">Commercial Real Estate Loans (All Areas Covered, Rehab, Bridge, Apartments, Retail)</h2>
+                    <hr/>
+                    <p class="fs-5 lh-1 mb-0">If your business is an income-producing property that is purchased or developed primarily in order to earn income by renting or leasing it out to others, CMF Consultants can assist with finding the appropriate financing for the acquisition, development, and construction of these properties.</p>
+
+
+                    <h2 class="fw-normal lh-1 mt-5 mb-2">Specialty Finance Areas (Cannabis, Gas Stations, Solar Areas & Trade Finance)</h2>
+                    <hr/>
+                    <p class="fs-5 lh-1 mb-0">Specialty financing can be broadly defined as non-bank lenders that target commercial and consumer borrowers that are not adequately served by traditional banking channels. Your business needs might be unique or complex, obtaining non-standard financing doesn’t have to be complicated. We have a dedicated team with expertise in specialty finance lending to get your company the financial assistance it needs.</p>
+
+
+                    <h2 class="fw-normal lh-1 mt-5 mb-2">Hard Money Loans</h2>
+                    <hr/>
+                    <p class="fs-5 lh-1 mb-0">Specialty financing can be broadly defined as non-bank lenders that target commercial and consumer borrowers that are not adequately served by traditional banking channels. Your business needs might be unique or complex, obtaining non-standard financing doesn’t have to be complicated. We have a dedicated team with expertise in specialty finance lending to get your company the financial assistance it needs.</p>
+
+                </div>
+                
+            </div>
             
             <div class="row mt-2 justify-content-center bg-light">
                 <div class="col-md-7  text-center p-5">
@@ -124,8 +193,6 @@ function Services() {
 
                     <p class="fs-5 lh-1 ">We're here to help! Contact us today to see what we can do for you and your business!</p>
                     <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-brand ms-lg-3">Contact</a>
-        
-
                 </div>
                 
             </div>
