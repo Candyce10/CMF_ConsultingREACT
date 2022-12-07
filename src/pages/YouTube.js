@@ -63,7 +63,7 @@ function YouTube() {
                     </p>
                     <br/>
    
-                    <p class="lead  fs-5 lh-1 fs-4 serv-p"> Subscribe to the <a href="https://www.youtube.com/channel/UC9UwBz7OSML0Lcsadczz71w" style={{"color":"var(--brand)",  "text-shadow": "1px 1px 2px black"}}  target="_blank">WWDBTV.com Channel</a> on YouTube to see more episodes The Debt Lifeline!
+                    <p class="lead  fs-5 lh-1 fs-4 serv-p"> Subscribe to the <a href="https://www.youtube.com/channel/UC9UwBz7OSML0Lcsadczz71w" style={{"color":"var(--brand)",  "text-shadow": "1px 1px 2px black"}}  target="_blank">WWDBTV.com Channel</a> on YouTube to see more episodes of The Debt Lifeline!
                     </p>
                     <br/>
                 </div>

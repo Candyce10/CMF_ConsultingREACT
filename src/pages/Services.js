@@ -92,7 +92,7 @@ function Services() {
                     <p class="fs-5 lh-1 text-capitalize d-flex"><a href="#certification-for-women-and-minority-loans-and-grants">Certification for women & minority loans & grants</a></p>
                     <p class="fs-5 lh-1 text-capitalize d-flex"><a href="#packaging-for-sba-loans-and-grants">Packaging for SBA loans & grants</a></p>
                     <p class="fs-5 text-capitalize lh-1 d-flex"><a href="business-plans-and-grant-writing">Business plans & grant writing</a></p>
-                    <p id="workshops" class="fs-5 text-capitalize lh-1"><a href="#more">& more!</a></p>
+                    <p  class="fs-5 text-capitalize lh-1"><a href="#more">& more!</a></p>
                   
                    
                 </div>
@@ -101,7 +101,8 @@ function Services() {
                     <div class="green2"></div>
                 </div>
             </div>
-
+            <div id="workshops"></div>
+            <br/>
             <div  class="row mt-2">
                 <div class="col-md-7 order-md-2 text-end p-5">
                     <h2 class="fw-normal lh-1  mb-4">Join a Workshop</h2>
