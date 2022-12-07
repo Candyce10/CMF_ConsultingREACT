@@ -65,7 +65,7 @@ function Testimonials() {
                 </div>
             </div>
         </div>    
-        <div id="reviews" class="">
+        <div id="reviews" class="container-fluid">
             <div id="myCarousel" class="carousel slide carousel-dark " data-bs-ride="carousel">
                 
                 <div class="carousel-inner py-4 " >
@@ -227,19 +227,19 @@ function Testimonials() {
                     </button>
                 </div>
             </div>
-            <div class="container-fluid row mt-2 justify-content-center bg-light mt-5">
+            <div class="row mt-2 justify-content-center bg-light">
                 <div class="col-md-7  text-center p-5">
                     <h2 class="fw-normal lh-1  mb-4">Ready to get started?</h2>
                     <hr/>
 
                     <p class="fs-5 lh-1 ">We're here to help! Contact us today to see what we can do for you and your business!</p>
                     <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-brand ms-lg-3">Contact</a>
-        
-
                 </div>
                 
             </div>
         </div>
+       
+            
         
 
     </div>

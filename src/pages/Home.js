@@ -63,7 +63,7 @@ function Home() {
                     <div class="row">
                     <div class="col-12 text-center text-white">
                         <h6 class="text-white text-uppercase">"Helping minorities and businesses reach their funding goals"</h6>
-                        <img class="mt-4" style={{"width":"150px", "height": "auto"}} src="https://i.imgur.com/5hGMabR.png"/>
+                        <img class="mt-4 mb-3" style={{"width":"150px", "height": "auto"}} src="https://i.imgur.com/5hGMabR.png"/>
                         <h1 class="display-4 mb-4">COMMERCIAL & MINORITY<br />FUNDING CONSULTANTS</h1>
                         <a href="/services-and-workshops" class="btn btn-brand">Get Started</a>
                     </div>
@@ -284,7 +284,7 @@ function Home() {
                             </div>
                         </article></a>
                     </div>
-                    
+
                     <div class="col-md-4 ">  <Link to="/services-and-workshops#workshops" class="blog-link" >
                         <article class="pill card h-100">
                             <img src="https://monkeypuzzletraining.co.uk/images/Blog-images/article-images/xl-critical-thinking.jpg" class="card-img-top h-100" alt=""/>
