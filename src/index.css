@@ -63,17 +63,17 @@ section {
 }
 
 .slide1 {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://783054.smushcdn.com/1474925/wp-content/uploads/2020/02/team-meeting-full-of-happy-young-adults-scaled.jpg?lossy=1&strip=1&webp=1);
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://www.pnc.com/content/dam/pnc-thought-leadership/small-business/managing-business-finances/video_screens/pnc_insights_business_minority-owned-businesses-challenges.jpg);
     background-size: cover;
-    background-position: center;
+    background-position:  center;
     background-repeat: no-repeat;
     overflow: hidden;
 }
 
 .slide2 {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://www.magicjackforbusiness.com/uploads/creative-team-meeting.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://cdn.startupsavant.com/images/news/paypal-invests-minority.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: 80% 40%;
     background-repeat: no-repeat;
     overflow: hidden;
 }
