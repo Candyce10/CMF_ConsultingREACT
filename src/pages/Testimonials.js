@@ -34,7 +34,7 @@ function Testimonials() {
                             <a class="nav-link" href="/">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/servicesandworkshops">Services & Workshops</a>
+                            <a class="nav-link" href="/services-and-workshops">Services & Workshops</a>
                         </li>
                        
                         <li class="nav-item">
@@ -42,6 +42,9 @@ function Testimonials() {
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="/testimonials">Testimonials</a>
+                        </li>   
+                        <li class="nav-item">
+                            <a class="nav-link" href="/the-debt-lifeline">The Debt Lifeline</a>
                         </li>   
                         <li class="nav-item">
                             <a class="nav-link" href="/affiliates">Affiliates</a>

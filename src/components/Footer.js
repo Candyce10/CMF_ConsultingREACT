@@ -35,7 +35,7 @@ function Footer() {
                             <i class='bx bxs-phone-call mx-1'></i> (786) 200-2080
                         </p>
                         <p class="d-flex justify-content-center text-center">
-                            211 W. Hallandale Beach Blvd
+                            221 W. Hallandale Beach Blvd
                         <br/>
                             Hallandale Beach, FL 33009
                         </p> 

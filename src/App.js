@@ -10,6 +10,7 @@ import Contact from './components/Contact';
 import { Routes , Route } from "react-router-dom"
 import NotFound from './pages/NotFound';
 import Confirmation from './components/Confirmation';
+import YouTube from './pages/YouTube';
 
 
 function App() {
@@ -24,9 +25,10 @@ function App() {
       <Route path ='/' element={<Home/>}/>
       <Route path ='/team' element={<Team/>}/>
       <Route path ='/testimonials' element={<Testimonials/>}/>
-      <Route path ='/servicesandworkshops' element={<Services/>}/>
+      <Route path ='/services-and-workshops' element={<Services/>}/>
       <Route path ='/affiliates' element={<Affiliates/>}/>
-      <Route path ='/contactconfirmation' element={<Confirmation/>}/>
+      <Route path ='/contact-confirmation' element={<Confirmation/>}/>
+      <Route path ='/the-debt-lifeline' element={<YouTube/>}/>
       <Route path='*' element={<NotFound />}/>
       {/* <Route path ='/construction' element={<Construction/>}/> */}
     </Routes>

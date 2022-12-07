@@ -5,7 +5,6 @@ import './services.css';
 import './const_page.css';
 import './affiliates.css';
 import './i18next';
-import './popup.css';
 
 import { BrowserRouter as Router } from 'react-router-dom';
 

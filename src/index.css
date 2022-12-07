@@ -38,10 +38,7 @@ a {
     font-weight: 500;
     padding: 10px
 }
-/* 
-a:hover {
-    color: var(--brand);
-} */
+
 
 section {
     padding-top: 80px;
@@ -81,7 +78,7 @@ section {
     overflow: hidden;
 }
 
-.slide .display-3 {
+.slide .display-4 {
     text-transform: uppercase;
     color: #fff;
 }
@@ -477,4 +474,10 @@ img {
     position: relative;
     top: -250px;
     visibility: hidden;
+}
+
+.lifeline {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://www.pngmart.com/files/19/Lifeline-PNG-Photos.png);
+    background-position: center;
+    background-repeat: no-repeat;
 }

@@ -6,7 +6,7 @@ function Contact() {
     
     let navigate = useNavigate();
     function handleClick(){
-        navigate('/contactconfirmation')
+        navigate('/contact-confirmation')
     }
 
     const sendEmail = e => {

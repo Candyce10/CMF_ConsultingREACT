@@ -34,7 +34,7 @@ function Home() {
                             <a class="nav-link" href="/">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/servicesandworkshops">Services & Workshops</a>
+                            <a class="nav-link" href="/services-and-workshops">Services & Workshops</a>
                         </li>
                        
                         <li class="nav-item">
@@ -42,6 +42,9 @@ function Home() {
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="/testimonials">Testimonials</a>
+                        </li>   
+                        <li class="nav-item">
+                            <a class="nav-link" href="/the-debt-lifeline">The Debt Lifeline</a>
                         </li>   
                         <li class="nav-item">
                             <a class="nav-link" href="/affiliates">Affiliates</a>
@@ -54,26 +57,26 @@ function Home() {
         </nav>
 
         <div id="carouselExampleIndicators" class="carousel slide mainSlide" data-bs-ride="true">
-            <div class="carousel-inner">
+            <div class="carousel-inner d-block">
                 <div class="carousel-item  active">
-                <div class="slide slide1 mainSlide"> 
+                <div class="slide slide1 mainSlide "> 
                     <div class="row">
                     <div class="col-12 text-center text-white">
                         <h6 class="text-white text-uppercase">"Helping minorities and businesses reach their funding goals"</h6>
                         <img class="mt-4" style={{"width":"150px", "height": "auto"}} src="https://i.imgur.com/5hGMabR.png"/>
-                        <h1 class="display-3 my-4">COMMERCIAL & MINORITY<br />FUNDING CONSULTANTS</h1>
-                        <a href="/servicesandworkshops" class="btn btn-brand">Get Started</a>
+                        <h1 class="display-4 mb-4">COMMERCIAL & MINORITY<br />FUNDING CONSULTANTS</h1>
+                        <a href="/services-and-workshops" class="btn btn-brand">Get Started</a>
                     </div>
                     </div>
                 </div>
                 </div>
                 <div class="carousel-item  ">
-                <div class="slide slide2 mainSlide">
+                <div class="slide slide2 mainSlide p-4">
                     <div class="row">
-                        <div class="col-12 text-white">
+                        <div class="col-12 text-center text-white">
                             <h6 class="text-white text-uppercase">We provide strategies for all types of challenging funding options</h6>
-                            <h1 class="display-3 my-4">MANAGEMENT CONSULTING <br />& BUSINESS TURNAROUND</h1>
-                            <a href="/services" class="btn btn-brand">Get Started</a>
+                            <h1 class="display-4 mb-4">MANAGEMENT CONSULTING <br />&<br/> BUSINESS TURNAROUND</h1>
+                            <a href="/services-and-workshops" class="btn btn-brand">Get Started</a>
                         </div>
                     </div>
                 </div>
@@ -97,7 +100,7 @@ function Home() {
                         <div class="col-12 ">
                             <div class="intro ">
                                 <h1>About Us</h1>
-                                <p class="mx-auto fs-5 mb-3">Commercial and Minority Funding Consultants is a professional team that strives to assist Minorities and businesses with reaching their funding goals. We are committed to assisting businesses with full lifecycle development, from initial startup through growth and development stages, with restructuring if necessary. We have the knowledge and experience to grow your company and help you thrive!  </p>
+                                <p class="mx-auto fs-5 mb-3">Commercial and Minority Funding Consultants is a professional team that strives to assist women, minorities and businesses with reaching their funding goals. We are committed to assisting businesses with full lifecycle development, from initial startup through growth and development stages, with restructuring if necessary. We have the knowledge and experience to grow your company and help you thrive!  </p>
                                 <p class="mx-auto fw-semibold mb-5 fs-5">We'll shop for loans & grants that suit your needs! </p>
                                 
                             
@@ -142,7 +145,7 @@ function Home() {
                                     </div>
                                 </div>
                             </div>
-                            <a href="/servicesandworkshops" class="icon-link  align-items-center  text-center fs-5 text-decoration-none">
+                            <a href="/services-and-workshops" class="icon-link  align-items-center  text-center fs-5 text-decoration-none">
                             Learn More
                             </a>
                         </div>
@@ -178,7 +181,7 @@ function Home() {
                         </div>
                     </div>
                 </div>
-                <div class="row g-4">
+                <div class="row g-4 justify-content-center">
                     <div class="col-lg-4 col-md-6">
                         <div class="service">
                             <div class="icon-square d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-1 bg-gradient fs-4 rounded-3" style={{ "background-color": "green"}}>
@@ -231,19 +234,7 @@ function Home() {
                             </p>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="service">
-                            <div class="icon-square d-inline-flex fs-4 flex-shrink-0 me-1 align-items-center justify-content-center bg-gradient fs-4 rounded-3" style={{"background-color": "green"}}>
-                                <span class="material-symbols-outlined " style={{"font-size": "36px", "color": "white"}}>
-                                    insights
-                                </span>
-                            </div>
-                            <h5 class="mt-2">Social Media Assistance</h5>
-                            <p>
-                                We will do all the marketing and social media while making sure that the statistics are reaching out to your target customers.
-                            </p>
-                        </div>
-                    </div>
+                
                     <div class="col-lg-4 col-md-6">
                         <div class="service h-100">
                             <div class="icon-square d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-1 bg-gradient fs-4 rounded-3" style={{"background-color": "green"}}>
@@ -258,7 +249,7 @@ function Home() {
                         </div>
                     </div>
                 </div>
-                <a href="/servicesandworkshops" class="icon-link d-inline-flex align-items-center mt-3 fs-5 text-decoration-none">
+                <a href="/services-and-workshops" class="icon-link d-inline-flex align-items-center mt-3 fs-5 text-decoration-none">
                         Learn More <span class="material-symbols-outlined">
                 chevron_right
                 </span>
@@ -276,20 +267,20 @@ function Home() {
                     <div class="col-12">
                         <div class="intro">
                             <h1>Sign Up Today</h1>
-                            <p class="mx-auto">Take your existing business to new levels for an exciting and profitable future!</p>
+                            <p class="mx-auto fs-5 mb-3">Take your existing business to new levels for an exciting and profitable future!</p>
                             <hr class="divider text-center justify-content-center"></hr>
 
                         </div>
                     </div>
                 </div>
                 <div class="row justify-content-center">
-                    <div class="col-md-4 ">  <Link to="/servicesandworkshops#workshops" class="blog-link" >
+                    <div class="col-md-4 ">  <Link to="/services-and-workshops#workshops" class="blog-link" >
                         <article class="pill card h-100">
                             <img src="https://monkeypuzzletraining.co.uk/images/Blog-images/article-images/xl-critical-thinking.jpg" class="card-img-top h-100" alt=""/>
                            
                             <div class="content card-body">
                                <h5>Workshops</h5>
-                                <p>Check out our virtual and in-person workshops to discover </p>
+                                <p>Check out our virtual and in-person workshops to discover how to start & promote a business!</p>
                             </div>
                         </article></Link>
                     </div>

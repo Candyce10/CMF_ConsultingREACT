@@ -73,7 +73,7 @@ function Affiliates() {
                             <a class="nav-link" href="/">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/servicesandworkshops">Services & Workshops</a>
+                            <a class="nav-link" href="/services-and-workshops">Services & Workshops</a>
                         </li>
                        
                         <li class="nav-item">
@@ -81,6 +81,9 @@ function Affiliates() {
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="/testimonials">Testimonials</a>
+                        </li>   
+                        <li class="nav-item">
+                            <a class="nav-link" href="/the-debt-lifeline">The Debt Lifeline</a>
                         </li>   
                         <li class="nav-item">
                             <a class="nav-link" href="/affiliates">Affiliates</a>
@@ -102,7 +105,7 @@ function Affiliates() {
             </div>
         </div>
       
-    
+
 
         <div class="container col-lg-5 col-sm-8 mt-0 mb-5" style={{"border-radius": "5px", "background-color":"#f2f2f2", "padding": "20px"}}>
             <form onSubmit={sendEmail}>
@@ -146,6 +149,14 @@ function Affiliates() {
                         </p>
                         
                         <p class="text-muted mb-0">- C. J. M.</p>
+                    </div>
+
+                    <div class="carousel-item">
+                        <p class="lead font-italic mx-4 mx-md-5">
+                        "Whether you are seeking assistance in ( securing funding or resolving debt or …  ) , Rob Goldstein is the man who can get it done right: He is honest, effective, efficient, and uncompromising in his commitment to serving his clients. I highly recommend giving him a call."
+                        </p>
+                        
+                        <p class="text-muted mb-0">- J. H.</p>
                     </div>
 
                     </div>

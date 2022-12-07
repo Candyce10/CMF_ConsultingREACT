@@ -36,7 +36,7 @@ function Team() {
                             <a class="nav-link" href="/">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/servicesandworkshops">Services & Workshops</a>
+                            <a class="nav-link" href="/services-and-workshops">Services & Workshops</a>
                         </li>
                        
                         <li class="nav-item">
@@ -46,6 +46,9 @@ function Team() {
                             <a class="nav-link" href="/testimonials">Testimonials</a>
                         </li>   
                         <li class="nav-item">
+                            <a class="nav-link" href="/the-debt-lifeline">The Debt Lifeline</a>
+                        </li>   
+                        <li class="nav-item">
                             <a class="nav-link" href="/affiliates">Affiliates</a>
                         </li>   
                     </ul>
@@ -53,7 +56,7 @@ function Team() {
                 </div>
             </div>
         </nav>
-       <section id="team">
+        <section id="team">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
