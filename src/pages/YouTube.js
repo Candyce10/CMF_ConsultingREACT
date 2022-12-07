@@ -62,7 +62,8 @@ function YouTube() {
                     <p class="lead  fs-5 lh-1 fs-4 serv-p">Money & debt problems? Get a little help from your friends over at The Debt Lifeline! Here you will receive free information, advice, direction, and support to help you get out of your debt and financial crisis. Listen in to hear different success stories and scenarios that may be similar to your situation.
                     </p>
                     <br/>
-                    <p class="lead  fs-5 lh-1 fs-4 serv-p"> Subscribe to the <a href="https://www.youtube.com/channel/UC9UwBz7OSML0Lcsadczz71w" style={{"color":"var(--brand)"}}  target="_blank">WWDBTV.com Channel</a> on YouTube to see more episodes The Debt Lifeline!
+   
+                    <p class="lead  fs-5 lh-1 fs-4 serv-p"> Subscribe to the <a href="https://www.youtube.com/channel/UC9UwBz7OSML0Lcsadczz71w" style={{"color":"var(--brand)",  "text-shadow": "1px 1px 2px black"}}  target="_blank">WWDBTV.com Channel</a> on YouTube to see more episodes The Debt Lifeline!
                     </p>
                     <br/>
                 </div>
