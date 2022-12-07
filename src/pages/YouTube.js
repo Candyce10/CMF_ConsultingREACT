@@ -70,7 +70,7 @@ function YouTube() {
             </div>
         </div>
 
-        <div class="container mt-5">
+        <div class="container-fluid mt-5">
             <h2 class=" fw-normal lh-1 ">Past Episodes </h2>
                     <hr/>
             <div class="row row-cols-1 row-cols-md-3 g-4">
@@ -103,27 +103,26 @@ function YouTube() {
                     </div>
                 </div> 
             </div>
-            <div class="text-center">
+            <div class="text-center mb-5">
                 <a href="https://www.youtube.com/watch?v=wsn1hl8gsSA&list=PLsONwJVzM2gUkFcyQntDvyOiE9JD5JJPB" target="_blank" class="icon-link d-inline-flex align-items-center text-center mt-3 fs-5 text-decoration-none">
                         More Episodes <span class="material-symbols-outlined">
                 chevron_right
                 </span>
                 </a>
             </div>
-        </div>
-
-        <div class="container-fluid row mt-2 justify-content-center bg-light mt-5">
+            <div class="row mt-2 justify-content-center bg-light">
                 <div class="col-md-7  text-center p-5">
                     <h2 class="fw-normal lh-1  mb-4">Ready to get started?</h2>
                     <hr/>
 
                     <p class="fs-5 lh-1 ">We're here to help! Contact us today to see what we can do for you and your business!</p>
                     <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-brand ms-lg-3">Contact</a>
-        
-
                 </div>
                 
+            </div>
         </div>
+
+        
     </div>
   )
 }
