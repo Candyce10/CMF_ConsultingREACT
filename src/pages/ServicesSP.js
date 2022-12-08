@@ -129,155 +129,155 @@ function ServicesSP() {
 
             <div class="row mt-2 ">
                 <div class="col-md-12   p-5">
-                    <h2  class="fw-normal lh-1  mb-2">Business Management Consulting (Main Street Businesses And Up To Middle Market Companies)</h2>
+                    <h2  class="fw-normal lh-1  mb-2">Consultoría de Gestión Empresarial (Empresas Principales y hasta Empresas del Mercado Medio)</h2>
                     <hr/>
-                    <p class="fs-5 lh-1 mb-0">CMF Consultants can assist in many of the needs your business might have.  We work closely with business owners and managers to help identify, address, and overcome obstacles to achieving a company’s goals. Business management consulting includes: </p>
+                    <p class="fs-5 lh-1 mb-0">CMF Consultants puede ayudar en muchas de las necesidades que su empresa pueda tener. Trabajamos en estrecha colaboración con los propietarios y gerentes de negocios para ayudar a identificar, abordar y superar los obstáculos para lograr los objetivos de una empresa. La consultoría de gestión empresarial incluye:</p>
                     ‌<ul>
-                        <li>Assist in business planning and creating new businesses</li>
-                        <li>Identify obstacles that are preventing business growth and/or efficiency</li>
-                        <li>‌Determine what changes need to be made and help implement changes</li>
-                        <li>Provide any necessary training and resources to staff and management</li>
-                        <li>Bring out-of-the-box ideas to refresh a business</li>
-                        <li >Analyze a company’s budget, suggest adjustments, and help put those adjustments in place</li>
+                        <li>Asistir en la planificación empresarial y la creación de nuevos negocios.</li>
+                        <li>Identificar los obstáculos que impiden el crecimiento y/o la eficiencia del negocio</li>
+                        <li>‌Determinar qué cambios deben realizarse y ayudar a implementarlos.</li>
+                        <li>Proporcionar la formación y los recursos necesarios al personal y a la dirección.</li>
+                        <li>Aportar nuevas ideas para refrescar un negocio.</li>
+                        <li>Analice el presupuesto de una empresa, sugiera ajustes y ayude a implementar esos ajustes</li>
                     </ul>
 
                     <div id="main-street-and-early-stage-plans"></div>
                     <br/>
 
-                    <h2 class="fw-normal lh-1 mt-5 mb-2">Main Street And Early-Stage Venture Business Plans</h2>
+                    <h2 class="fw-normal lh-1 mt-5 mb-2">Planes comerciales Main Street y Early-Stage Venture</h2>
                     <hr/>
-                    <p class="fs-5 lh-1 ">Main Street is used to describe small and mid-sized businesses as part of a local economy. They are typically locally-owned and the likely buyer is generally local, as well. Main Street businesses do not enjoy the benefit of the so-called “size premium” when being valued; something that might apply to larger businesses that, by virtue of their size, would appear to present a lower level of risk. </p>
-                    <p class="fs-5 lh-1 ">Early-stage is a term used to characterize a startup business venture. It is characterized by activities such as research development, marketing research, and product business development, and generally have limited revenue, sales, and market share. The probability of success of venture depends heavily upon actions taken during this stage, and CMF Consultants can assist with mapping out your plan.</p>
-                    <p class="fs-5 lh-1 " >CMF Consultants will cultivate a strategic and comprehensive approach to catapult you and your business forward! </p>
+                    <p class="fs-5 lh-1 ">Main Street se usa para describir negocios pequeños y medianos como parte de una economía local. Por lo general, son de propiedad local y el comprador probable también es local. Las empresas de Main Street no disfrutan del beneficio de la llamada "prima de tamaño" cuando se valoran; algo que podría aplicarse a empresas más grandes que, en virtud de su tamaño, parecerían presentar un menor nivel de riesgo.</p>
+                    <p class="fs-5 lh-1 ">Etapa inicial es un término que se utiliza para caracterizar una empresa de nueva creación. Se caracteriza por actividades como el desarrollo de la investigación, la investigación de mercados y el desarrollo comercial de productos, y generalmente tiene ingresos, ventas y participación de mercado limitados. La probabilidad de éxito de la empresa depende en gran medida de las acciones realizadas durante esta etapa, y CMF Consultants puede ayudarlo a trazar su plan.</p>
+                    <p class="fs-5 lh-1 " >¡CMF Consultants cultivará un enfoque estratégico e integral para catapultarlo a usted y a su negocio hacia adelante! </p>
 
                     <div id="venture-capital-consulting"></div>
                     <br/>
 
-                    <h2 class="fw-normal lh-1 mt-5 mb-2">Venture Capital Consulting (Both Debt And Equity)</h2>
+                    <h2 class="fw-normal lh-1 mt-5 mb-2">Consultoría de capital de riesgo (tanto deuda como capital)</h2>
                     <hr/>
-                    <p class="fs-5 lh-1 " >Venture capital is a type of financing and a form of private equity that investors provide to startup companies and small businesses that are believed to have long-term growth potential. We will help match your company with strategic venture capital investors, as well as strategic partners that will generate revenue for your company.  </p>
+                    <p class="fs-5 lh-1 " >El capital de riesgo es un tipo de financiamiento y una forma de capital privado que los inversionistas brindan a empresas nuevas y pequeñas empresas que se cree que tienen un potencial de crecimiento a largo plazo. Ayudaremos a conectar su empresa con inversores estratégicos de capital de riesgo, así como con socios estratégicos que generarán ingresos para su empresa.  </p>
 
                     <div id="business-turnarounds"></div>
                     <br/>
 
-                    <h2 class="fw-normal lh-1 mt-5 mb-2">Business Turnarounds</h2>
+                    <h2 class="fw-normal lh-1 mt-5 mb-2">Cambio de negocio</h2>
                     <hr/>
-                    <p class="fs-5 lh-1 mb-0">If you find your business needing assistance with crisis management and cash flow challenges, CMF Consultants will prioritize your cash flow management, work with your lenders, and do what is needed to get your business back on track and ready for new growth. Your company may need turnaround services if: </p>
+                    <p class="fs-5 lh-1 mb-0">Si encuentra que su empresa necesita asistencia con la gestión de crisis y los desafíos del flujo de caja, CMF Consultants priorizará la gestión de su flujo de caja, trabajará con sus prestamistas y hará lo que sea necesario para que su negocio vuelva a la normalidad y esté listo para un nuevo crecimiento. Su empresa puede necesitar servicios de respuesta si: </p>
                     ‌<ul>
-                        <li>Your sales are growing but you never have enough cash available</li>
-                        <li>Your debt keeps increasing or debt payments are eating up your cash</li>
-                        <li>You regularly struggle to make payroll</li>
-                        <li>Vendors and contractors are asking about late bills or threatening to stop doing business with you</li>
-                        <li> Your company is consistently profitable, but you are running out of cash</li>
-                        <li>Your company is suddenly unprofitable, and your accounting staff is unable to tell you why</li>
+                        <li>Tus ventas están creciendo pero nunca tienes suficiente efectivo disponible</li>
+                        <li>Su deuda sigue aumentando o los pagos de la deuda están consumiendo su efectivo</li>
+                        <li>Usted lucha regularmente para hacer la nómina</li>
+                        <li>Los proveedores y contratistas preguntan sobre las facturas atrasadas o amenazan con dejar de hacer negocios con usted</li>
+                        <li>Su empresa es constantemente rentable, pero se está quedando sin efectivo</li>
+                        <li>Su negocio de repente deja de ser rentable y su personal de contabilidad no puede decirle por qué.</li>
                     </ul>
 
                     <div id="asset-based-lenders"></div>
                     <br/>
 
-                    <h2 class="fw-normal lh-1 mt-5 mb-2">Asset Based Lenders (On Real Estate, A/R, Inventory, Equipment)</h2>
+                    <h2 class="fw-normal lh-1 mt-5 mb-2">Prestamistas basados ​​en activos (en bienes raíces, cuentas por cobrar, inventario, equipo)</h2>
                     <hr/>
-                    <p class="fs-5 lh-1 mb-0">CMF Consultants can help leverage a variety of company assets—accounts receivable, inventory, fixed assets (including machinery & equipment), commercial real estate, and more to secure financing solutions, including revolving lines of credit, letters of credit, and term loans. We use our in-depth understanding of collateral and cash flow cycles to build customized solutions for companies experiencing high leverage, potential acquisitions, growth through new products or market expansion, recapitalizations, or turnarounds.</p>
+                    <p class="fs-5 lh-1 mb-0">CMF Consultants puede ayudar a aprovechar una variedad de activos de la empresa: cuentas por cobrar, inventario, activos fijos (incluidos maquinaria y equipo), bienes raíces comerciales y más para asegurar soluciones de financiamiento, incluidas líneas de crédito renovables, cartas de crédito y préstamos a plazo. Utilizamos nuestro profundo conocimiento de los ciclos de colateral y flujo de efectivo para crear soluciones personalizadas para empresas que experimentan un alto apalancamiento, adquisiciones potenciales, crecimiento a través de nuevos productos o expansión del mercado, recapitalizaciones o cambios de rumbo.</p>
 
 
                     <div id="sba-lenders"></div>
                     <br/>
 
-                    <h2 class="fw-normal lh-1 mt-5 mb-2">SBA Lenders (7A, 504 & CDC)</h2>
+                    <h2 class="fw-normal lh-1 mt-5 mb-2">SBA Prestamistas (7A, 504 & CDC)</h2>
                     <hr/>
-                    <p class="fs-5 lh-1 mb-0">The Small Business Administration (SBA) offers a variety of loans to finance your business. CMF Consultants can help you and your business find and apply for a 7(a) or 504 loan to promote business growth and job creation. If your business is not already certified by Certified Development Companies (CDCs), we can help you apply so that you can be eligible for a 504 loan. </p>
+                    <p class="fs-5 lh-1 mb-0">El Small Business Administration (SBA) ofrece una variedad de préstamos para financiar su negocio. CMF Consultants puede ayudarlo a usted y a su empresa a encontrar y solicitar un préstamo 7(a) o 504 para promover el crecimiento empresarial y la creación de empleo. Si su empresa aún no está certificada por Certified Development Companies (CDCs), podemos ayudarlo a presentar su solicitud para que pueda ser elegible para un préstamo 504. </p>
 
                     <div id="commercial-real-estate-loans"></div>
                     <br/>
 
-                    <h2 class="fw-normal lh-1 mt-5 mb-2">Commercial Real Estate Loans (All Areas Covered, Rehab, Bridge, Apartments, Retail)</h2>
+                    <h2 class="fw-normal lh-1 mt-5 mb-2">Préstamos inmobiliarios comerciales (todas las áreas cubiertas, rehabilitación, puente, apartamentos, comercio minorista)</h2>
                     <hr/>
-                    <p class="fs-5 lh-1 mb-0">If your business is an income-producing property that is purchased or developed primarily in order to earn income by renting or leasing it out to others, CMF Consultants can assist with finding the appropriate financing for the acquisition, development, and construction of these properties.</p>
+                    <p class="fs-5 lh-1 mb-0">Si su negocio es una propiedad generadora de ingresos que se compra o desarrolla principalmente para obtener ingresos alquilándola o arrendándola a otros, CMF Consultants puede ayudarlo a encontrar el financiamiento adecuado para la adquisición, el desarrollo y la construcción de estas propiedades.</p>
 
                     <div id="specialty-finance-areas"></div>
                     <br/>
 
-                    <h2 class="fw-normal lh-1 mt-5 mb-2">Specialty Finance Areas (Cannabis, Gas Stations, Solar Areas & Trade Finance)</h2>
+                    <h2 class="fw-normal lh-1 mt-5 mb-2">Áreas de Finanzas Especializadas (Cannabis, Gasolineras, Áreas Solares y Trade Finance)</h2>
                     <hr/>
-                    <p class="fs-5 lh-1 mb-0">Specialty financing can be broadly defined as non-bank lenders that target commercial and consumer borrowers that are not adequately served by traditional banking channels. Your business needs might be unique or complex, obtaining non-standard financing doesn’t have to be complicated. We have a dedicated team with expertise in specialty finance lending to get your company the financial assistance it needs.</p>
+                    <p class="fs-5 lh-1 mb-0">La financiación especializada se puede definir en términos generales como prestamistas no bancarios que se dirigen a prestatarios comerciales y de consumo que no reciben un servicio adecuado de los canales bancarios tradicionales. Las necesidades de su negocio pueden ser únicas o complejas, obtener financiamiento no estándar no tiene por qué ser complicado. Contamos con un equipo dedicado con experiencia en préstamos financieros especializados para que su empresa obtenga la asistencia financiera que necesita.</p>
 
                     <div id="hard-money-loans"></div>
                     <br/>
 
-                    <h2 class="fw-normal lh-1 mt-5 mb-2">Hard Money Loans</h2>
+                    <h2 class="fw-normal lh-1 mt-5 mb-2">Préstamos de dinero duro</h2>
                     <hr/>
-                    <p class="fs-5 lh-1 mb-0">A hard money loan is a form of asset-based financing where the funds of the borrower will be secured from the value of a property’s equity. If you need to borrow funds over a short-term but need cash quickly, we will help you find the very best rates in which you qualify for, and ultimately save you money in the long run.</p>
+                    <p class="fs-5 lh-1 mb-0">Un préstamo de dinero duro es una forma de financiación basada en activos en la que los fondos del prestatario estarán garantizados por el valor del capital de una propiedad. Si necesita pedir prestado fondos a corto plazo pero necesita efectivo rápidamente, lo ayudaremos a encontrar las mejores tasas para las que califica y, en última instancia, le ahorraremos dinero a largo plazo.</p>
 
                     <div id="asset-liquidation-and-disposition"></div>
                     <br/>
 
-                    <h2 class="fw-normal lh-1 mt-5 mb-2">Asset Liquidation And Disposition</h2>
+                    <h2 class="fw-normal lh-1 mt-5 mb-2">Liquidación y Disposición de Activos</h2>
                     <hr/>
-                    <p class="fs-5 lh-1 mb-0">Asset disposition describes any direct or indirect sale, lease, transfer, issuance or other disposition of the physical assets a company has. This can range from products to even assets such as stocks and bonds. CMF Consultants can help companies liquidate their assets to transform them from products/services into cash or cash equivalents.</p>
+                    <p class="fs-5 lh-1 mb-0">La disposición de activos describe cualquier venta, arrendamiento, transferencia, emisión u otra disposición, directa o indirecta, de los activos físicos que tiene una empresa. Esto puede variar desde productos hasta activos como acciones y bonos. CMF Consultants puede ayudar a las empresas a liquidar sus activos para transformarlos de productos/servicios en efectivo o equivalentes de efectivo.</p>
 
                     <div id="business-brokerage"></div>
                     <br/>
 
-                    <h2 class="fw-normal lh-1 mt-5 mb-2">Business Brokerage (For Buyers And Sellers, Either Direct Or By Referral)</h2>
+                    <h2 class="fw-normal lh-1 mt-5 mb-2">Corretaje Comercial (Para Compradores y Vendedores, ya sea Directo o por Referencia)</h2>
                     <hr/>
-                    <p class="fs-5 lh-1 mb-0">CMF Consultants can provide brokerage services to those seeking to facilitate the buying or selling of a business. If you are selling, we can put together the marketing package, help determine the appropriate price for the business, and do all the leg work necessary to market the business for sale. If you are buying, we can present motivated sellers and opportunities that meet your financial objectives or goals. </p>
+                    <p class="fs-5 lh-1 mb-0">CMF Consultants puede proporcionar servicios de corretaje a aquellos que buscan facilitar la compra o venta de un negocio. Si está vendiendo, podemos armar el paquete de marketing, ayudar a determinar el precio apropiado para el negocio y hacer todo el trabajo preliminar necesario para comercializar el negocio para la venta. Si está comprando, podemos presentarle vendedores motivados y oportunidades que cumplan con sus objetivos o metas financieras.</p>
 
                     <div id="mergers-and-acquisitions"></div>
                     <br/>
 
-                    <h2 class="fw-normal lh-1 mt-5 mb-2">Mergers & Acquistions (Direct or By Referral)</h2>
+                    <h2 class="fw-normal lh-1 mt-5 mb-2">Fusiones y adquisiciones (directas o por recomendación)</h2>
                     <hr/>
-                    <p class="fs-5 lh-1 mb-0">The term mergers and acquisitions (M&A) refers to the consolidation of companies or their major business assets through financial transactions between companies. A merger describes two firms, of approximately the same size, that join forces to move forward as a single new entity, rather than remain separately owned and operated. On the other hand, when one company takes over another and establishes itself as the new owner, the purchase is called an acquisition. CMF Consultants can assist you with any part of this process.</p>
+                    <p class="fs-5 lh-1 mb-0">El término fusiones y adquisiciones se refiere a la consolidación de empresas o de sus principales activos comerciales a través de transacciones financieras entre empresas. Una fusión describe dos empresas, de aproximadamente el mismo tamaño, que unen sus fuerzas para avanzar como una sola entidad nueva, en lugar de permanecer operadas y de propiedad separada. Por otro lado, cuando una empresa se hace cargo de otra y se establece como el nuevo propietario, la compra se denomina adquisición. CMF Consultants puede asistirlo en cualquier parte de este proceso.</p>
 
                     <div id="loans-and-grants-for-startups"></div>
                     <br/>
 
-                    <h2 class="fw-normal lh-1 mt-5 mb-2">Loans And Grants For Start-Ups</h2>
+                    <h2 class="fw-normal lh-1 mt-5 mb-2">Préstamos y ayudas para startups</h2>
                     <hr/>
-                    <p class="fs-5 lh-1 mb-0">Small-business grants provide free money for startups and existing businesses. There are many grant programs available to small businesses, depending on a variety of qualifying factors. It takes time and effort to research and apply for funding on your own, but CMF Consultants can help your business secure grants and low interest loans that you may qualify for.</p>
+                    <p class="fs-5 lh-1 mb-0">Las subvenciones para pequeñas empresas proporcionan dinero gratis para nuevas empresas y empresas existentes. Hay muchos programas de subvenciones disponibles para pequeñas empresas, dependiendo de una variedad de factores de calificación. Se necesita tiempo y esfuerzo para investigar y solicitar financiamiento por su cuenta, pero CMF Consultants puede ayudar a su empresa a obtener subvenciones y préstamos a bajo interés para los que puede calificar.</p>
 
                     <div id="disaster-loans"></div>
                     <br/>
 
-                    <h2 class="fw-normal lh-1 mt-5 mb-2">Disaster Loans</h2>
+                    <h2 class="fw-normal lh-1 mt-5 mb-2">Préstamos por Desastre</h2>
                     <hr/>
-                    <p class="fs-5 lh-1 mb-0">If your business has sustained physical damage and is located in a declared disaster area, CMF Consultants can help you search for funding to help cover the costs of repairs and replacement of physical assests damaged in a declared disaster. Businesses of any size and most private nonprofit organizations may qualify for a loan to recover after a disaster.</p>
+                    <p class="fs-5 lh-1 mb-0">Si su negocio sufrió daños físicos y está ubicado en un área declarada como desastre, CMF Consultants puede ayudarlo a buscar financiamiento para ayudar a cubrir los costos de reparación y reemplazo de activos físicos dañados en un desastre declarado. Las empresas de cualquier tamaño y la mayoría de las organizaciones privadas sin fines de lucro pueden calificar para un préstamo para recuperarse después de un desastre.</p>
 
                     <div id="short-term-lines-of-credit"></div>
                     <br/>
 
-                    <h2 class="fw-normal lh-1 mt-5 mb-2">Short Term Lines Of Credit</h2>
+                    <h2 class="fw-normal lh-1 mt-5 mb-2">Líneas de crédito a corto plazo</h2>
                     <hr/>
-                    <p class="fs-5 lh-1 mb-0">A short-term line of credit is a business line of credit with a loan term between six months and one year. CMF Consultants can assist you with determining if your business qualifies for a short-term line of credit and can help you apply for the best loan option for you with the appropriate lender.</p>
+                    <p class="fs-5 lh-1 mb-0">Una línea de crédito a corto plazo es una línea de crédito comercial con un plazo de préstamo de entre seis meses y un año. CMF Consultants puede ayudarlo a determinar si su negocio califica para una línea de crédito a corto plazo y puede ayudarlo a solicitar la mejor opción de préstamo para usted con el prestamista apropiado.</p>
 
                     <div id="certification-for-women-and-minority-loans-and-grants"></div>
                     <br/>
 
-                    <h2 class="fw-normal lh-1 mt-5 mb-2">Certification For Women & Minority Loans & Grants</h2>
+                    <h2 class="fw-normal lh-1 mt-5 mb-2">Certificación para préstamos y subvenciones para mujeres y minorías</h2>
                     <hr/>
-                    <p class="fs-5 lh-1 mb-0">CMF Consultants are dedicated to supporting women and minorities in the development and growth of their small businesses. If you are a woman or minority business owner, we will connect with you to help you find funding opportunities and gain access to capital to level the playing field in the business world.</p>
+                    <p class="fs-5 lh-1 mb-0">CMF Consultants se dedican a apoyar a mujeres y minorías en el desarrollo y crecimiento de sus pequeñas empresas. Tanto si pertenece a una minoría como si es propietario de una empresa, nos pondremos en contacto con usted para ayudarle a encontrar oportunidades de financiación y obtener acceso a capital para nivelar el campo de juego en el mundo empresarial.</p>
 
                     <div id="packaging-for-sba-loans-and-grants"></div>
                     <br/>
 
-                    <h2 class="fw-normal lh-1 mt-5 mb-2">Packaging For SBA Loans & Grants</h2>
+                    <h2 class="fw-normal lh-1 mt-5 mb-2">Embalaje para préstamos y subvenciones de la SBA</h2>
                     <hr/>
-                    <p class="fs-5 lh-1 mb-0">Our specialized team at CMF Consultants will review your business plan and help you determine the amount of financing your projections will likely support, identify potential sources of financing, and help you prepare a loan package.</p>
+                    <p class="fs-5 lh-1 mb-0">Nuestro equipo especializado en CMF Consultants revisará su plan de negocios y lo ayudará a determinar la cantidad de financiamiento que probablemente respaldarán sus proyecciones, identificará posibles fuentes de financiamiento y lo ayudará a preparar un paquete de préstamo.</p>
 
                     <div id="business-plans-and-grant-writing"></div>
                     <br/>
 
-                    <h2 class="fw-normal lh-1 mt-5 mb-2">Business Plans & Grant Writing</h2>
+                    <h2 class="fw-normal lh-1 mt-5 mb-2">Planes de negocios y redacción de subvenciones</h2>
                     <hr/>
-                    <p class="fs-5 lh-1 mb-0">CMF Consultants will take the time to understand the purpose and services of your business in order to enhance your strategic plan, while producing a grant proposal to maximize the probability of receiving financial assistance. Whether you need to prepare a grant proposal that will deliver results or want to improve your business plan, contact CMF Consultants to learn more! </p>
+                    <p class="fs-5 lh-1 mb-0">CMF Consultants se tomará el tiempo necesario para comprender el propósito y los servicios de su negocio a fin de mejorar su plan estratégico, al mismo tiempo que produce una propuesta de subvención para maximizar la probabilidad de recibir asistencia financiera. Ya sea que necesite preparar una propuesta de subvención que brinde resultados o desee mejorar su plan de negocios, ¡comuníquese con CMF Consultants para obtener más información! </p>
 
                     <div id="more"></div>
                     <br/>
 
 
-                    <h2 class="fw-normal lh-1 mt-5 mb-2">More</h2>
+                    <h2 class="fw-normal lh-1 mt-5 mb-2">Más</h2>
                     <hr/>
-                    <p class="fs-5 lh-1 mb-0">If a service you need is not listed above, please feel free to contact us at one of our offices, via e-mail, or through our contact form so that we can come up with a solution that is right for you! </p>
+                    <p class="fs-5 lh-1 mb-0">Si un servicio que necesita no se encuentra en la lista anterior, no dude en contactarnos en una de nuestras oficinas, por correo electrónico o a través de nuestro formulario de contacto para que podamos encontrar una solución adecuada para usted. </p>
 
                 </div>
                 
@@ -285,11 +285,11 @@ function ServicesSP() {
             
             <div class="row mt-2 justify-content-center bg-light">
                 <div class="col-md-7  text-center p-5">
-                    <h2 class="fw-normal lh-1  mb-4">Ready to get started?</h2>
+                    <h2 class="fw-normal lh-1  mb-4">¿Listo para empezar?</h2>
                     <hr/>
 
-                    <p class="fs-5 lh-1 ">We're here to help! Contact us today to see what we can do for you and your business!</p>
-                    <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-brand ms-lg-3">Contact</a>
+                    <p class="fs-5 lh-1 ">¡Estamos aquí para ayudar! ¡Contáctenos hoy para ver qué podemos hacer por usted y su negocio!</p>
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-brand ms-lg-3">Contacto</a>
                 </div>
                 
             </div>

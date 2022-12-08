@@ -113,11 +113,11 @@ function YouTubeSP() {
             </div>
             <div class="row mt-2 justify-content-center bg-light">
                 <div class="col-md-7  text-center p-5">
-                    <h2 class="fw-normal lh-1  mb-4">Ready to get started?</h2>
+                    <h2 class="fw-normal lh-1  mb-4">¿Listo para empezar?</h2>
                     <hr/>
 
-                    <p class="fs-5 lh-1 ">We're here to help! Contact us today to see what we can do for you and your business!</p>
-                    <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-brand ms-lg-3">Contact</a>
+                    <p class="fs-5 lh-1 ">¡Estamos aquí para ayudar! ¡Contáctenos hoy para ver qué podemos hacer por usted y su negocio!</p>
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-brand ms-lg-3">Contacto</a>
                 </div>
                 
             </div>
