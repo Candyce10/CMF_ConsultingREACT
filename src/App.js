@@ -1,17 +1,21 @@
 import React from 'react'
-// import Construction from './pages/Construction'
+import { Routes , Route } from "react-router-dom"
 import Home from './pages/Home';
-import Footer from './components/Footer';
 import Testimonials from './pages/Testimonials';
 import Services from './pages/Services';
 import Team from './pages/Team';
 import Affiliates from './pages/Affiliates';
-import Contact from './components/Contact';
-import { Routes , Route } from "react-router-dom"
+import Contact from './pages/Contact';
 import NotFound from './pages/NotFound';
-import Confirmation from './components/Confirmation';
+import Confirmation from './pages/Confirmation';
 import YouTube from './pages/YouTube';
-
+import AffiliatesSP from './pages/AffiliatesSP';
+import ConfirmationSP from './pages/ConfirmationSP';
+import HomeSP from './pages/HomeSP';
+import ServicesSP from './pages/ServicesSP';
+import TeamSP from './pages/TeamSP';
+import TestimonialsSP from './pages/TestimonialsSP';
+import YouTubeSP from './pages/YouTubeSP';
 
 function App() {
 
@@ -30,10 +34,21 @@ function App() {
       <Route path ='/contact-confirmation' element={<Confirmation/>}/>
       <Route path ='/the-debt-lifeline' element={<YouTube/>}/>
       <Route path='*' element={<NotFound />}/>
-      {/* <Route path ='/construction' element={<Construction/>}/> */}
+
+      <Route path ='/es' element={<HomeSP/>}/>
+      <Route path='/es/affiliates' element={<AffiliatesSP/>}/>
+      <Route path='/es/contact-confirmation' element={<ConfirmationSP/>}/>
+      <Route path='/es/services-and-workshops' element={<ServicesSP/>}/>
+      <Route path='/es/team' element={<TeamSP/>}/>
+      <Route path='/es/testimonials' element={<TestimonialsSP/>}/>
+      <Route path ='/es/the-debt-lifeline' element={<YouTubeSP/>}/>
+
     </Routes>
-    <Footer/>
     <Contact/>
+
+    
+    
+
     </>
   );
 }

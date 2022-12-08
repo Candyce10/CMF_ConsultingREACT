@@ -4,7 +4,6 @@ import './index.css';
 import './services.css';
 import './const_page.css';
 import './affiliates.css';
-import './i18next';
 
 import { BrowserRouter as Router } from 'react-router-dom';
 

@@ -1,7 +1,7 @@
 import React from 'react'
 import { useEffect } from 'react'
 
-function Team() {
+function TeamSP() {
   
   useEffect(() => {
     document.title = 'Team - CMF Consultants';
@@ -287,4 +287,4 @@ function Team() {
   )
 }
 
-export default Team
+export default TeamSP

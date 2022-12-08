@@ -2,7 +2,7 @@ import React, {useEffect} from 'react'
 import emailjs from '@emailjs/browser';
 
 
-function Affiliates() {
+function AffiliatesSP() {
     useEffect(() => {
         document.title = 'Affiliates - CMF Consultants';
       }, []);
@@ -226,4 +226,4 @@ function Affiliates() {
   )
 }
 
-export default Affiliates
+export default AffiliatesSP

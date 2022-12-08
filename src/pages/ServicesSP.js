@@ -1,6 +1,6 @@
 import React, {useEffect} from 'react'
 
-function Services() {
+function ServicesSP() {
     useEffect(() => {
         document.title = 'Services & Workshops - CMF Consultants';
       }, []);
@@ -344,4 +344,4 @@ function Services() {
   )
 }
 
-export default Services
+export default ServicesSP

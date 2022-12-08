@@ -1,6 +1,6 @@
 import React, {useEffect} from 'react'
 
-function YouTube() {
+function YouTubeSP() {
     useEffect(() => {
         document.title = 'The Debt Lifeline - CMF Consultants';
       }, []);
@@ -170,4 +170,4 @@ function YouTube() {
   )
 }
 
-export default YouTube
+export default YouTubeSP

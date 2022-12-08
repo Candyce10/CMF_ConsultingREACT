@@ -1,7 +1,7 @@
 import React from 'react'
 import { HashLink as Link } from 'react-router-hash-link';
 
-function Home() {
+function HomeSP() {
 
 
 
@@ -362,4 +362,4 @@ function Home() {
   )
 }
 
-export default Home
+export default HomeSP

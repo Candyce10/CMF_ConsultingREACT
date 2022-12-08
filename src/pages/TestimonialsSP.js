@@ -1,7 +1,7 @@
 import React, {useEffect} from 'react'
 
 
-function Testimonials() {
+function TestimonialsSP() {
     useEffect(() => {
         document.title = 'Testimonials - CMF Consultants';
       }, []);
@@ -291,6 +291,6 @@ function Testimonials() {
   )
 }
 
-export default Testimonials
+export default TestimonialsSP
 
 
