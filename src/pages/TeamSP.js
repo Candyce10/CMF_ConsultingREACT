@@ -4,7 +4,7 @@ import { useEffect } from 'react'
 function TeamSP() {
   
   useEffect(() => {
-    document.title = 'Team - CMF Consultants';
+    document.title = 'Equipo - CMF Consultants';
   }, []);
 
   return (
@@ -62,8 +62,8 @@ function TeamSP() {
                 <div class="row">
                     <div class="col-12">
                         <div class="intro">
-                            <h1>Meet the Team</h1> <hr class="divider text-center justify-content-center"></hr>
-                            <p class="mx-auto  fs-4 mt-3">Check out our talented and amazing team behind our services! </p>
+                            <h1>Conocer al equipo</h1> <hr class="divider text-center justify-content-center"></hr>
+                            <p class="mx-auto  fs-4 mt-3">¡Vea nuestro talentoso e increíble equipo detrás de nuestros servicios!</p>
                         </div>
                     </div>
                 </div>
@@ -76,7 +76,7 @@ function TeamSP() {
                             </div>
 
                             <h5>Rob Goldstein</h5>
-                            <p class="mt-0">Managing Partner</p>
+                            <p class="mt-0">Socio Gerente</p>
                         
                         </div>
                     </div>
@@ -85,55 +85,53 @@ function TeamSP() {
                 <div class="col-lg-12 text-center col-sm-3">
                     <p>
                         <a class="btn btn-brand " data-bs-toggle="collapse" href="#multiCollapse1" role="button" aria-expanded="false" aria-controls="collapseExample">
-                            Bio
+                        Biografía
                         </a>
                                
                     </p>
                     <div class="collapse" id="multiCollapse1">
                         <div class="card card-body mb-5">
-                        After 30+ years in my career, I’m often asked, “in three words, what do you do?” To sum up, I specialize in FINANCIAL CRISIS MANAGEMENT. In the mid 80s, I spent a few years going into large businesses to work on “turnarounds”. 
-                        This included sales increases, debt restructuring, management restructure, sell off unneeded assets, raising money, etc. When I started my own practice, I found myself helping many individuals in very rough situations. Although I am not a lawyer, I am educated in bankruptcy law and the bankruptcy system to help clients, I utilize this experience to help in all situations.
+                        Después de más de 30 años en mi carrera, a menudo me preguntan, "en tres palabras, ¿qué haces?" En resumen, me especializo en GESTIÓN DE CRISIS FINANCIERAS. A mediados de los años 80, pasé algunos años entrando en grandes empresas para trabajar en "cambios".
+                        Esto incluyó aumentos de ventas, reestructuración de deuda, reestructuración de gestión, venta de activos innecesarios, recaudación de dinero, etc. Cuando comencé mi propia práctica, me encontré ayudando a muchas personas en situaciones muy difíciles. Aunque no soy abogado, estoy educado en la ley de quiebras y el sistema de quiebras para ayudar a los clientes, utilizo esta experiencia para ayudar en todas las situaciones.
                         <br/>
                         <br/>
-                        Over the years, I have found that my unique set of skills were desperately needed, the most prime examples are: 
-                        loan modifications, debt consolidation and credit restoration. I have also negotiated loans for people who were in financial trouble, based on assets, or selling off assets, also known as asset disposition.
+                        A lo largo de los años, descubrí que mi conjunto único de habilidades se necesitaba desesperadamente, los ejemplos más importantes son:
+                        modificaciones de préstamo, consolidación de deuda y restauración de crédito. También negocié préstamos para personas que tenían problemas financieros, basados ​​en activos o vendiendo activos, también conocida como disposición de activos.
                         <br/>
                         <br/>
-                        Loan modifications aren’t just for mortgages, but that is a primary area. Every client that I helped to get a loan 
-                        modification achieved great results. I find that banks make more mistakes than clients do, and often I fix problems caused by the banks. I have even reversed wrongful foreclosures, another example of loan modifications can be for equipment or business loans, and even SBA loans can be negotiated.
+                        Las modificaciones de préstamos no son solo para hipotecas, pero esa es un área principal. Cada cliente que ayudé a obtener un préstamo
+                        modificación logró grandes resultados. Encuentro que los bancos cometen más errores que los clientes y, a menudo, arreglo los problemas causados ​​por los bancos. Incluso he revertido ejecuciones hipotecarias indebidas, otro ejemplo de modificaciones de préstamos puede ser para equipos o préstamos comerciales, e incluso se pueden negociar préstamos de la SBA.
                         <br/>
                         <br/>
-                        Negotiating debt is generally thought of as just credit cards, and while credit cards are the primary source of debt. 
-                        I also work on judgments, medical debt, business vendor debt; anything where money is owed. On tax debt, I work with a qualified CPA and enrolled agent.
+                        La negociación de la deuda generalmente se considera solo como tarjetas de crédito, y mientras que las tarjetas de crédito son la principal fuente de deuda.
+                        También trabajo en juicios, deudas médicas, deudas de proveedores comerciales; cualquier cosa donde se debe dinero. En cuanto a la deuda tributaria, trabajo con un CPA calificado y un agente inscrito.
                         <br/>
                         <br/>
-                        I had a client who was in the workman’s comp system for 19 years, and both the insurance attorney, and her 
-                        attorney both claimed they make more money by NOT settling. After I stepped in, in less than a year, I achieved 
-                        an award of $300,000.
+                        Tuve un cliente que estuvo en el sistema de compensación laboral durante 19 años, y tanto el abogado de seguros como su
+                        Ambos abogados afirmaron que ganan más dinero al NO llegar a un acuerdo. Después de que entré, en menos de un año, logré
+                        un premio de $300,000.
                         <br/>
                         <br/>
-                        I had another client, she and her husband were both navy vets from the Vietnam war. He died after a long battle 
-                        with Agent Orange, and she was denied her numerous claims with the VA. I stepped in, her claim was approved, 
-                        and (to this day) we are negotiating a settlement.
+                        Tenía otro cliente, ella y su esposo eran veteranos de la marina de la guerra de Vietnam. Murió después de una larga batalla.
+                        con el Agente Naranja, y se le negaron sus numerosos reclamos con VA. Intervine, su reclamo fue aprobado,
+                        y (hasta el día de hoy) estamos negociando un acuerdo.
                         <br/>
                         <br/>
-                        A large part of my practice has also come from those who have been victimized by elder fraud, identity theft, 
-                        scams, bureaucratic red tape, and solving estate/ trust issues. I have a relative that I care for, who was victimized
-                        in a scam, and was losing her estate. I stepped in, turned the case around, and helped her make almost $1.5 mil. 
+                        Una gran parte de mi práctica también proviene de aquellos que han sido víctimas de fraude de ancianos, robo de identidad,
+                        estafas, trámites burocráticos y resolución de problemas de patrimonio/fideicomiso. Tengo un familiar al que cuido, que fue victimizado en una estafa, y estaba perdiendo su patrimonio. Intervine, cambié el caso y la ayudé a ganar casi $ 1.5 millones.
                         <br/>
                         <br/>
-                        I once was asked to assist an FBI agent who was on an old mortgage on a home, stemming from a divorce, and 
-                        it was keeping her from a promotion. I got her released from the debt completely, and she was able to receive that huge promotion. 
+                        Una vez me pidieron que ayudara a un agente del FBI que tenía una hipoteca antigua sobre una casa, derivada de un divorcio, y la estaba impidiendo una promoción. Conseguí que la liberaran de la deuda por completo y pudo recibir ese gran ascenso. 
                         <br/>
                         <br/>
-                        Contrary to popular belief, student loans and time shares may also be negotiated. In many cases, there have been 
-                        a lot of student loans that were settled, and even forgiven. There are many types of student loans, so it is wise to 
-                        review which may be eligible. Timeshare returns are also a unique part of our services. Whether they were a bad 
-                        investment or no longer wanted, I can always successfully find a way out.
+                        Contrariamente a la creencia popular, también se pueden negociar préstamos estudiantiles y tiempo compartido. En muchos casos, ha habido
+                        muchos préstamos estudiantiles que se liquidaron e incluso se perdonaron. Hay muchos tipos de préstamos estudiantiles, por lo que es aconsejable
+                        revisión que puede ser elegible. Las devoluciones de tiempo compartido también son una parte única de nuestros servicios. Si eran malos
+                        inversión o ya no quería, siempre puedo encontrar con éxito una salida.
                         <br/>
                         <br/>
-                        Having written two books on debt & credit, I also host workshops teaching people how to understand the credit 
-                        system and improve their FICO scores.
+                        Habiendo escrito dos libros sobre deuda y crédito, también organizo talleres que enseñan a las personas cómo entender el crédito.
+                        sistema y mejorar sus puntajes FICO.
                         </div>
                     </div>
                         
