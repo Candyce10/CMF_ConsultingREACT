@@ -88,6 +88,9 @@ function Affiliates() {
                         <li class="nav-item">
                             <a class="nav-link" href="/affiliates">Affiliates</a>
                         </li>   
+                        <li class="nav-item">
+                            <a class="nav-link" style={{"color":"var(--brand)"}} href="/es">Spanish</a>
+                        </li>   
                     </ul>
                     <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-brand ms-lg-3 my-2">Contact</a>
 
@@ -111,10 +114,10 @@ function Affiliates() {
             <form onSubmit={sendEmail}>
                 <h3>Sign Up Form</h3>
                 <label for="fname">First Name</label>
-                <input type="text" id="fname" name="firstname" placeholder="First fname" required/>
+                <input type="text" id="fname" name="firstname" placeholder="First Name" required/>
 
                 <label for="lname">Last Name</label>
-                <input type="text" id="lname" name="lastname" placeholder="Last fname" required/>
+                <input type="text" id="lname" name="lastname" placeholder="Last Name" required/>
                 <label for="email">E-Mail</label>
                 <input type="email" id="email" name="email" placeholder="E-Mail Address" required/>
                 <label for="contact">Contact Number</label>

@@ -2,7 +2,7 @@ import React, {useEffect} from 'react'
 
 function ServicesSP() {
     useEffect(() => {
-        document.title = 'Services & Workshops - CMF Consultants';
+        document.title = 'Servicios y Talleres - CMF Consultants';
       }, []);
   return (
     <div>
@@ -30,26 +30,27 @@ function ServicesSP() {
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="/">Home</a>
+                            <a class="nav-link" href="/es">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/services-and-workshops">Services & Workshops</a>
+                            <a class="nav-link" href="/es/services-and-workshops">Servicios y Talleres</a>
                         </li>
                        
                         <li class="nav-item">
-                            <a class="nav-link" href="/team">Team</a>
+                            <a class="nav-link" href="/es/team">Equipo</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/testimonials">Testimonials</a>
+                            <a class="nav-link" href="/es/testimonials">Testimonios</a>
                         </li>   
                         <li class="nav-item">
-                            <a class="nav-link" href="/the-debt-lifeline">The Debt Lifeline</a>
+                            <a class="nav-link" href="/es/the-debt-lifeline">The Debt Lifeline</a>
                         </li>   
                         <li class="nav-item">
-                            <a class="nav-link" href="/affiliates">Affiliates</a>
+                            <a class="nav-link" href="/affiliates">Afiliados</a>
                         </li>   
                     </ul>
-                    <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-brand ms-lg-3 my-2">Contact</a>
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-brand ms-lg-3 my-2">Contacto</a>
+
                 </div>
             </div>
         </nav>
@@ -58,13 +59,13 @@ function ServicesSP() {
             <div class="row align-items-center  g-5 py-5">
 
                 <div class="col-lg-11  col-sm-11">
-                    <h1 class="display-5 fw-bold lh-1 mb-3 serv-p">Services & Workshops</h1>
-                    <p class="lead serv-p fs-5 lh-1 fs-4">Our dedicated team will work with you to understand and assist with achieving your goals. We serve small businesses like yours throughout America and will guide you throughout the entire process.
+                    <h1 class="display-5 fw-bold lh-1 mb-3 serv-p">Servicios y Talleres</h1>
+                    <p class="lead serv-p fs-5 lh-1 fs-4">Nuestro equipo dedicado trabajará con usted para comprender y ayudarlo a lograr sus objetivos. Brindamos servicios a pequeñas empresas como la suya en todo Estados Unidos y lo guiaremos durante todo el proceso.
                     </p>
-                    <p class="lead serv-p fs-5 lh-1 fs-4"> CMF Consultants is a one-stop-shop for business consulting and financial needs. Get started today!
+                    <p class="lead serv-p fs-5 lh-1 fs-4"> CMF Consultants es una ventanilla única para la consultoría empresarial y las necesidades financieras. ¡Empiece hoy!
                     </p>
                     <br/>
-                    <a href="#workshops" class="btn btn-brand ms-lg-3">Jump to Workshops</a>
+                    <a href="#workshops" class="btn btn-brand ms-lg-3">Ir a Talleres</a>
                 </div>
             </div>
         </div>
@@ -72,27 +73,27 @@ function ServicesSP() {
         <div class="container-fluid ">    
             <div class="row">
                 <div class="col-md-7 p-5 ">
-                    <h2 class=" fw-normal lh-1 ">Our Services </h2>
+                    <h2 class=" fw-normal lh-1 ">Nuestros Servicios</h2>
                     <hr/>
-                    <p class="fs-5 lh-1 text-capitalize d-flex"><a href="#business-management-consulting">Business Management Consulting  (Main Street Businesses and up to Middle Market Companies)</a></p>
-                    <p class="fs-5 lh-1 text-capitalize d-flex"><a href="#main-street-and-early-stage-plans">Main Street and Early-Stage Venture Business Plans</a></p>
-                    <p class="fs-5 lh-1 text-capitalize d-flex"><a href="#venture-capital-consulting">Venture Capital Consulting (Both Debt and Equity)</a></p>
-                    <p class="fs-5 lh-1 text-capitalize d-flex"><a href="#business-turnarounds">Business Turnarounds</a></p>
-                    <p class="fs-5 lh-1 text-capitalize d-flex"><a href="#asset-based-lenders">Asset Based Lenders (On Real Estate, A/R, Inventory, Equipment)</a></p>
-                    <p class="fs-5 lh-1 text-capitalize d-flex"><a href="#sba-lenders">SBA Lenders (7A, 504 & CDC)</a></p>
-                    <p class="fs-5 lh-1 text-capitalize d-flex"><a href="#commercial-real-estate-loans">Commercial Real Estate Loans (All Areas Covered, Rehab, Bridge, Apartments, Retail)</a></p>
-                    <p class="fs-5 lh-1 text-capitalize d-flex"><a href="#specialty-finance-areas">Specialty Finance Areas (Cannabis, Gas Stations, Solar Areas & Trade Finance)</a></p>
-                    <p class="fs-5 lh-1 text-capitalize d-flex"><a href="#hard-money-loans">Hard Money Loans</a></p>
-                    <p class="fs-5 lh-1 text-capitalize d-flex"><a href="#asset-liquidation-and-disposition">Asset Liquidation and Disposition</a></p>
-                    <p class="fs-5 lh-1 text-capitalize d-flex"><a href="business-brokerage">Business Brokerage (For Buyers and Sellers, Either Direct or By Referral)</a></p>
-                    <p class="fs-5 lh-1 text-capitalize d-flex"><a href="#mergers-and-acquisitions">Mergers & Acquisitions (Direct or By Referral)</a></p>
-                    <p class="fs-5 lh-1 text-capitalize d-flex"><a href="#loans-and-grants-for-startups">Loans and grants for start-ups</a></p>
-                    <p class="fs-5 lh-1 text-capitalize d-flex"><a href="#disaster-loans">Disaster Loans</a></p>
-                    <p class="fs-5 lh-1 text-capitalize d-flex"><a href="#short-term-lines-of-credit">Short term lines of credit</a></p>
-                    <p class="fs-5 lh-1 text-capitalize d-flex"><a href="#certification-for-women-and-minority-loans-and-grants">Certification for women & minority loans & grants</a></p>
-                    <p class="fs-5 lh-1 text-capitalize d-flex"><a href="#packaging-for-sba-loans-and-grants">Packaging for SBA loans & grants</a></p>
-                    <p class="fs-5 text-capitalize lh-1 d-flex"><a href="business-plans-and-grant-writing">Business plans & grant writing</a></p>
-                    <p  class="fs-5 text-capitalize lh-1"><a href="#more">& more!</a></p>
+                    <p class="fs-5 lh-1 text-capitalize d-flex"><a href="#business-management-consulting">Consultoría de Gestión Empresarial (Empresas Principales y hasta Empresas del Mercado Medio)</a></p>
+                    <p class="fs-5 lh-1 text-capitalize d-flex"><a href="#main-street-and-early-stage-plans">Planes comerciales Main Street y Early-Stage Venture</a></p>
+                    <p class="fs-5 lh-1 text-capitalize d-flex"><a href="#venture-capital-consulting">Consultoría de capital de riesgo (tanto deuda como capital)</a></p>
+                    <p class="fs-5 lh-1 text-capitalize d-flex"><a href="#business-turnarounds">Cambio de negocio</a></p>
+                    <p class="fs-5 lh-1 text-capitalize d-flex"><a href="#asset-based-lenders">Prestamistas basados ​​en activos (en bienes raíces, cuentas por cobrar, inventario, equipo)</a></p>
+                    <p class="fs-5 lh-1 text-capitalize d-flex"><a href="#sba-lenders">SBA Prestamistas (7A, 504 & CDC)</a></p>
+                    <p class="fs-5 lh-1 text-capitalize d-flex"><a href="#commercial-real-estate-loans">Préstamos inmobiliarios comerciales (todas las áreas cubiertas, rehabilitación, puente, apartamentos, comercio minorista)</a></p>
+                    <p class="fs-5 lh-1 text-capitalize d-flex"><a href="#specialty-finance-areas">Áreas de Finanzas Especializadas (Cannabis, Gasolineras, Áreas Solares y Trade Finance)</a></p>
+                    <p class="fs-5 lh-1 text-capitalize d-flex"><a href="#hard-money-loans">Préstamos de dinero duro</a></p>
+                    <p class="fs-5 lh-1 text-capitalize d-flex"><a href="#asset-liquidation-and-disposition">Liquidación y Disposición de Activos</a></p>
+                    <p class="fs-5 lh-1 text-capitalize d-flex"><a href="business-brokerage">Corretaje Comercial (Para Compradores y Vendedores, ya sea Directo o por Referencia)</a></p>
+                    <p class="fs-5 lh-1 text-capitalize d-flex"><a href="#mergers-and-acquisitions">Fusiones y adquisiciones (directas o por recomendación)</a></p>
+                    <p class="fs-5 lh-1 text-capitalize d-flex"><a href="#loans-and-grants-for-startups">Préstamos y ayudas para startups</a></p>
+                    <p class="fs-5 lh-1 text-capitalize d-flex"><a href="#disaster-loans">Préstamos por Desastre</a></p>
+                    <p class="fs-5 lh-1 text-capitalize d-flex"><a href="#short-term-lines-of-credit">Líneas de crédito a corto plazo</a></p>
+                    <p class="fs-5 lh-1 text-capitalize d-flex"><a href="#certification-for-women-and-minority-loans-and-grants">Certificación para préstamos y subvenciones para mujeres y minorías</a></p>
+                    <p class="fs-5 lh-1 text-capitalize d-flex"><a href="#packaging-for-sba-loans-and-grants">Embalaje para préstamos y subvenciones de la SBA</a></p>
+                    <p class="fs-5 text-capitalize lh-1 d-flex"><a href="business-plans-and-grant-writing">Planes de negocios y redacción de subvenciones</a></p>
+                    <p  class="fs-5 text-capitalize lh-1"><a href="#more">& ¡más!</a></p>
                   
                    
                 </div>
@@ -310,7 +311,7 @@ function ServicesSP() {
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
-                        <h5 class=" mb-4 text-center nv" style={{"color":"rgb(241, 241, 241)"}}>Las Vegas Office</h5>
+                        <h5 class=" mb-4 text-center nv" style={{"color":"rgb(241, 241, 241)"}}>Las Vegas Oficina</h5>
                         <p class="d-flex justify-content-center align-items-center">
                             <i class='bx bxs-phone-call mx-1'></i> (702) 701-2992
                         </p>
@@ -322,7 +323,7 @@ function ServicesSP() {
                     </div>
                 
                     <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
-                        <h5 class=" mb-4 text-center fl" style={{"color":"rgb(241, 241, 241)"}}>Florida Office</h5>
+                        <h5 class=" mb-4 text-center fl" style={{"color":"rgb(241, 241, 241)"}}>Florida Oficina</h5>
                         <p class="d-flex justify-content-center align-items-center">
                             <i class='bx bxs-phone-call mx-1'></i> (786) 200-2080
                         </p>
@@ -336,7 +337,7 @@ function ServicesSP() {
                 </div>
             </div>
             <div class="text-center footer p-3" style={{"background-color": "rgba(0, 0, 0, 0.2)", "color":"white"}}>
-            "Helping minorites and businesses reach their funding goals."
+            "Ayudar a las minorías y las empresas a alcanzar sus objetivos de financiación."
             </div>
         </footer>
 

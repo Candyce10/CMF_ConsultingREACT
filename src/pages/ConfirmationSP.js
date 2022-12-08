@@ -19,35 +19,38 @@ function ConfirmationSP() {
           </div>
         </div>
         <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
-          <div class="container">
-              <a class="navbar-brand" href="/">CMF CONSULTANTS<span class="dot">.</span></a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                  aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                  <ul class="navbar-nav ms-auto">
-                      <li class="nav-item">
-                          <a class="nav-link" href="/">Home</a>
-                      </li>
-                      <li class="nav-item">
-                          <a class="nav-link" href="/servicesandworkshops">Services & Workshops</a>
-                      </li>
-                    
-                      <li class="nav-item">
-                          <a class="nav-link" href="/team">Team</a>
-                      </li>
-                      <li class="nav-item">
-                          <a class="nav-link" href="/testimonials">Testimonials</a>
-                      </li>   
-                      <li class="nav-item">
-                          <a class="nav-link" href="/affiliates">Affiliates</a>
-                      </li>   
-                  </ul>
-                  <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-brand ms-lg-3 my-2">Contact</a>
+            <div class="container">
+                <a class="navbar-brand" href="/">CMF CONSULTANTS<span class="dot">.</span></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="/es">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/es/services-and-workshops">Servicios y Talleres</a>
+                        </li>
+                       
+                        <li class="nav-item">
+                            <a class="nav-link" href="/es/team">Equipo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/es/testimonials">Testimonios</a>
+                        </li>   
+                        <li class="nav-item">
+                            <a class="nav-link" href="/es/the-debt-lifeline">The Debt Lifeline</a>
+                        </li>   
+                        <li class="nav-item">
+                            <a class="nav-link" href="/affiliates">Afiliados</a>
+                        </li>   
+                    </ul>
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-brand ms-lg-3 my-2">Contacto</a>
 
-              </div>
-          </div>
+                </div>
+            </div>
         </nav>
         <div class=" col-xxl-12 px-4 py-5">
             <div class="row align-items-center bg-l g-5 py-5">
@@ -74,7 +77,7 @@ function ConfirmationSP() {
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
-                        <h5 class=" mb-4 text-center nv" style={{"color":"rgb(241, 241, 241)"}}>Las Vegas Office</h5>
+                        <h5 class=" mb-4 text-center nv" style={{"color":"rgb(241, 241, 241)"}}>Las Vegas Oficina</h5>
                         <p class="d-flex justify-content-center align-items-center">
                             <i class='bx bxs-phone-call mx-1'></i> (702) 701-2992
                         </p>
@@ -86,7 +89,7 @@ function ConfirmationSP() {
                     </div>
                 
                     <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
-                        <h5 class=" mb-4 text-center fl" style={{"color":"rgb(241, 241, 241)"}}>Florida Office</h5>
+                        <h5 class=" mb-4 text-center fl" style={{"color":"rgb(241, 241, 241)"}}>Florida Oficina</h5>
                         <p class="d-flex justify-content-center align-items-center">
                             <i class='bx bxs-phone-call mx-1'></i> (786) 200-2080
                         </p>
@@ -100,7 +103,7 @@ function ConfirmationSP() {
                 </div>
             </div>
             <div class="text-center footer p-3" style={{"background-color": "rgba(0, 0, 0, 0.2)", "color":"white"}}>
-            "Helping minorites and businesses reach their funding goals."
+            "Ayudar a las minorías y las empresas a alcanzar sus objetivos de financiación."
             </div>
         </footer>
     </div>

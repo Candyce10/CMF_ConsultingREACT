@@ -49,6 +49,9 @@ function Home() {
                         <li class="nav-item">
                             <a class="nav-link" href="/affiliates">Affiliates</a>
                         </li>   
+                        <li class="nav-item">
+                            <a class="nav-link" style={{"color":"var(--brand)"}} href="/es">Spanish</a>
+                        </li>   
                     </ul>
                     <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-brand ms-lg-3 my-2">Contact</a>
 
@@ -118,7 +121,7 @@ function Home() {
                                     <div class="ms-4">
                                         <h5>Helping People Get into and Start a Business</h5>
                                         <p>
-                                            Have you decided to start your own business but are not sure where to finacially begin?
+                                            Have you decided to start your own business but are not sure where to financially begin?
                                         </p>
                                     </div>
                                 </div>
@@ -280,7 +283,7 @@ function Home() {
                            
                             <div class="content card-body">
                                <h5>The Debt Lifeline</h5>
-                                <p>Get advice, direction and support to help you get out of your debt & financial crisis!</p>
+                                <p>Watch now to get advice, direction and support to help you get out of your debt & financial crisis!</p>
                             </div>
                         </article></a>
                     </div>

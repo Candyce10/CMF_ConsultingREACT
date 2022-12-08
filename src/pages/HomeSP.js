@@ -31,26 +31,26 @@ function HomeSP() {
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="/">Home</a>
+                            <a class="nav-link" href="/es">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/services-and-workshops">Services & Workshops</a>
+                            <a class="nav-link" href="/es/services-and-workshops">Servicios y Talleres</a>
                         </li>
                        
                         <li class="nav-item">
-                            <a class="nav-link" href="/team">Team</a>
+                            <a class="nav-link" href="/es/team">Equipo</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/testimonials">Testimonials</a>
+                            <a class="nav-link" href="/es/testimonials">Testimonios</a>
                         </li>   
                         <li class="nav-item">
-                            <a class="nav-link" href="/the-debt-lifeline">The Debt Lifeline</a>
+                            <a class="nav-link" href="/es/the-debt-lifeline">The Debt Lifeline</a>
                         </li>   
                         <li class="nav-item">
-                            <a class="nav-link" href="/affiliates">Affiliates</a>
+                            <a class="nav-link" href="/affiliates">Afiliados</a>
                         </li>   
                     </ul>
-                    <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-brand ms-lg-3 my-2">Contact</a>
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-brand ms-lg-3 my-2">Contacto</a>
 
                 </div>
             </div>
@@ -62,10 +62,10 @@ function HomeSP() {
                 <div class="slide slide1 mainSlide "> 
                     <div class="row">
                     <div class="col-12 text-center text-white">
-                        <h6 class="text-white text-uppercase">"Helping minorities and businesses reach their funding goals"</h6>
+                        <h6 class="text-white text-uppercase">"Ayudar a las minorías y las empresas a alcanzar sus objetivos de financiación"</h6>
                         <img class="mt-4 mb-3" style={{"width":"150px", "height": "auto"}} src="https://i.imgur.com/5hGMabR.png"/>
                         <h1 class="display-4 mb-4">COMMERCIAL & MINORITY<br />FUNDING CONSULTANTS</h1>
-                        <a href="/services-and-workshops" class="btn btn-brand">Get Started</a>
+                        <a href="/es/services-and-workshops" class="btn btn-brand">Empezar</a>
                     </div>
                     </div>
                 </div>
@@ -74,9 +74,9 @@ function HomeSP() {
                 <div class="slide slide2 mainSlide p-4">
                     <div class="row">
                         <div class="col-12 text-center text-white">
-                            <h6 class="text-white text-uppercase">We provide strategies for all types of challenging funding options</h6>
-                            <h1 class="display-4 mb-4">MANAGEMENT CONSULTING <br />&<br/> BUSINESS TURNAROUND</h1>
-                            <a href="/services-and-workshops" class="btn btn-brand">Get Started</a>
+                            <h6 class="text-white text-uppercase">Proporcionamos estrategias para todo tipo de opciones de financiamiento desafiantes</h6>
+                            <h1 class="display-4 mb-4">CONSULTORÍA DE GESTIÓN<br />&<br/> CAMBIO DE NEGOCIO</h1>
+                            <a href="/es/services-and-workshops" class="btn btn-brand">Empezar</a>
                         </div>
                     </div>
                 </div>
@@ -99,9 +99,9 @@ function HomeSP() {
                     <div class="row ">
                         <div class="col-12 ">
                             <div class="intro ">
-                                <h1>About Us</h1>
-                                <p class="mx-auto fs-5 mb-3">Commercial and Minority Funding Consultants is a professional team that strives to assist women, minorities and businesses with reaching their funding goals. We are committed to assisting businesses with full lifecycle development, from initial startup through growth and development stages, with restructuring if necessary. We have the knowledge and experience to grow your company and help you thrive!  </p>
-                                <p class="mx-auto fw-semibold mb-5 fs-5">We'll shop for loans & grants that suit your needs! </p>
+                                <h1>Sobre Nosotros</h1>
+                                <p class="mx-auto fs-5 mb-3">Commercial and Minority Funding Consultants es un equipo profesional que se esfuerza por ayudar a las mujeres, las minorías y las empresas a alcanzar sus objetivos de financiación. Estamos comprometidos a ayudar a las empresas con el desarrollo del ciclo de vida completo, desde la puesta en marcha inicial hasta las etapas de crecimiento y desarrollo, con reestructuración si es necesario. ¡Tenemos el conocimiento y la experiencia para hacer crecer su empresa y ayudarlo a prosperar!  </p>
+                                <p class="mx-auto fw-semibold mb-5 fs-5">¡Buscaremos préstamos y subvenciones que se adapten a sus necesidades!</p>
                                 
                             
 
@@ -116,9 +116,9 @@ function HomeSP() {
                                 <div class="info-box about-sec">
                                     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Eo_circle_green_checkmark.svg/2048px-Eo_circle_green_checkmark.svg.png" style={{"width": "60px"}} alt="green checkmark"/>
                                     <div class="ms-4">
-                                        <h5>Helping People Get into and Start a Business</h5>
+                                        <h5>Ayudar a las personas a entrar y comenzar un negocio</h5>
                                         <p>
-                                            Have you decided to start your own business but are not sure where to finacially begin?
+                                        ¿Ha decidido iniciar su propio negocio pero no está seguro de por dónde empezar financieramente?
                                         </p>
                                     </div>
                                 </div>
@@ -127,9 +127,9 @@ function HomeSP() {
                                 <div class="info-box">
                                     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Eo_circle_green_checkmark.svg/2048px-Eo_circle_green_checkmark.svg.png" style={{"width": "60px"}} alt="green checkmark"/>
                                     <div class="ms-4">
-                                        <h5>Loans and Grants for Women & Minorities</h5>
+                                        <h5>Préstamos y subvenciones para mujeres y minorías</h5>
                                         <p>
-                                            There are so many new programs available to help women & minorites with grants and low interest loans, more than ever!
+                                        ¡Hay tantos programas nuevos disponibles para ayudar a mujeres y minorías con subvenciones y préstamos a bajo interés, más que nunca!
                                         </p>
                                     </div>
                                 </div>
@@ -138,15 +138,15 @@ function HomeSP() {
                                 <div class="info-box">
                                     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Eo_circle_green_checkmark.svg/2048px-Eo_circle_green_checkmark.svg.png" style={{"width": "60px"}} alt="green checkmark"/>
                                     <div class="ms-4">
-                                        <h5>Free Workshops to All Minority Groups</h5>
+                                        <h5>Talleres gratuitos para todos los grupos minoritarios</h5>
                                         <p>
-                                            We offer in-person or video workshops to help guide you on achieving your business goals!
+                                        ¡Ofrecemos talleres en persona o en video para ayudarlo a guiarlo en el logro de sus objetivos comerciales!
                                         </p>
                                     </div>
                                 </div>
                             </div>
-                            <a href="/services-and-workshops" class="icon-link  align-items-center  text-center fs-5 text-decoration-none">
-                            Learn More
+                            <a href="/es/services-and-workshops" class="icon-link  align-items-center  text-center fs-5 text-decoration-none">
+                            Aprende más
                             </a>
                         </div>
                     </div>
@@ -163,7 +163,7 @@ function HomeSP() {
             <div class="container">
                 <div class="row text-center justify-content-center gy-4">
                     <div class="col-lg-12 col-sm-6">
-                        <h6 class="fs-4 fw-semibold text-white">We are accepting application processing for minority certification to get an SBA (or other) loans & grants!</h6>
+                        <h6 class="fs-4 fw-semibold text-white">¡Estamos aceptando el procesamiento de solicitudes para la certificación de minorías para obtener préstamos y subvenciones de la SBA (u otros)!</h6>
                     </div>
                 
                 </div>
@@ -175,8 +175,8 @@ function HomeSP() {
                 <div class="row">
                     <div class="col-12">
                         <div class="intro text-center ">
-                            <h1 class="text-center ">Our Services</h1>
-                            <p class="mx-auto fs-5">Every business needs a plan to set goals and define their vision. CMF Consultants can help your strategy so you can reap the benefits for years to come. We provide exceptional customer service to small businesses seeking the resources for growth!</p>
+                            <h1 class="text-center ">Nuestros Servicios</h1>
+                            <p class="mx-auto fs-5">Todo negocio necesita un plan para establecer metas y definir su visión. CMF Consultants puede ayudarlo con su estrategia para que pueda cosechar los beneficios en los años venideros. Brindamos un servicio al cliente excepcional a las pequeñas empresas que buscan los recursos para crecer.</p>
                             <hr class="divider text-center justify-content-center"></hr>
                         </div>
                     </div>
@@ -189,9 +189,9 @@ function HomeSP() {
                                 psychology
                                 </span>
                             </div>
-                            <h5 class="mt-2">Comprehensive Consultation</h5>
+                            <h5 class="mt-2">Consulta Integral</h5>
                             <p>
-                                We will begin with a comprehensive consultation and will learn about the nuts and bolts of your business & help with business structure.
+                            Comenzaremos con una consulta integral y aprenderemos sobre los aspectos básicos de su negocio y lo ayudaremos con la estructura comercial.
                             </p>
                         </div>
                     </div>
@@ -202,9 +202,9 @@ function HomeSP() {
                                     edit
                                 </span>
                             </div>
-                            <h5 class="mt-2">Business Plan</h5>
+                            <h5 class="mt-2">Plan de negocios</h5>
                             <p>
-                                Business plan consulting includes learning about your business objectives and goals and writing a plan for what you would like to achieve.
+                            La consultoría del plan de negocios incluye aprender sobre los objetivos y metas de su negocio y escribir un plan para lo que le gustaría lograr.
                             </p>
                         </div>
                     </div>
@@ -215,9 +215,9 @@ function HomeSP() {
                                     attach_money
                                 </span>
                             </div>
-                            <h5 class="mt-2">Funding Solutions</h5>
+                            <h5 class="mt-2">Soluciones de financiación</h5>
                             <p>
-                                Partner your business with traditional and non-traditional funding sources including grant research & contracting opportunities.
+                            Asocie su empresa con fuentes de financiación tradicionales y no tradicionales, incluidas oportunidades de contratación e investigación de subvenciones.
                             </p>
                         </div>
                     </div>
@@ -228,9 +228,9 @@ function HomeSP() {
                                     feed
                                 </span>
                             </div>
-                            <h5 class="mt-2">Business Certification</h5>
+                            <h5 class="mt-2">Certificación Empresarial</h5>
                             <p>
-                                Assist with minority business certifications including Minority (MBE), Disadvantaged (DBE), & Women (WBE) Business Enterprises.
+                            Ayudar con las certificaciones de empresas minoritarias, incluidas las empresas comerciales de minorías (MBE), desfavorecidas (DBE) y mujeres (WBE).
                             </p>
                         </div>
                     </div>
@@ -242,15 +242,15 @@ function HomeSP() {
                                     handshake
                                 </span>
                             </div>
-                            <h5 class="mt-2">Licensing & Permits</h5>
+                            <h5 class="mt-2">Licencias y Permisos</h5>
                             <p>
-                                We register your business properly and ensure that all the paperwork for your business licensing & permits are filed.
+                            Registramos su negocio correctamente y nos aseguramos de que se presente toda la documentación para las licencias y permisos de su negocio.
                             </p>
                         </div>
                     </div>
                 </div>
-                <a href="/services-and-workshops" class="icon-link d-inline-flex align-items-center mt-3 fs-5 text-decoration-none">
-                        Learn More <span class="material-symbols-outlined">
+                <a href="/es/services-and-workshops" class="icon-link d-inline-flex align-items-center mt-3 fs-5 text-decoration-none">
+                Aprende más<span class="material-symbols-outlined">
                 chevron_right
                 </span>
                 </a>
@@ -266,8 +266,8 @@ function HomeSP() {
                 <div class="row">
                     <div class="col-12">
                         <div class="intro">
-                            <h1>Sign Up Today</h1>
-                            <p class="mx-auto fs-5 mb-3">Take your existing business to new levels for an exciting and profitable future!</p>
+                            <h1>Regístrate hoy</h1>
+                            <p class="mx-auto fs-5 mb-3">¡Lleve su negocio existente a nuevos niveles para un futuro emocionante y rentable!</p>
                             <hr class="divider text-center justify-content-center"></hr>
 
                         </div>
@@ -280,7 +280,7 @@ function HomeSP() {
                            
                             <div class="content card-body">
                                <h5>The Debt Lifeline</h5>
-                                <p>Get advice, direction and support to help you get out of your debt & financial crisis!</p>
+                                <p>¡Mire ahora para obtener consejos, dirección y apoyo para ayudarlo a salir de su deuda y crisis financiera!</p>
                             </div>
                         </article></a>
                     </div>
@@ -290,8 +290,8 @@ function HomeSP() {
                             <img src="https://monkeypuzzletraining.co.uk/images/Blog-images/article-images/xl-critical-thinking.jpg" class="card-img-top h-100" alt=""/>
                            
                             <div class="content card-body">
-                               <h5>Workshops</h5>
-                                <p>Check out our virtual and in-person workshops to discover how to start & promote a business!</p>
+                               <h5>Talleres de trabajo</h5>
+                                <p>¡Consulte nuestros talleres virtuales y presenciales para descubrir cómo iniciar y promover un negocio!</p>
                             </div>
                         </article></Link>
                     </div>
@@ -301,8 +301,8 @@ function HomeSP() {
                         <article class="pill card h-100">
                             <img src="https://iristech.co/wp-content/uploads/2016/05/affiliate.png" class="card-img-top h-100 "  alt=""/>
                             <div class="content card-body">
-                               <h5>Affiliates</h5>
-                                <p>Grow your business with our affiliate program. Make money by referring other people!</p>
+                               <h5>Afiliados</h5>
+                                <p>Haga crecer su negocio con nuestro programa de afiliados. ¡Gana dinero refiriendo a otras personas!</p>
                             </div>
                         </article></a>
                     </div>
@@ -324,7 +324,7 @@ function HomeSP() {
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
-                        <h5 class=" mb-4 text-center nv" style={{"color":"rgb(241, 241, 241)"}}>Las Vegas Office</h5>
+                        <h5 class=" mb-4 text-center nv" style={{"color":"rgb(241, 241, 241)"}}>Las Vegas Oficina</h5>
                         <p class="d-flex justify-content-center align-items-center">
                             <i class='bx bxs-phone-call mx-1'></i> (702) 701-2992
                         </p>
@@ -336,7 +336,7 @@ function HomeSP() {
                     </div>
                 
                     <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
-                        <h5 class=" mb-4 text-center fl" style={{"color":"rgb(241, 241, 241)"}}>Florida Office</h5>
+                        <h5 class=" mb-4 text-center fl" style={{"color":"rgb(241, 241, 241)"}}>Florida Oficina</h5>
                         <p class="d-flex justify-content-center align-items-center">
                             <i class='bx bxs-phone-call mx-1'></i> (786) 200-2080
                         </p>
@@ -350,7 +350,7 @@ function HomeSP() {
                 </div>
             </div>
             <div class="text-center footer p-3" style={{"background-color": "rgba(0, 0, 0, 0.2)", "color":"white"}}>
-            "Helping minorites and businesses reach their funding goals."
+            "Ayudar a las minorías y las empresas a alcanzar sus objetivos de financiación."
             </div>
         </footer>
 
