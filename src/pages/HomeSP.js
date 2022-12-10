@@ -49,6 +49,9 @@ function HomeSP() {
                         <li class="nav-item">
                             <a class="nav-link" href="/affiliates">Afiliados</a>
                         </li>   
+                        <li class="nav-item">
+                            <a class="nav-link" style={{"color":"var(--brand)"}} href="/">English</a>
+                        </li> 
                     </ul>
                     <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-brand ms-lg-3 my-2">Contacto</a>
 
@@ -274,7 +277,7 @@ function HomeSP() {
                     </div>
                 </div>
                 <div class="row justify-content-between">
-                    <div class="col-md-4 p-3">  <a href ="/es/the-debt-lifeline" class="blog-link" >
+                    <div class="col-md-4 p-3">  <a href ="es/the-debt-lifeline" class="blog-link" >
                         <article class="pill card h-100">
                             <img src="https://www.pngmart.com/files/19/Lifeline-PNG-Photos.png" class="card-img-top h-100" alt=""/>
                            

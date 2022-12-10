@@ -32,36 +32,38 @@ function Contact() {
                                 <div class="col-lg-8">
                                     <form class="p-lg-5 col-12 row g-3" onSubmit={sendEmail} >
                                         <div>
-                                            <h1>Get in touch</h1>
-                                        <p>Feel free to contact us and we will get back to you as soon as possible.</p>
+                                            <h1>Get in touch (Ponerse en contacto)</h1>
+                                        
+                                        <p class="fs-5 fw-semibold">Feel free to contact us and we will get back to you as soon as possible.</p>
+                                        <p>No dude en ponerse en contacto con nosotros y nos pondremos en contacto con usted lo antes posible.</p>
                                         </div>
                                         <div class="col-lg-6">
-                                            <label for="userName" class="form-label">First name</label>
+                                            <label for="userName" class="form-label">First name (Primer nombre)</label>
                                             <input type="text" class="form-control" placeholder="Jon" id="userName" name="first_name"
                                                 aria-describedby="emailHelp" required/>
                                         </div>
                                         <div class="col-lg-6">
-                                            <label for="userName" class="form-label">Last name</label>
+                                            <label for="userName" class="form-label">Last name (Apellido)</label>
                                             <input type="text" class="form-control" placeholder="Doe" id="userName" name="last_name"
                                                 aria-describedby="emailHelp" required/>
                                         </div>
                                         <div class="col-12">
-                                            <label for="userName" class="form-label">Phone Number</label>
+                                            <label for="userName" class="form-label">Phone Number (Número de teléfono)</label>
                                             <input type="text" class="form-control" placeholder="(123) 555-1234" id="userName" name="number"
                                                 aria-describedby="emailHelp" required/>
                                         </div>
                                         <div class="col-12">
-                                            <label for="userName" class="form-label">Email address</label>
+                                            <label for="userName" class="form-label">Email address (Correo electronico)</label>
                                             <input type="email" class="form-control" placeholder="Johndoe@example.com" id="userName" name="email"
                                                 aria-describedby="emailHelp" required/>
                                         </div>
                                         <div class="col-12">
-                                            <label for="userName" class="form-label">Profession</label>
+                                            <label for="userName" class="form-label">Profession (Profesión)</label>
                                             <input type="text" class="form-control" placeholder="Bakery Owner" id="userName" name="profession"
                                                 aria-describedby="emailHelp" required/>
                                         </div>
                                         <div class="col-12">
-                                            <label for="exampleInputEmail1" class="form-label">Enter Message</label>
+                                            <label for="exampleInputEmail1" class="form-label">Enter Message (Ingresar mensaje)</label>
                                             <textarea name="message" placeholder="Leave your message here." class="form-control" id="userName"  rows="4" required style={{"resize":"none"}}></textarea>
                                         </div>
                                         <input type="hidden" name="_subject" value="New Contact Submission"></input>

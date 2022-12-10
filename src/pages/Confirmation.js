@@ -27,25 +27,28 @@ function Confirmation() {
               </button>
               <div class="collapse navbar-collapse" id="navbarNav">
                   <ul class="navbar-nav ms-auto">
-                      <li class="nav-item">
-                          <a class="nav-link" href="/">Home</a>
-                      </li>
-                      <li class="nav-item">
-                          <a class="nav-link" href="/servicesandworkshops">Services & Workshops</a>
-                      </li>
-                    
-                      <li class="nav-item">
-                          <a class="nav-link" href="/team">Team</a>
-                      </li>
-                      <li class="nav-item">
-                          <a class="nav-link" href="/testimonials">Testimonials</a>
-                      </li>   
-                      <li class="nav-item">
-                            <a class="nav-link" href="/the-debt-lifeline">The Debt Lifeline</a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/servicesandworkshops">Services & Workshops</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link" href="/team">Team</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/testimonials">Testimonials</a>
+                        </li>   
+                        <li class="nav-item">
+                                <a class="nav-link" href="/the-debt-lifeline">The Debt Lifeline</a>
+                            </li> 
+                        <li class="nav-item">
+                            <a class="nav-link" href="/affiliates">Affiliates</a>
+                        </li>   
+                        <li class="nav-item">
+                            <a class="nav-link" style={{"color":"var(--brand)"}} href="/es">Spanish</a>
                         </li> 
-                      <li class="nav-item">
-                          <a class="nav-link" href="/affiliates">Affiliates</a>
-                      </li>   
                   </ul>
                   <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-brand ms-lg-3 my-2">Contact</a>
 

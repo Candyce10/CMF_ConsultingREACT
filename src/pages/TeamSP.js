@@ -50,7 +50,10 @@ function TeamSP() {
                         </li>   
                         <li class="nav-item">
                             <a class="nav-link" href="/affiliates">Afiliados</a>
-                        </li>   
+                        </li> 
+                        <li class="nav-item">
+                            <a class="nav-link" style={{"color":"var(--brand)"}} href="/">English</a>
+                        </li>    
                     </ul>
                     <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-brand ms-lg-3 my-2">Contacto</a>
 

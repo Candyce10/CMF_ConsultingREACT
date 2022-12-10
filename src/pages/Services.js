@@ -108,7 +108,7 @@ function Services() {
             <br/>
             <div  class="row mt-2">
                 <div class="col-md-7 order-md-2 text-end p-5">
-                    <h2 class="fw-normal lh-1  mb-4">Join a Workshop</h2>
+                    <h2 class="fw-normal lh-1  mb-4">Our Workshops</h2>
                     <hr/>
 
                     <p class="fs-5 lh-1 text-capitalize">Pivot your career by starting a business</p>
@@ -116,8 +116,13 @@ function Services() {
                     <p class="fs-5 lh-1 text-capitalize">Support workshop for how to start a business</p>
                     <p class="fs-5 lh-1 text-capitalize">The psychology and mind you will need to start up a business</p>
                     <p class="fs-5 lh-1 text-capitalize">How to promote your business</p>
-                    <p class="fs-5 lh-1 text-capitalize" >How to pitch investors</p>
-        
+                    <p class="fs-5 lh-1 text-capitalize mb-5" >How to pitch investors</p>
+                    <div class="card text-center ">
+                        <div class="card-body rounded" style={{"background":"var(--brand)"}}>
+                            <h5 class="card-title  text-white">Contact us about our next available workshop virtually or in-person!</h5>
+                            
+                        </div>
+                    </div>
 
                 </div>
                 <div class="col-md-5 order-md-1 mb-5" >

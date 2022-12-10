@@ -47,7 +47,10 @@ function ServicesSP() {
                         </li>   
                         <li class="nav-item">
                             <a class="nav-link" href="/affiliates">Afiliados</a>
-                        </li>   
+                        </li> 
+                        <li class="nav-item">
+                            <a class="nav-link" style={{"color":"var(--brand)"}} href="/">English</a>
+                        </li>  
                     </ul>
                     <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-brand ms-lg-3 my-2">Contacto</a>
 
@@ -106,16 +109,21 @@ function ServicesSP() {
             <br/>
             <div  class="row mt-2">
                 <div class="col-md-7 order-md-2 text-end p-5">
-                    <h2 class="fw-normal lh-1  mb-4">Join a Workshop</h2>
+                    <h2 class="fw-normal lh-1  mb-4">Nuestros talleres</h2>
                     <hr/>
 
-                    <p class="fs-5 lh-1 text-capitalize">Pivot your career by starting a business</p>
-                    <p class="fs-5 lh-1 text-capitalize">What you need to start a business</p>
-                    <p class="fs-5 lh-1 text-capitalize">Support workshop for how to start a business</p>
-                    <p class="fs-5 lh-1 text-capitalize">The psychology and mind you will need to start up a business</p>
-                    <p class="fs-5 lh-1 text-capitalize">How to promote your business</p>
-                    <p class="fs-5 lh-1 text-capitalize" >How to pitch investors</p>
-        
+                    <p class="fs-5 lh-1 text-capitalize">Impulsa tu carrera iniciando un negocio</p>
+                    <p class="fs-5 lh-1 text-capitalize">Lo que necesitas para iniciar un negocio</p>
+                    <p class="fs-5 lh-1 text-capitalize">Taller de apoyo sobre cómo iniciar un negocio</p>
+                    <p class="fs-5 lh-1 text-capitalize">La psicología y la mente que necesitarás para iniciar un negocio</p>
+                    <p class="fs-5 lh-1 text-capitalize">Cómo promocionar tu negocio</p>
+                    <p class="fs-5 lh-1 text-capitalize mb-4" >Cómo atraer a los inversores</p>
+                    <div class="card text-center ">
+                        <div class="card-body rounded" style={{"background":"var(--brand)"}}>
+                            <h5 class="card-title  text-white">¡Contáctenos acerca de nuestro próximo taller disponible virtualmente o en persona!</h5>
+                            
+                        </div>
+                    </div>
 
                 </div>
                 <div class="col-md-5 order-md-1 mb-5" >
