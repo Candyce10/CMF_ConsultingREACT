@@ -188,6 +188,40 @@ function Services() {
                     <h2 class="fw-normal lh-1 mt-5 mb-2">SBA Lenders (7A, 504 & CDC)</h2>
                     <hr/>
                     <p class="fs-5 lh-1 mb-0">The Small Business Administration (SBA) offers a variety of loans to finance your business. CMF Consultants can help you and your business find and apply for a 7(a) or 504 loan to promote business growth and job creation. If your business is not already certified by Certified Development Companies (CDCs), we can help you apply so that you can be eligible for a 504 loan. </p>
+                    <br/>
+                    <h5> 1.      7A</h5>
+                    <ul class="list-unstyled">
+                        <li class="fs-5 lh-1 mb-0">The 7(a) Loan Program, SBA’s most common loan program, includes financial help for small businesses with special requirements. This is the best option when real estate is part of a business purchase, but it can also be used for: </li>
+                        <br/>
+                        <ul>
+                            <li>Short- and long-term working capital </li>
+                            <li>  Refinance current business debt </li>
+                            <li>  Purchase furniture, fixtures, and supplies</li>
+                        </ul>
+                    <br/>
+                    <li class="fs-5 lh-1 mb-0">The maximum loan amount for a 7(a) loan is $5 million. Key eligibility factors are based on what the business does to receive its income, its credit history, and where the business operates. Your lender will help you figure out which type of loan is best suited for your needs. (<a href="https://www.sba.gov/funding-programs/loans/7a-loans">https://www.sba.gov/funding-programs/loans/7a-loans</a>)</li> 
+                    </ul>
+                    <br/>
+                    <h5>2.  504 Loan</h5>
+                    <ul class="list-unstyled">
+                        <li class="fs-5 lh-1 mb-0">The CDC/504 Loan Program provides long-term, fixed rate financing for major fixed assets that promote business growth and job creation.</li>
+                        <br/>
+                        <li class="fs-5 lh-1 mb-0">  504 loans are available through Certified Development Companies (CDCs), SBA's community-based partners who regulate nonprofits and promote economic development within their communities. CDCs are certified and regulated by the SBA.</li>
+                        <br/>
+                        <li class="fs-5 lh-1 mb-0">  The maximum loan amount for a 504 loan is $5 million. For certain energy projects, the borrower can receive a 504 loan for up to $5.5 million per project, for up to three projects not to exceed $16.5 million total. (<a href="https://www.sba.gov/funding-programs/loans/504-loans">https://www.sba.gov/funding-programs/loans/504-loans</a> )</li>
+                       
+                    </ul>
+                    <br/>
+                    <h5>3. Microloans</h5>
+                    <ul class="list-unstyled">
+                        <li class="fs-5 lh-1 mb-0">The microloan program provides loans up to $50,000 to help small businesses and certain not-for-profit childcare centers start up and expand. The average microloan is about $13,000.</li>
+                        <br/>
+                        <li class="fs-5 lh-1 mb-0">SBA provides funds to specially designated intermediary lenders, which are nonprofit community-based organizations with experience in lending as well as management and technical assistance. These intermediaries administer the Microloan program for eligible borrowers. (<a href="https://www.sba.gov/funding-programs/loans/microloans">https://www.sba.gov/funding-programs/loans/microloans</a>)</li>
+                        
+                       
+                    </ul>
+                   
+                
 
                     <div id="commercial-real-estate-loans"></div>
                     <br/>

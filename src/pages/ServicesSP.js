@@ -187,6 +187,40 @@ function ServicesSP() {
                     <hr/>
                     <p class="fs-5 lh-1 mb-0">El Small Business Administration (SBA) ofrece una variedad de préstamos para financiar su negocio. CMF Consultants puede ayudarlo a usted y a su empresa a encontrar y solicitar un préstamo 7(a) o 504 para promover el crecimiento empresarial y la creación de empleo. Si su empresa aún no está certificada por Certified Development Companies (CDCs), podemos ayudarlo a presentar su solicitud para que pueda ser elegible para un préstamo 504. </p>
 
+                    <br/>
+                    <h5> 1.      7A</h5>
+                    <ul class="list-unstyled">
+                        <li class="fs-5 lh-1 mb-0">El Programa de Préstamo 7(a), el programa de préstamo más común de la SBA, incluye ayuda financiera para pequeñas empresas con requisitos especiales. Esta es la mejor opción cuando los bienes raíces son parte de una compra comercial, pero también se puede usar para:</li>
+                        <br/>
+                        <ul>
+                            <li>Capital de trabajo a corto y largo plazo</li>
+                            <li>Refinanciar la deuda comercial actual</li>
+                            <li>Compra de muebles, accesorios y suministros.</li>
+                        </ul>
+                    <br/>
+                    <li class="fs-5 lh-1 mb-0">El monto máximo del préstamo para un préstamo 7(a) es de $5 millones. Los factores clave de elegibilidad se basan en lo que hace la empresa para recibir sus ingresos, su historial de crédito y dónde opera la empresa. Su prestamista lo ayudará a determinar qué tipo de préstamo se adapta mejor a sus necesidades. (<a href="https://www.sba.gov/funding-programs/loans/7a-loans">https://www.sba.gov/funding-programs/loans/7a-loans</a>)</li> 
+                    </ul>
+                    <br/>
+                    <h5>2.  504</h5>
+                    <ul class="list-unstyled">
+                        <li class="fs-5 lh-1 mb-0">El Programa de Préstamo CDC/504 brinda financiamiento a largo plazo con tasa fija para activos fijos importantes que promueven el crecimiento empresarial y la creación de empleo.</li>
+                        <br/>
+                        <li class="fs-5 lh-1 mb-0">  Los préstamos 504 están disponibles a través de las Empresas de Desarrollo Certificadas (CDC), los socios comunitarios de la SBA que regulan las organizaciones sin fines de lucro y promueven el desarrollo económico dentro de sus comunidades. Los CDC están certificados y regulados por la SBA.</li>
+                        <br/>
+                        <li class="fs-5 lh-1 mb-0">  El monto máximo del préstamo para un préstamo 504 es de $5 millones. Para ciertos proyectos de energía, el prestatario puede recibir un préstamo 504 de hasta $5,5 millones por proyecto, hasta tres proyectos que no superen los $16,5 millones en total. (<a href="https://www.sba.gov/funding-programs/loans/504-loans">https://www.sba.gov/funding-programs/loans/504-loans</a> )</li>
+                       
+                    </ul>
+                    <br/>
+                    <h5>3. Microcréditos</h5>
+                    <ul class="list-unstyled">
+                        <li class="fs-5 lh-1 mb-0">El programa de micropréstamos proporciona préstamos de hasta $50,000 para ayudar a las pequeñas empresas y ciertos centros de cuidado infantil sin fines de lucro a comenzar y expandirse. El micropréstamo promedio es de alrededor de $13,000.</li>
+                        <br/>
+                        <li class="fs-5 lh-1 mb-0">La SBA proporciona fondos a prestamistas intermediarios especialmente designados, que son organizaciones comunitarias sin fines de lucro con experiencia en préstamos, así como en administración y asistencia técnica. Estos intermediarios administran el programa de micropréstamos para prestatarios elegibles. (<a href="https://www.sba.gov/funding-programs/loans/microloans">https://www.sba.gov/funding-programs/loans/microloans</a>)</li>
+                        
+                       
+                    </ul>
+                   
+
                     <div id="commercial-real-estate-loans"></div>
                     <br/>
 
