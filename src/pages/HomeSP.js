@@ -274,7 +274,7 @@ function HomeSP() {
                     </div>
                 </div>
                 <div class="row justify-content-between">
-                    <div class="col-md-4 p-3">  <a href ="/the-debt-lifeline" class="blog-link" >
+                    <div class="col-md-4 p-3">  <a href ="/es/the-debt-lifeline" class="blog-link" >
                         <article class="pill card h-100">
                             <img src="https://www.pngmart.com/files/19/Lifeline-PNG-Photos.png" class="card-img-top h-100" alt=""/>
                            
@@ -285,7 +285,7 @@ function HomeSP() {
                         </article></a>
                     </div>
 
-                    <div class="col-md-4 p-3">  <Link to="/services-and-workshops#workshops" class="blog-link" >
+                    <div class="col-md-4 p-3">  <Link to="/es/services-and-workshops#workshops" class="blog-link" >
                         <article class="pill card h-100">
                             <img src="https://monkeypuzzletraining.co.uk/images/Blog-images/article-images/xl-critical-thinking.jpg" class="card-img-top h-100" alt=""/>
                            
@@ -297,7 +297,7 @@ function HomeSP() {
                     </div>
 
               
-                    <div class="col-md-4 p-3"><a href="/affiliates" class="blog-link">
+                    <div class="col-md-4 p-3"><a href="/es/affiliates" class="blog-link">
                         <article class="pill card h-100">
                             <img src="https://iristech.co/wp-content/uploads/2016/05/affiliate.png" class="card-img-top h-100 "  alt=""/>
                             <div class="content card-body">
