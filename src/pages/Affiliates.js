@@ -101,9 +101,11 @@ function Affiliates() {
             <div class="row align-items-center bg-l g-5 py-5">
 
                 <div class="col-lg-11  col-sm-10">
-                    <h1 class="display-4 fw-bold lh-1 mb-3 serv-p ">Affiliates Program</h1>
-                    <p class="lead fs-3 serv-p mb-0">Want to earn money? Help your clients by helping us!</p>
-                    <p class="lead fs-3 lh-1 serv-p mb-4">We have a really great affiliate/referral program. Please sign up and we will have somebody contact you shortly!</p>
+                    <h1 class="display-4 fw-bold lh-1 mb-3 serv-p ">Affiliates Program</h1><h3 class=" fw-bold lh-1 mb-3 serv-p ">Programa de Afiliados</h3>
+                    <p class="lead fs-2 serv-p mb-0">Want to earn money? Help your clients by helping us!</p>
+                    <p class="lead fs-2 lh-1 serv-p mb-4">We have a really great affiliate/referral program. Please sign up and we will have somebody contact you shortly!</p>
+                    <p class="lead fs-4 serv-p mb-0">¿Quieres ganar dinero? ¡Ayuda a tus clientes ayudándonos!</p>
+                    <p class="lead fs-4 lh-1 serv-p mb-4">Tenemos un gran programa de afiliados/referencias. ¡Por favor regístrese y haremos que alguien se comunique con usted en breve!</p>
                   
                 </div>
             </div>
