@@ -82,7 +82,6 @@ function YouTube() {
                     <div class="card h-100">
                     <iframe width="auto" height="215" src="https://www.youtube.com/embed/G29Jy9B9WaE" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                     <div class="card-body">
-                        <h5 class="card-title">Episode 4</h5>
                         <p class="card-text">Affiliate Program, Student Loans, Equity vs Debt (loans, grants), CMF, Veterans programs</p>
                     </div>
                     </div>
@@ -91,7 +90,6 @@ function YouTube() {
                     <div class="card h-100">
                     <iframe width="auto" height="215" src="https://www.youtube.com/embed/UVu6-DOmMwI" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                     <div class="card-body">
-                        <h5 class="card-title">Episode 3</h5>
                         <p class="card-text">Deferments, Bankruptcies, Student Loans, CMF, Affiliate Program</p>
                     </div>
                     </div>
@@ -100,7 +98,6 @@ function YouTube() {
                     <div class="card h-100">
                     <iframe width="auto" height="215" src="https://www.youtube.com/embed/3fD-fqjgQgY" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                     <div class="card-body">
-                        <h5 class="card-title">Episode 2</h5>
                         <p class="card-text">Credit, Workshops, Minority Programs, Financial Crisis, EIDL Loans</p>
                     </div>
                     </div>
@@ -108,7 +105,7 @@ function YouTube() {
             </div>
             <div class="text-center mb-5">
                 <a href="https://www.youtube.com/watch?v=wsn1hl8gsSA&list=PLsONwJVzM2gUkFcyQntDvyOiE9JD5JJPB" target="_blank" class="icon-link d-inline-flex align-items-center text-center mt-3 fs-5 text-decoration-none">
-                        More Episodes <span class="material-symbols-outlined">
+                More Episodes <span class="material-symbols-outlined">
                 chevron_right
                 </span>
                 </a>

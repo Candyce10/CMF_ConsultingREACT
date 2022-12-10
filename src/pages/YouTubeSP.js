@@ -60,11 +60,11 @@ function YouTubeSP() {
 
                 <div class="col-lg-11  col-sm-11">
                     <h1 class="display-5 fw-bold lh-1 mb-3 serv-p">The Debt Lifeline</h1>
-                    <p class="lead  fs-5 lh-1 fs-4 serv-p">Money & debt problems? Get a little help from your friends over at The Debt Lifeline! Here you will receive free information, advice, direction, and support to help you get out of your debt and financial crisis. Listen in to hear different success stories and scenarios that may be similar to your situation.
+                    <p class="lead  fs-5 lh-1 fs-4 serv-p">¿Problemas de dinero y deudas? ¡Obtenga un poco de ayuda de sus amigos en The Debt Lifeline! Aquí recibirá información, asesoramiento, dirección y apoyo gratuitos para ayudarlo a salir de su deuda y crisis financiera. Escuche para escuchar diferentes historias de éxito y escenarios que pueden ser similares a su situación.
                     </p>
                     <br/>
    
-                    <p class="lead  fs-5 lh-1 fs-4 serv-p"> Subscribe to the <a href="https://www.youtube.com/channel/UC9UwBz7OSML0Lcsadczz71w" style={{"color":"var(--brand)",  "text-shadow": "1px 1px 2px black"}}  target="_blank">WWDBTV.com Channel</a> on YouTube to see more episodes of The Debt Lifeline!
+                    <p class="lead  fs-5 lh-1 fs-4 serv-p"> Suscríbete a la <a href="https://www.youtube.com/channel/UC9UwBz7OSML0Lcsadczz71w" style={{"color":"var(--brand)",  "text-shadow": "1px 1px 2px black"}}  target="_blank">WWDBTV.com Channel</a> en YouTube para ver más episodios de The Debt Lifeline!
                     </p>
                     <br/>
                 </div>
@@ -72,7 +72,7 @@ function YouTubeSP() {
         </div>
 
         <div class="container-fluid mt-5">
-            <h2 class=" fw-normal lh-1 ">Past Episodes </h2>
+            <h2 class=" fw-normal lh-1 ">Episodios pasados</h2>
                     <hr/>
             <div class="row row-cols-1 row-cols-md-3 g-4">
             
@@ -80,8 +80,7 @@ function YouTubeSP() {
                     <div class="card h-100">
                     <iframe width="auto" height="215" src="https://www.youtube.com/embed/G29Jy9B9WaE" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                     <div class="card-body">
-                        <h5 class="card-title">Episode 4</h5>
-                        <p class="card-text">Affiliate Program, Student Loans, Equity vs Debt (loans, grants), CMF, Veterans programs</p>
+                        <p class="card-text">Programa de afiliados, Préstamos para estudiantes, Equity vs Debt (préstamos, subvenciones), CMF, programas para veteranos</p>
                     </div>
                     </div>
                 </div>
@@ -89,8 +88,7 @@ function YouTubeSP() {
                     <div class="card h-100">
                     <iframe width="auto" height="215" src="https://www.youtube.com/embed/UVu6-DOmMwI" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                     <div class="card-body">
-                        <h5 class="card-title">Episode 3</h5>
-                        <p class="card-text">Deferments, Bankruptcies, Student Loans, CMF, Affiliate Program</p>
+                        <p class="card-text">Aplazamientos, Quiebras, Préstamos Estudiantiles, CMF, Programa de Afiliados</p>
                     </div>
                     </div>
                 </div>
@@ -98,7 +96,6 @@ function YouTubeSP() {
                     <div class="card h-100">
                     <iframe width="auto" height="215" src="https://www.youtube.com/embed/3fD-fqjgQgY" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                     <div class="card-body">
-                        <h5 class="card-title">Episode 2</h5>
                         <p class="card-text">Credit, Workshops, Minority Programs, Financial Crisis, EIDL Loans</p>
                     </div>
                     </div>
@@ -106,7 +103,7 @@ function YouTubeSP() {
             </div>
             <div class="text-center mb-5">
                 <a href="https://www.youtube.com/watch?v=wsn1hl8gsSA&list=PLsONwJVzM2gUkFcyQntDvyOiE9JD5JJPB" target="_blank" class="icon-link d-inline-flex align-items-center text-center mt-3 fs-5 text-decoration-none">
-                        More Episodes <span class="material-symbols-outlined">
+                Más episodios <span class="material-symbols-outlined">
                 chevron_right
                 </span>
                 </a>

@@ -93,7 +93,7 @@ function Testimonials() {
 
                                 <div class="col-lg-3 review card shadow">
                                     <div class="user-content">
-                                        <h3>"After attempting for two years to try to secure an EIDL loan from the SBA, I was introduced to CMF consulting. In less than eight weeks CMF was able to secure my loan in order for me to continue my business."</h3>
+                                        <h3>"After attempting for two years to try to secure an EIDL loan from the SBA, I was introduced to CMF Consulting. In less than eight weeks CMF was able to secure my loan in order for me to continue my business."</h3>
                                         <h5 class="mb-0">- I. J.</h5>
                                         <h5 class="mt-0 fw-light fst-italic">Ohio</h5>
 

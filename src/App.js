@@ -9,7 +9,6 @@ import Contact from './pages/Contact';
 import NotFound from './pages/NotFound';
 import Confirmation from './pages/Confirmation';
 import YouTube from './pages/YouTube';
-import ConfirmationSP from './pages/ConfirmationSP';
 import HomeSP from './pages/HomeSP';
 import ServicesSP from './pages/ServicesSP';
 import TeamSP from './pages/TeamSP';
@@ -35,7 +34,6 @@ function App() {
       <Route path='*' element={<NotFound />}/>
 
       <Route path ='/es' element={<HomeSP/>}/>
-      <Route path='/es/contact-confirmation' element={<ConfirmationSP/>}/>
       <Route path='/es/services-and-workshops' element={<ServicesSP/>}/>
       <Route path='/es/team' element={<TeamSP/>}/>
       <Route path='/es/testimonials' element={<TestimonialsSP/>}/>

@@ -51,7 +51,7 @@ function Team() {
                         <li class="nav-item">
                             <a class="nav-link" href="/affiliates">Affiliates</a>
                         </li>   
-                        <li class="nav-item">
+                          <li class="nav-item">
                             <a class="nav-link" style={{"color":"var(--brand)"}} href="/es">Spanish</a>
                         </li>   
                     </ul>
@@ -142,14 +142,14 @@ function Team() {
                 </div>
                 <div class="row justify-content-center team-member-container mt-5">
                     
-                    <div class="col-lg-2 col-sm-3 border rounded m-3">
+                    <div class="col-lg-3 col-sm-3 border rounded m-3">
                         <div class="team-member">
                             {/* <div class="image">
                                 <img src="https://images.squarespace-cdn.com/content/v1/530ce8d1e4b067ea68a9f821/1602201459458-2HFNJRLKR5GJDZZT9HJ8/corporate+business+headshots+los+angeles_Danielle+Spires.jpg" alt=""/>
                                 <div class="overlay"></div>
                             </div> */}
 
-                            <h5>Irv</h5>
+                            <h5>Irv Joseph</h5>
                             <p>Partner</p>
                             {/* <div class="col-lg-12 col-sm-3">
                                 <p>
@@ -169,14 +169,21 @@ function Team() {
                     </div>
                        
                     
-                    <div class="col-lg-2 col-sm-3 border rounded m-3">
+                    
+                </div>
+                <div class="row justify-content-center team-member-container mt-2">
+                    
+                  
+                       
+                    
+                    <div class="col-lg-3 col-sm-3 border rounded m-3">
                         <div class="team-member">
                             {/* <div class="image">
                                 <img src="https://images.squarespace-cdn.com/content/v1/530ce8d1e4b067ea68a9f821/1602201459458-2HFNJRLKR5GJDZZT9HJ8/corporate+business+headshots+los+angeles_Danielle+Spires.jpg" alt=""/>
                                 <div class="overlay"></div>
                             </div> */}
 
-                            <h5>Monique</h5>
+                            <h5>Monique Citron</h5>
                             <p>General Manager</p>
                             {/* <div class="col-lg-12 col-sm-3">
                                 <p>
@@ -193,14 +200,14 @@ function Team() {
                             </div>  */}
                         </div>
                     </div>
-                    <div class="col-lg-2 col-sm-3 border rounded m-3">
+                    <div class="col-lg-3 col-sm-3 border rounded m-3">
                         <div class="team-member">
                             {/* <div class="image">
                                 <img src="https://images.squarespace-cdn.com/content/v1/530ce8d1e4b067ea68a9f821/1602201459458-2HFNJRLKR5GJDZZT9HJ8/corporate+business+headshots+los+angeles_Danielle+Spires.jpg" alt=""/>
                                 <div class="overlay"></div>
                             </div> */}
 
-                            <h5>Lisa</h5>
+                            <h5>Lisa Hagan</h5>
                             <p>Administrator</p>
                             {/* <div class="col-lg-12 col-sm-3">
                                 <p>
@@ -216,14 +223,14 @@ function Team() {
                             </div>  */}
                         </div>
                     </div>
-                    <div class="col-lg-2 col-sm-3 border rounded m-3">
+                    <div class="col-lg-3 col-sm-3 border rounded m-3">
                         <div class="team-member">
                             {/* <div class="image">
                                 <img src="https://images.squarespace-cdn.com/content/v1/530ce8d1e4b067ea68a9f821/1602201459458-2HFNJRLKR5GJDZZT9HJ8/corporate+business+headshots+los+angeles_Danielle+Spires.jpg" alt=""/>
                                 <div class="overlay"></div>
                             </div> */}
 
-                            <h5>Alex</h5>
+                            <h5>Alex Lopez</h5>
                             <p>Media</p>
                             {/* <div class="col-lg-12 col-sm-3">
                                 <p>

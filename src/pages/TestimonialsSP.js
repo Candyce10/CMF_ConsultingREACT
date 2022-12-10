@@ -3,7 +3,7 @@ import React, {useEffect} from 'react'
 
 function TestimonialsSP() {
     useEffect(() => {
-        document.title = 'Testimonials - CMF Consultants';
+        document.title = 'Testimonios - CMF Consultants';
       }, []);
   return (
     <div>
@@ -60,8 +60,8 @@ function TestimonialsSP() {
             <div class="row">
                 <div class="col-12">
                     <div class="intro">
-                        <h1 class="mt-5">Testimonials</h1>   <hr class="divider text-center justify-content-center"></hr>
-                        <p class="mx-auto fs-4 mt-3 ">See what our customers are saying about us!</p>
+                        <h1 class="mt-5">Testimonios</h1>   <hr class="divider text-center justify-content-center"></hr>
+                        <p class="mx-auto fs-4 mt-3 ">¡Vea lo que dicen nuestros clientes sobre nosotros!</p>
                     </div>
                 </div>
             </div>
@@ -76,7 +76,7 @@ function TestimonialsSP() {
                                 <div class="col-lg-3 d-none d-lg-block review card shadow">
                                     
                                     <div class="user-content">
-                                        <h3>"I was in horrible debt and about to lose my company. If it was not for you and your team; I would have had to close my company."</h3>
+                                        <h3>"Estaba terriblemente endeudado ya punto de perder mi empresa. Si no fuera por ti y tu equipo; Habría tenido que cerrar mi empresa."</h3>
                                         <h5 class="mb-0">- T. H.</h5>
                                         <h5 class="mt-0 fw-light fst-italic">Florida</h5>
                                     </div>
@@ -91,7 +91,7 @@ function TestimonialsSP() {
 
                                 <div class="col-lg-3 review card shadow">
                                     <div class="user-content">
-                                        <h3>"After attempting for two years to try to secure an EIDL loan from the SBA, I was introduced to CMF consulting. In less than eight weeks CMF was able to secure my loan in order for me to continue my business."</h3>
+                                        <h3>"Después de intentar durante dos años obtener un préstamo EIDL de la SBA, me presentaron a CMF Consulting. En menos de ocho semanas, CMF pudo asegurar mi préstamo para que pudiera continuar con mi negocio."</h3>
                                         <h5 class="mb-0">- I. J.</h5>
                                         <h5 class="mt-0 fw-light fst-italic">Ohio</h5>
 
@@ -107,7 +107,7 @@ function TestimonialsSP() {
 
                                 <div class="col-lg-3 review card shadow">
                                     <div class="user-content">
-                                        <h3>"I was in the middle of a hot mess with SBA, in trying to receive a EDIL from them. I got rejected after several attempts, but CMF, in a matter of weeks, cleared this up and got me approved. It literally saved me, my comany!"</h3>
+                                        <h3>"Estaba en medio de un lío con la SBA, tratando de recibir un EDIL de ellos. Me rechazaron después de varios intentos, pero CMF, en cuestión de semanas, lo aclaró y me aprobó. ¡Literalmente me salvó, mi compañía!"</h3>
                                         <h5 class="mb-0">- M. C.</h5>
                                         <h5 class="mt-0 fw-light fst-italic">Las Vegas, NV</h5>
                                     </div>
@@ -128,7 +128,7 @@ function TestimonialsSP() {
                             <div class="row justify-content-center">
                                 <div class="col-lg-3 review card shadow">
                                     <div class="user-content">
-                                        <h3>"CMF Consultants are masters when it comes to resolving painful financial situations. I really appreciate their tenacity and skill working with credit card companies, lenders, and the SBA. They've won for me with all 3!"</h3>
+                                        <h3>"CMF Consultants son maestros cuando se trata de resolver situaciones financieras dolorosas. Realmente aprecio su tenacidad y habilidad al trabajar con compañías de tarjetas de crédito, prestamistas y la SBA. Me han ganado con los 3!"</h3>
                                         <h5 class="mb-0">- B. F.</h5>
                                         <h5 class="mt-0 fw-light fst-italic">Texas</h5>
 
@@ -144,7 +144,7 @@ function TestimonialsSP() {
 
                                 <div class="col-lg-3  review card shadow">
                                     <div class="user-content">
-                                        <h3>"CMF Consultants are pitbulls when they take on a project. They came through and got me funded when no others over 7 years could. They are really great to work with."</h3>
+                                        <h3>"CMF Consultants son pitbulls cuando asumen un proyecto. Vinieron y me financiaron cuando nadie más de 7 años pudo hacerlo. Son realmente geniales para trabajar con ellos."</h3>
                                         <h5 class="mb-0">- D. B.</h5>
                                         <h5 class="mt-0 fw-light fst-italic">Florida</h5>
                                     </div>
@@ -159,7 +159,7 @@ function TestimonialsSP() {
 
                                 <div class="col-lg-3 review card shadow">
                                     <div class="user-content">
-                                        <h3>"Your persistency and ingenuity, got me the funding I needed to save my business. Thank you!"</h3>
+                                        <h3>"Su persistencia e ingenio me consiguieron los fondos que necesitaba para salvar mi negocio. ¡Gracias!"</h3>
                                         <h5 class="mb-0">- F. M.</h5>
                                         <h5 class="mt-0 fw-light fst-italic">New Mexico</h5>
 
@@ -181,7 +181,7 @@ function TestimonialsSP() {
                             <div class="row justify-content-center">
                                 <div class="col-lg-4 review card shadow">
                                     <div class="user-content">
-                                        <h3>"Thanks so much for staying on top of the SBA. You got my loan funded despite all the red tape. That money saved me big time"</h3>
+                                        <h3>"Muchas gracias por estar al tanto de la SBA. Obtuviste mi préstamo financiado a pesar de toda la burocracia. Ese dinero me salvó a lo grande"</h3>
                                         <h5 class="mb-0">- J. H.</h5>
                                         <h5 class="mt-0 fw-light fst-italic">Arizona</h5>
                                     </div>
@@ -197,8 +197,8 @@ function TestimonialsSP() {
                             <div class="col-lg-4  review card shadow">
                                 <div class="user-content">
                                 
-                                <h3>"After referred by a very trusted associate to handle my SBA loan, Rob & I are now friends.
-                                        Why, after 9 months of required none stop monitoring, enduring mistaken cancellations, changing of many agents, file being lost several times, & fixing again, to have it actually hit the bank account .  Wow, I honestly would have never made it through what Rob does!  Cheers, Rob G! "</h3>
+                                <h3>"Luego de ser referido por un asociado de mucha confianza para manejar mi préstamo SBA, Rob y yo ahora somos amigos.
+                                        Por qué, después de 9 meses de no dejar de monitorear, soportar cancelaciones erróneas, cambiar de muchos agentes, perder el archivo varias veces y arreglarlo nuevamente, para que realmente llegue a la cuenta bancaria. ¡Guau, sinceramente, nunca habría superado lo que hace Rob! ¡Salud, Rob G!"</h3>
                                         <h5 class="mb-0">- C. C.</h5>
                                         <h5 class="mt-0 fw-light fst-italic">New Jersey</h5>
 

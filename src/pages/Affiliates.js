@@ -100,10 +100,11 @@ function Affiliates() {
         <div class="serv-header col-xxl-12 px-4 py-5 mb-5">
             <div class="row align-items-center bg-l g-5 py-5">
 
-                <div class="col-lg-10  col-sm-10">
-                    <h1 class="display-5 fw-bold lh-1 mb-3 serv-p ">Affiliates Program</h1>
-                    <p class="lead fs-3 serv-p">Want to earn money? Help your clients by helping us!</p>
-                    <p class="lead fs-5 serv-p">We have a really great affiliate/referral program. Please sign up and we will have somebody contact you shortly!</p>
+                <div class="col-lg-11  col-sm-10">
+                    <h1 class="display-4 fw-bold lh-1 mb-3 serv-p ">Affiliates Program</h1>
+                    <p class="lead fs-3 serv-p mb-0">Want to earn money? Help your clients by helping us!</p>
+                    <p class="lead fs-3 lh-1 serv-p mb-4">We have a really great affiliate/referral program. Please sign up and we will have somebody contact you shortly!</p>
+                  
                 </div>
             </div>
         </div>
@@ -113,22 +114,22 @@ function Affiliates() {
         <div class="container col-lg-5 col-sm-8 mt-0 mb-5" style={{"border-radius": "5px", "background-color":"#f2f2f2", "padding": "20px"}}>
             <form onSubmit={sendEmail}>
                 <h3>Sign Up Form</h3>
-                <label for="fname">First Name</label>
-                <input type="text" id="fname" name="firstname" placeholder="First Name" required/>
+                <label for="fname">First Name (Primer nombre)</label>
+                <input type="text" id="fname" name="firstname"  required/>
 
-                <label for="lname">Last Name</label>
-                <input type="text" id="lname" name="lastname" placeholder="Last Name" required/>
-                <label for="email">E-Mail</label>
-                <input type="email" id="email" name="email" placeholder="E-Mail Address" required/>
-                <label for="contact">Contact Number</label>
-                <input type="text" id="contact" name="contact" placeholder="(123) 456-7890" required/>
-                <label for="profession">Profession</label>
-                <input type="text" id="profession" name="profession" placeholder="Job Title" />
+                <label for="lname">Last Name (Apellido)</label>
+                <input type="text" id="lname" name="lastname"  required/>
+                <label for="email">E-Mail (Correo electronico)</label>
+                <input type="email" id="email" name="email"  required/>
+                <label for="contact">Contact Number (Número de teléfono)</label>
+                <input type="text" id="contact" name="contact"  required/>
+                <label for="profession">Profession (Profesión)</label>
+                <input type="text" id="profession" name="profession"  />
                  <div class="message">
                         <div class="success" id="success">Your Inquiry Has Successfully Sent!</div>
                         <div class="danger" id="danger">Fields Can't be Empty!</div>
                     </div>
-                <button type="submit" class="btn btn-brand" onClick={message} >Send</button>
+                <button type="submit" class="btn btn-brand" onClick={message} >Send (Enviar)</button>
             
             </form>
         </div>
