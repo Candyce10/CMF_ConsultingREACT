@@ -88,14 +88,14 @@ function ServicesSP() {
                     <p class="fs-5 lh-1 text-capitalize d-flex"><a href="#specialty-finance-areas">Áreas de Finanzas Especializadas (Cannabis, Gasolineras, Áreas Solares y Trade Finance)</a></p>
                     <p class="fs-5 lh-1 text-capitalize d-flex"><a href="#hard-money-loans">Préstamos de dinero duro</a></p>
                     <p class="fs-5 lh-1 text-capitalize d-flex"><a href="#asset-liquidation-and-disposition">Liquidación y Disposición de Activos</a></p>
-                    <p class="fs-5 lh-1 text-capitalize d-flex"><a href="business-brokerage">Corretaje Comercial (Para Compradores y Vendedores, ya sea Directo o por Referencia)</a></p>
+                    <p class="fs-5 lh-1 text-capitalize d-flex"><a href="#business-brokerage">Corretaje Comercial (Para Compradores y Vendedores, ya sea Directo o por Referencia)</a></p>
                     <p class="fs-5 lh-1 text-capitalize d-flex"><a href="#mergers-and-acquisitions">Fusiones y adquisiciones (directas o por recomendación)</a></p>
                     <p class="fs-5 lh-1 text-capitalize d-flex"><a href="#loans-and-grants-for-startups">Préstamos y ayudas para startups</a></p>
                     <p class="fs-5 lh-1 text-capitalize d-flex"><a href="#disaster-loans">Préstamos por Desastre</a></p>
                     <p class="fs-5 lh-1 text-capitalize d-flex"><a href="#short-term-lines-of-credit">Líneas de crédito a corto plazo</a></p>
                     <p class="fs-5 lh-1 text-capitalize d-flex"><a href="#certification-for-women-and-minority-loans-and-grants">Certificación para préstamos y subvenciones para mujeres y minorías</a></p>
                     <p class="fs-5 lh-1 text-capitalize d-flex"><a href="#packaging-for-sba-loans-and-grants">Embalaje para préstamos y subvenciones de la SBA</a></p>
-                    <p class="fs-5 text-capitalize lh-1 d-flex"><a href="business-plans-and-grant-writing">Planes de negocios y redacción de subvenciones</a></p>
+                    <p class="fs-5 text-capitalize lh-1 d-flex"><a href="#business-plans-and-grant-writing">Planes de negocios y redacción de subvenciones</a></p>
                     <p  class="fs-5 text-capitalize lh-1"><a href="#more">& ¡más!</a></p>
                   
                    
@@ -196,7 +196,7 @@ function ServicesSP() {
                     <p class="fs-5 lh-1 mb-0">El Small Business Administration (SBA) ofrece una variedad de préstamos para financiar su negocio. CMF Consultants puede ayudarlo a usted y a su empresa a encontrar y solicitar un préstamo 7(a) o 504 para promover el crecimiento empresarial y la creación de empleo. Si su empresa aún no está certificada por Certified Development Companies (CDCs), podemos ayudarlo a presentar su solicitud para que pueda ser elegible para un préstamo 504. </p>
 
                     <br/>
-                    <h5> 1.      7A</h5>
+                    <h5>      7A</h5>
                     <ul class="list-unstyled">
                         <li class="fs-5 lh-1 mb-0">El Programa de Préstamo 7(a), el programa de préstamo más común de la SBA, incluye ayuda financiera para pequeñas empresas con requisitos especiales. Esta es la mejor opción cuando los bienes raíces son parte de una compra comercial, pero también se puede usar para:</li>
                         <br/>
@@ -209,7 +209,7 @@ function ServicesSP() {
                     <li class="fs-5 lh-1 mb-0">El monto máximo del préstamo para un préstamo 7(a) es de $5 millones. Los factores clave de elegibilidad se basan en lo que hace la empresa para recibir sus ingresos, su historial de crédito y dónde opera la empresa. Su prestamista lo ayudará a determinar qué tipo de préstamo se adapta mejor a sus necesidades. (<a href="https://www.sba.gov/funding-programs/loans/7a-loans">https://www.sba.gov/funding-programs/loans/7a-loans</a>)</li> 
                     </ul>
                     <br/>
-                    <h5>2.  504</h5>
+                    <h5>  504</h5>
                     <ul class="list-unstyled">
                         <li class="fs-5 lh-1 mb-0">El Programa de Préstamo CDC/504 brinda financiamiento a largo plazo con tasa fija para activos fijos importantes que promueven el crecimiento empresarial y la creación de empleo.</li>
                         <br/>
@@ -219,7 +219,7 @@ function ServicesSP() {
                        
                     </ul>
                     <br/>
-                    <h5>3. Microcréditos</h5>
+                    <h5>Microcréditos</h5>
                     <ul class="list-unstyled">
                         <li class="fs-5 lh-1 mb-0">El programa de micropréstamos proporciona préstamos de hasta $50,000 para ayudar a las pequeñas empresas y ciertos centros de cuidado infantil sin fines de lucro a comenzar y expandirse. El micropréstamo promedio es de alrededor de $13,000.</li>
                         <br/>
@@ -331,7 +331,7 @@ function ServicesSP() {
                     <hr/>
 
                     <p class="fs-5 lh-1 ">¡Estamos aquí para ayudar! ¡Contáctenos hoy para ver qué podemos hacer por usted y su negocio!</p>
-                    <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-brand ms-lg-3">Contacto</a>
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-brand ">Contacto</a>
                 </div>
                 
             </div>

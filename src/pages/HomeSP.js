@@ -283,7 +283,7 @@ function HomeSP() {
                            
                             <div class="content card-body">
                                <h5>The Debt Lifeline</h5>
-                                <p>¡Mire ahora para obtener consejos, dirección y apoyo para ayudarlo a salir de su deuda y crisis financiera!</p>
+                                <p>¡Mire ahora para obtener consejos, dirección, y apoyo para ayudarlo a salir de su deuda y crisis financiera!</p>
                             </div>
                         </article></a>
                     </div>

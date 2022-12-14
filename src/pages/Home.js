@@ -283,7 +283,7 @@ function Home() {
                            
                             <div class="content card-body">
                                <h5>The Debt Lifeline</h5>
-                                <p>Watch now to get advice, direction and support to help you get out of your debt & financial crisis!</p>
+                                <p>Watch now to get advice, direction, and support to help you get out of your debt & financial crisis!</p>
                             </div>
                         </article></a>
                     </div>

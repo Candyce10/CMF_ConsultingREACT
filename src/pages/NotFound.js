@@ -54,7 +54,7 @@ export default function NotFound() {
                             <a class="nav-link" style={{"color":"var(--brand)"}} href="/es">Spanish</a>
                         </li>  
                     </ul>
-                    <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-brand ms-lg-3 my-2">Contact</a>
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-brand my-2">Contact</a>
                 </div>
             </div>
         </nav>

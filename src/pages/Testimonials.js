@@ -79,7 +79,7 @@ function Testimonials() {
                                     
                                     <div class="user-content">
                                         <h3>"I was in horrible debt and about to lose my company. If it was not for you and your team; I would have had to close my company."</h3>
-                                        <h5 class="mb-0">- T. H.</h5>
+                                        <h5 class="mb-0">T. H.</h5>
                                         <h5 class="mt-0 fw-light fst-italic">Florida</h5>
                                     </div>
                                     <div class="stars">
@@ -94,7 +94,7 @@ function Testimonials() {
                                 <div class="col-lg-3 review card shadow">
                                     <div class="user-content">
                                         <h3>"After attempting for two years to try to secure an EIDL loan from the SBA, I was introduced to CMF Consulting. In less than eight weeks CMF was able to secure my loan in order for me to continue my business."</h3>
-                                        <h5 class="mb-0">- I. J.</h5>
+                                        <h5 class="mb-0"> I. J.</h5>
                                         <h5 class="mt-0 fw-light fst-italic">Ohio</h5>
 
                                     </div>
@@ -110,7 +110,7 @@ function Testimonials() {
                                 <div class="col-lg-3 review card shadow">
                                     <div class="user-content">
                                         <h3>"I was in the middle of a hot mess with SBA, in trying to receive a EDIL from them. I got rejected after several attempts, but CMF, in a matter of weeks, cleared this up and got me approved. It literally saved me, my comany!"</h3>
-                                        <h5 class="mb-0">- M. C.</h5>
+                                        <h5 class="mb-0"> M. C.</h5>
                                         <h5 class="mt-0 fw-light fst-italic">Las Vegas, NV</h5>
                                     </div>
                                     <div class="stars">
@@ -131,7 +131,7 @@ function Testimonials() {
                                 <div class="col-lg-3 review card shadow">
                                     <div class="user-content">
                                         <h3>"CMF Consultants are masters when it comes to resolving painful financial situations. I really appreciate their tenacity and skill working with credit card companies, lenders, and the SBA. They've won for me with all 3!"</h3>
-                                        <h5 class="mb-0">- B. F.</h5>
+                                        <h5 class="mb-0">B. F.</h5>
                                         <h5 class="mt-0 fw-light fst-italic">Texas</h5>
 
                                     </div>
@@ -147,7 +147,7 @@ function Testimonials() {
                                 <div class="col-lg-3  review card shadow">
                                     <div class="user-content">
                                         <h3>"CMF Consultants are pitbulls when they take on a project. They came through and got me funded when no others over 7 years could. They are really great to work with."</h3>
-                                        <h5 class="mb-0">- D. B.</h5>
+                                        <h5 class="mb-0"> D. B.</h5>
                                         <h5 class="mt-0 fw-light fst-italic">Florida</h5>
                                     </div>
                                     <div class="stars">
@@ -162,7 +162,7 @@ function Testimonials() {
                                 <div class="col-lg-3 review card shadow">
                                     <div class="user-content">
                                         <h3>"Your persistency and ingenuity, got me the funding I needed to save my business. Thank you!"</h3>
-                                        <h5 class="mb-0">- F. M.</h5>
+                                        <h5 class="mb-0">F. M.</h5>
                                         <h5 class="mt-0 fw-light fst-italic">New Mexico</h5>
 
                                     </div>
@@ -183,8 +183,8 @@ function Testimonials() {
                             <div class="row justify-content-center">
                                 <div class="col-lg-4 review card shadow">
                                     <div class="user-content">
-                                        <h3>"Thanks so much for staying on top of the SBA. You got my loan funded despite all the red tape. That money saved me big time"</h3>
-                                        <h5 class="mb-0">- J. H.</h5>
+                                        <h3>"Thanks so much for staying on top of the SBA. You got my loan funded despite all the red tape. That money saved me big time."</h3>
+                                        <h5 class="mb-0"> J. H.</h5>
                                         <h5 class="mt-0 fw-light fst-italic">Arizona</h5>
                                     </div>
                                     <div class="stars">
@@ -201,7 +201,7 @@ function Testimonials() {
                                 
                                 <h3>"After referred by a very trusted associate to handle my SBA loan, Rob & I are now friends.
                                         Why, after 9 months of required none stop monitoring, enduring mistaken cancellations, changing of many agents, file being lost several times, & fixing again, to have it actually hit the bank account .  Wow, I honestly would have never made it through what Rob does!  Cheers, Rob G! "</h3>
-                                        <h5 class="mb-0">- C. C.</h5>
+                                        <h5 class="mb-0"> C. C.</h5>
                                         <h5 class="mt-0 fw-light fst-italic">New Jersey</h5>
 
                                 </div>
@@ -236,7 +236,7 @@ function Testimonials() {
                     <hr/>
 
                     <p class="fs-5 lh-1 ">We're here to help! Contact us today to see what we can do for you and your business!</p>
-                    <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-brand ms-lg-3">Contact</a>
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-brand ">Contact</a>
                 </div>
                 
             </div>

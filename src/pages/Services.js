@@ -82,19 +82,19 @@ function Services() {
                     <p class="fs-5 lh-1 text-capitalize d-flex"><a href="#venture-capital-consulting">Venture Capital Consulting (Both Debt and Equity)</a></p>
                     <p class="fs-5 lh-1 text-capitalize d-flex"><a href="#business-turnarounds">Business Turnarounds</a></p>
                     <p class="fs-5 lh-1 text-capitalize d-flex"><a href="#asset-based-lenders">Asset Based Lenders (On Real Estate, A/R, Inventory, Equipment)</a></p>
-                    <p class="fs-5 lh-1 text-capitalize d-flex"><a href="#sba-lenders">SBA Lenders (7A, 504 & CDC)</a></p>
+                    <p class="fs-5 lh-1 text-capitalize d-flex"><a href="#sba-lenders">SBA Lenders (7(a), 504 & CDC)</a></p>
                     <p class="fs-5 lh-1 text-capitalize d-flex"><a href="#commercial-real-estate-loans">Commercial Real Estate Loans (All Areas Covered, Rehab, Bridge, Apartments, Retail)</a></p>
                     <p class="fs-5 lh-1 text-capitalize d-flex"><a href="#specialty-finance-areas">Specialty Finance Areas (Cannabis, Gas Stations, Solar Areas & Trade Finance)</a></p>
                     <p class="fs-5 lh-1 text-capitalize d-flex"><a href="#hard-money-loans">Hard Money Loans</a></p>
                     <p class="fs-5 lh-1 text-capitalize d-flex"><a href="#asset-liquidation-and-disposition">Asset Liquidation and Disposition</a></p>
-                    <p class="fs-5 lh-1 text-capitalize d-flex"><a href="business-brokerage">Business Brokerage (For Buyers and Sellers, Either Direct or By Referral)</a></p>
+                    <p class="fs-5 lh-1 text-capitalize d-flex"><a href="#business-brokerage">Business Brokerage (For Buyers and Sellers, Either Direct or By Referral)</a></p>
                     <p class="fs-5 lh-1 text-capitalize d-flex"><a href="#mergers-and-acquisitions">Mergers & Acquisitions (Direct or By Referral)</a></p>
                     <p class="fs-5 lh-1 text-capitalize d-flex"><a href="#loans-and-grants-for-startups">Loans and grants for start-ups</a></p>
                     <p class="fs-5 lh-1 text-capitalize d-flex"><a href="#disaster-loans">Disaster Loans</a></p>
                     <p class="fs-5 lh-1 text-capitalize d-flex"><a href="#short-term-lines-of-credit">Short term lines of credit</a></p>
                     <p class="fs-5 lh-1 text-capitalize d-flex"><a href="#certification-for-women-and-minority-loans-and-grants">Certification for women & minority loans & grants</a></p>
                     <p class="fs-5 lh-1 text-capitalize d-flex"><a href="#packaging-for-sba-loans-and-grants">Packaging for SBA loans & grants</a></p>
-                    <p class="fs-5 text-capitalize lh-1 d-flex"><a href="business-plans-and-grant-writing">Business plans & grant writing</a></p>
+                    <p class="fs-5 text-capitalize lh-1 d-flex"><a href="#business-plans-and-grant-writing">Business plans & grant writing</a></p>
                     <p  class="fs-5 text-capitalize lh-1"><a href="#more">& more!</a></p>
                   
                    
@@ -111,16 +111,15 @@ function Services() {
                     <h2 class="fw-normal lh-1  mb-4">Our Workshops</h2>
                     <hr/>
 
-                    <p class="fs-5 lh-1 text-capitalize">Pivot your career by starting a business</p>
-                    <p class="fs-5 lh-1 text-capitalize">What you need to start a business</p>
-                    <p class="fs-5 lh-1 text-capitalize">Support workshop for how to start a business</p>
-                    <p class="fs-5 lh-1 text-capitalize">The psychology and mind you will need to start up a business</p>
-                    <p class="fs-5 lh-1 text-capitalize">How to promote your business</p>
-                    <p class="fs-5 lh-1 text-capitalize mb-5" >How to pitch investors</p>
+                    <a href="mailto:info@cmfconsultants.net?subject=Workshop Inquiry&body=Hi, I would like to know the next availability for the 'Pivot Your Career By Starting A Business' workshop!"><p class="fs-5 lh-1 text-capitalize">Pivot your career by starting a business</p></a>
+                    <a href="mailto:info@cmfconsultants.net?subject=Workshop Inquiry&body=Hi, I would like to know the next availability for the 'What you need to start a business' workshop!"><p class="fs-5 lh-1 text-capitalize">What you need to start a business</p></a>
+                    <a href="mailto:info@cmfconsultants.net?subject=Workshop Inquiry&body=Hi, I would like to know the next availability for the 'Support workshop for how to start a business' workshop!"><p class="fs-5 lh-1 text-capitalize">Support workshop for how to start a business</p></a>
+                    <a href="mailto:info@cmfconsultants.net?subject=Workshop Inquiry&body=Hi, I would like to know the next availability for the 'The psychology and mind you will need to start up a business' workshop!"><p class="fs-5 lh-1 text-capitalize">The psychology and mind you will need to start up a business</p></a>
+                    <a href="mailto:info@cmfconsultants.net?subject=Workshop Inquiry&body=Hi, I would like to know the next availability for the 'How to promote your business' workshop!"><p class="fs-5 lh-1 text-capitalize">How to promote your business</p></a>
+                    <a href="mailto:info@cmfconsultants.net?subject=Workshop Inquiry&body=Hi, I would like to know the next availability for the 'How to pitch investors' workshop!"><p class="fs-5 lh-1 text-capitalize mb-5" >How to pitch investors</p></a>
                     <div class="card text-center ">
                         <div class="card-body rounded" style={{"background":"var(--brand)"}}>
                             <h5 class="card-title  text-white">Contact us about our next available workshop virtually or in-person!</h5>
-                            
                         </div>
                     </div>
 
@@ -190,24 +189,24 @@ function Services() {
                     <div id="sba-lenders"></div>
                     <br/>
 
-                    <h2 class="fw-normal lh-1 mt-5 mb-2">SBA Lenders (7A, 504 & CDC)</h2>
+                    <h2 class="fw-normal lh-1 mt-5 mb-2">SBA Lenders (7(a), 504 & CDC)</h2>
                     <hr/>
                     <p class="fs-5 lh-1 mb-0">The Small Business Administration (SBA) offers a variety of loans to finance your business. CMF Consultants can help you and your business find and apply for a 7(a) or 504 loan to promote business growth and job creation. If your business is not already certified by Certified Development Companies (CDCs), we can help you apply so that you can be eligible for a 504 loan. </p>
                     <br/>
-                    <h5> 1.      7A</h5>
+                    <h5>      7(a)</h5>
                     <ul class="list-unstyled">
                         <li class="fs-5 lh-1 mb-0">The 7(a) Loan Program, SBA’s most common loan program, includes financial help for small businesses with special requirements. This is the best option when real estate is part of a business purchase, but it can also be used for: </li>
                         <br/>
                         <ul>
                             <li>Short- and long-term working capital </li>
-                            <li>  Refinance current business debt </li>
-                            <li>  Purchase furniture, fixtures, and supplies</li>
+                            <li>Refinance current business debt </li>
+                            <li>Purchase furniture, fixtures, and supplies</li>
                         </ul>
                     <br/>
                     <li class="fs-5 lh-1 mb-0">The maximum loan amount for a 7(a) loan is $5 million. Key eligibility factors are based on what the business does to receive its income, its credit history, and where the business operates. Your lender will help you figure out which type of loan is best suited for your needs. (<a href="https://www.sba.gov/funding-programs/loans/7a-loans">https://www.sba.gov/funding-programs/loans/7a-loans</a>)</li> 
                     </ul>
                     <br/>
-                    <h5>2.  504 Loan</h5>
+                    <h5>  504 Loan</h5>
                     <ul class="list-unstyled">
                         <li class="fs-5 lh-1 mb-0">The CDC/504 Loan Program provides long-term, fixed rate financing for major fixed assets that promote business growth and job creation.</li>
                         <br/>
@@ -217,7 +216,7 @@ function Services() {
                        
                     </ul>
                     <br/>
-                    <h5>3. Microloans</h5>
+                    <h5> Microloans</h5>
                     <ul class="list-unstyled">
                         <li class="fs-5 lh-1 mb-0">The microloan program provides loans up to $50,000 to help small businesses and certain not-for-profit childcare centers start up and expand. The average microloan is about $13,000.</li>
                         <br/>
@@ -330,7 +329,7 @@ function Services() {
                     <hr/>
 
                     <p class="fs-5 lh-1 ">We're here to help! Contact us today to see what we can do for you and your business!</p>
-                    <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-brand ms-lg-3">Contact</a>
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-brand ">Contact</a>
                 </div>
                 
             </div>

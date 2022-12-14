@@ -102,7 +102,7 @@ function Affiliates() {
 
                 <div class="col-lg-11  col-sm-10">
                     <h1 class="display-4 fw-bold lh-1 mb-3 serv-p ">Affiliates Program</h1>
-                    <p class="lead fs-2 serv-p mb-0">Want to earn money? Help your clients by helping us!</p>
+                    <p class="lead fs-2 lh-1 serv-p mb-0">Want to earn money? Help your clients by helping us!</p><br/>
                     <p class="lead fs-2 lh-1 serv-p mb-5">We have a really great affiliate/referral program. Please sign up and we will have somebody contact you shortly!</p><h3 class="fst-italic fw-bold lh-1 mb-3 serv-p ">Programa de Afiliados</h3>
                     <p class="lead lh-1 fs-4 serv-p mb-0 fst-italic">¿Quieres ganar dinero? ¡Ayuda a tus clientes ayudándonos! Tenemos un gran programa de afiliados/referencias. ¡Por favor regístrese y haremos que alguien se comunique con usted en breve!</p>
                   
@@ -135,8 +135,8 @@ function Affiliates() {
             </form>
         </div>
 
-        <section class="container-fluid bg-light">
-            <div class="row text-center">
+        <section class="container-fluid bg-light" >
+            <div class="row text-center" style={{"max-height": "300px"}}>
                 <div class="col-md-12">
                 <div id="myCarousel2" class="carousel slide carousel-dark" data-bs-ride="carousel">
                     <div class="carousel-inner">
@@ -145,7 +145,7 @@ function Affiliates() {
                         "I have had the pleasure of working with CMF Consulting for many years.  Throughout that time, I have referred numerous clients to them and have experienced nothing but phenomenal results.  They professional, empathetic, and highly experienced.  I will continue to refer clients and friends to CMF Consulting for years to come.   "
                         </p>
                         
-                        <p class="text-muted mb-0">- A. G.</p>
+                        <p class="text-muted mb-0"> A. G.</p>
                     </div>
 
                     <div class="carousel-item">
@@ -153,7 +153,7 @@ function Affiliates() {
                         "I just wanted to thank you so much for the services you provided to my clients.  You have saved both of them from bankruptcy through your efforts in securing loans during these dark and desperate times.  Your dedication and tenacity is second to none. I look forward to working with you in the future and with other clients whom are in need of your services."
                         </p>
                         
-                        <p class="text-muted mb-0">- C. J. M.</p>
+                        <p class="text-muted mb-0"> C. J. M.</p>
                     </div>
 
                     <div class="carousel-item">
@@ -165,7 +165,7 @@ function Affiliates() {
                     </div>
 
                     </div>
-                    <div class=" d-flex justify-content-center">
+                    <div class=" d-flex justify-content-center align-items-end">
                         <button class="carousel-control-prev position-relative" type="button" data-bs-target="#myCarousel2"
                         data-bs-slide="prev">
                         <span class="carousel-control-prev-icon " aria-hidden="true"></span>
@@ -182,6 +182,26 @@ function Affiliates() {
                 </div>
             </div>
         </section>
+        <div class="container justify-content-center col-lg-12 col-sm-12 my-5 " style={{"max-width": "740px"}}>
+           <div class="card  px-4">
+                <a href="https://rgoldsteinconsulting.com/"> 
+                    <div class="row align-items-center g-0">
+                        <div class="col-md-4 ">
+                        <img src="https://i.imgur.com/kUwT4KE.png" class="img-fluid rounded-start " alt="..."/>
+                        </div>
+                        <div class="col-md-8 px-3">
+                            <div class="card-body ">
+                                <h5 class="card-title">R Goldstein Consulting</h5>
+                                <p class="card-text">R Goldstein Consulting is the sister company to CMF Consulting. R Goldstein Consulting has been around for 6  years and counting. The focus is on debt settlement, student loan relief and any fraud or scam.  Rob Goldstein and Co-host Aaron Phillips do the podcast every Monday, called "The Debt Lifeline". You can see all past episodes on The Debt Lifeline Page. Click here for more information.</p>
+                            </div>
+                        </div>
+                    </div> 
+                </a>
+            </div>
+        </div>
+
+        
+
         <footer>
             <div class="container p-4">
                 <div class="row mt-4">

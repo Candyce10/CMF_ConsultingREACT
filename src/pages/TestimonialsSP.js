@@ -80,7 +80,7 @@ function TestimonialsSP() {
                                     
                                     <div class="user-content">
                                         <h3>"Estaba terriblemente endeudado ya punto de perder mi empresa. Si no fuera por ti y tu equipo; Habría tenido que cerrar mi empresa."</h3>
-                                        <h5 class="mb-0">- T. H.</h5>
+                                        <h5 class="mb-0">T. H.</h5>
                                         <h5 class="mt-0 fw-light fst-italic">Florida</h5>
                                     </div>
                                     <div class="stars">
@@ -95,7 +95,7 @@ function TestimonialsSP() {
                                 <div class="col-lg-3 review card shadow">
                                     <div class="user-content">
                                         <h3>"Después de intentar durante dos años obtener un préstamo EIDL de la SBA, me presentaron a CMF Consulting. En menos de ocho semanas, CMF pudo asegurar mi préstamo para que pudiera continuar con mi negocio."</h3>
-                                        <h5 class="mb-0">- I. J.</h5>
+                                        <h5 class="mb-0">I. J.</h5>
                                         <h5 class="mt-0 fw-light fst-italic">Ohio</h5>
 
                                     </div>
@@ -111,7 +111,7 @@ function TestimonialsSP() {
                                 <div class="col-lg-3 review card shadow">
                                     <div class="user-content">
                                         <h3>"Estaba en medio de un lío con la SBA, tratando de recibir un EDIL de ellos. Me rechazaron después de varios intentos, pero CMF, en cuestión de semanas, lo aclaró y me aprobó. ¡Literalmente me salvó, mi compañía!"</h3>
-                                        <h5 class="mb-0">- M. C.</h5>
+                                        <h5 class="mb-0">M. C.</h5>
                                         <h5 class="mt-0 fw-light fst-italic">Las Vegas, NV</h5>
                                     </div>
                                     <div class="stars">
@@ -132,7 +132,7 @@ function TestimonialsSP() {
                                 <div class="col-lg-3 review card shadow">
                                     <div class="user-content">
                                         <h3>"CMF Consultants son maestros cuando se trata de resolver situaciones financieras dolorosas. Realmente aprecio su tenacidad y habilidad al trabajar con compañías de tarjetas de crédito, prestamistas y la SBA. Me han ganado con los 3!"</h3>
-                                        <h5 class="mb-0">- B. F.</h5>
+                                        <h5 class="mb-0">B. F.</h5>
                                         <h5 class="mt-0 fw-light fst-italic">Texas</h5>
 
                                     </div>
@@ -148,7 +148,7 @@ function TestimonialsSP() {
                                 <div class="col-lg-3  review card shadow">
                                     <div class="user-content">
                                         <h3>"CMF Consultants son pitbulls cuando asumen un proyecto. Vinieron y me financiaron cuando nadie más de 7 años pudo hacerlo. Son realmente geniales para trabajar con ellos."</h3>
-                                        <h5 class="mb-0">- D. B.</h5>
+                                        <h5 class="mb-0">D. B.</h5>
                                         <h5 class="mt-0 fw-light fst-italic">Florida</h5>
                                     </div>
                                     <div class="stars">
@@ -163,7 +163,7 @@ function TestimonialsSP() {
                                 <div class="col-lg-3 review card shadow">
                                     <div class="user-content">
                                         <h3>"Su persistencia e ingenio me consiguieron los fondos que necesitaba para salvar mi negocio. ¡Gracias!"</h3>
-                                        <h5 class="mb-0">- F. M.</h5>
+                                        <h5 class="mb-0">F. M.</h5>
                                         <h5 class="mt-0 fw-light fst-italic">New Mexico</h5>
 
                                     </div>
@@ -185,7 +185,7 @@ function TestimonialsSP() {
                                 <div class="col-lg-4 review card shadow">
                                     <div class="user-content">
                                         <h3>"Muchas gracias por estar al tanto de la SBA. Obtuviste mi préstamo financiado a pesar de toda la burocracia. Ese dinero me salvó a lo grande"</h3>
-                                        <h5 class="mb-0">- J. H.</h5>
+                                        <h5 class="mb-0">J. H.</h5>
                                         <h5 class="mt-0 fw-light fst-italic">Arizona</h5>
                                     </div>
                                     <div class="stars">
@@ -202,7 +202,7 @@ function TestimonialsSP() {
                                 
                                 <h3>"Luego de ser referido por un asociado de mucha confianza para manejar mi préstamo SBA, Rob y yo ahora somos amigos.
                                         Por qué, después de 9 meses de no dejar de monitorear, soportar cancelaciones erróneas, cambiar de muchos agentes, perder el archivo varias veces y arreglarlo nuevamente, para que realmente llegue a la cuenta bancaria. ¡Guau, sinceramente, nunca habría superado lo que hace Rob! ¡Salud, Rob G!"</h3>
-                                        <h5 class="mb-0">- C. C.</h5>
+                                        <h5 class="mb-0">C. C.</h5>
                                         <h5 class="mt-0 fw-light fst-italic">New Jersey</h5>
 
                                 </div>
@@ -237,7 +237,7 @@ function TestimonialsSP() {
                     <hr/>
 
                     <p class="fs-5 lh-1 ">¡Estamos aquí para ayudar! ¡Contáctenos hoy para ver qué podemos hacer por usted y su negocio!</p>
-                    <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-brand ms-lg-3">Contacto</a>
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-brand ">Contacto</a>
                 </div>
                 
             </div>
