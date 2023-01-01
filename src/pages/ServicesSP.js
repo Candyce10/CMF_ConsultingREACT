@@ -13,9 +13,11 @@ function ServicesSP() {
                         <p> <i class='bx bxs-envelope'></i> info@cmfconsultants.net</p>
                     </div>
                     <div class="col-auto social-icons">
-                        {/* <a href="#"><i class='bx bxl-facebook'></i></a> */}
+                        <a href="https://www.facebook.com/profile.php?id=100085494214237"><i class='bx bxl-facebook'></i></a>
                         <a href="https://twitter.com/cmf2022cmf"><i class='bx bxl-twitter'></i></a>
                         <a href="https://www.linkedin.com/in/robert-cmf-consultants-8b15a6250/"><i class='bx bxl-linkedin'></i></a>
+                        <a href="https://www.meetup.com/home/?suggested=true&source=EVENTS"><i class="fa-brands fa-meetup"></i></a>
+
                     </div>
                 </div>
             </div>
@@ -79,11 +81,12 @@ function ServicesSP() {
                     <h2 class=" fw-normal lh-1 ">Nuestros Servicios</h2>
                     <hr/>
                     <p class="fs-5 lh-1 text-capitalize d-flex"><a href="#business-management-consulting">Consultoría de Gestión Empresarial (Empresas Principales y hasta Empresas del Mercado Medio)</a></p>
-                    <p class="fs-5 lh-1 text-capitalize d-flex"><a href="#main-street-and-early-stage-plans">Planes comerciales Main Street y Early-Stage Venture</a></p>
+                    <p class="fs-5 lh-1 text-capitalize d-flex"><a href="#main-street-and-early-stage-plans">Planes comerciales de empresas de Main Street y Early-Stage </a></p>
+                    <p class="fs-5 lh-1  d-flex"><a href="#sba-8a-business-development">Small Business Administration 8(a) Desarrollo de negocios</a></p>
                     <p class="fs-5 lh-1 text-capitalize d-flex"><a href="#venture-capital-consulting">Consultoría de capital de riesgo (tanto deuda como capital)</a></p>
                     <p class="fs-5 lh-1 text-capitalize d-flex"><a href="#business-turnarounds">Cambio de negocio</a></p>
                     <p class="fs-5 lh-1 text-capitalize d-flex"><a href="#asset-based-lenders">Prestamistas basados ​​en activos (en bienes raíces, cuentas por cobrar, inventario, equipo)</a></p>
-                    <p class="fs-5 lh-1 text-capitalize d-flex"><a href="#sba-lenders">SBA Prestamistas (7A, 504 & CDC)</a></p>
+                    <p class="fs-5 lh-1  d-flex"><a href="#sba-lenders">SBA Prestamistas (7(a), 504 & CDC)</a></p>
                     <p class="fs-5 lh-1 text-capitalize d-flex"><a href="#commercial-real-estate-loans">Préstamos inmobiliarios comerciales (todas las áreas cubiertas, rehabilitación, puente, apartamentos, comercio minorista)</a></p>
                     <p class="fs-5 lh-1 text-capitalize d-flex"><a href="#specialty-finance-areas">Áreas de Finanzas Especializadas (Cannabis, Gasolineras, Áreas Solares y Trade Finance)</a></p>
                     <p class="fs-5 lh-1 text-capitalize d-flex"><a href="#hard-money-loans">Préstamos de dinero duro</a></p>
@@ -101,7 +104,7 @@ function ServicesSP() {
                    
                 </div>
                 <div class="col-md-5 mb-5 align-items-center" style={{"margin-top":"100px"}}>
-                    <img class="service-img " src="https://blog.hubspot.com/hubfs/how-to-become-a-consultant.jpg"/>
+                    <img class="service-img " src="https://blog.hubspot.com/hubfs/how-to-become-a-consultant.jpg" alt='man and woman speaking'/>
                     <div class="green2"></div>
                 </div>
             </div>
@@ -112,12 +115,12 @@ function ServicesSP() {
                     <h2 class="fw-normal lh-1  mb-4">Nuestros talleres</h2>
                     <hr/>
 
-                    <p class="fs-5 lh-1 text-capitalize">Impulsa tu carrera iniciando un negocio</p>
-                    <p class="fs-5 lh-1 text-capitalize">Lo que necesitas para iniciar un negocio</p>
-                    <p class="fs-5 lh-1 text-capitalize">Taller de apoyo sobre cómo iniciar un negocio</p>
-                    <p class="fs-5 lh-1 text-capitalize">La psicología y la mente que necesitarás para iniciar un negocio</p>
-                    <p class="fs-5 lh-1 text-capitalize">Cómo promocionar tu negocio</p>
-                    <p class="fs-5 lh-1 text-capitalize mb-4" >Cómo atraer a los inversores</p>
+                    <a href="mailto:info@cmfconsultants.net?subject=Consulta de taller&body=¡Hola, me gustaría saber la próxima disponibilidad para el taller 'Impulsa tu carrera iniciando un negocio'!"><p class="fs-5 lh-1 text-capitalize">Impulsa tu carrera iniciando un negocio</p></a>
+                    <a href="mailto:info@cmfconsultants.net?subject=Consulta de taller&body=¡Hola, me gustaría saber la próxima disponibilidad para el taller 'Lo que necesitas para iniciar un negocio'!"><p class="fs-5 lh-1 text-capitalize">Lo que necesitas para iniciar un negocio</p></a>
+                    <a href="mailto:info@cmfconsultants.net?subject=Consulta de taller&body=¡Hola, me gustaría saber la próxima disponibilidad para el taller 'Taller de apoyo sobre cómo iniciar un negocio'!"><p class="fs-5 lh-1 text-capitalize">Taller de apoyo sobre cómo iniciar un negocio</p></a>
+                    <a href="mailto:info@cmfconsultants.net?subject=Consulta de taller&body=¡Hola, me gustaría saber la próxima disponibilidad para el taller 'La psicología y la mente que necesitarás para iniciar un negocio'!"><p class="fs-5 lh-1 text-capitalize">La psicología y la mente que necesitarás para iniciar un negocio</p></a>
+                    <a href="mailto:info@cmfconsultants.net?subject=Consulta de taller&body=¡Hola, me gustaría saber la próxima disponibilidad para el taller 'Cómo promocionar tu negocio'!"><p class="fs-5 lh-1 text-capitalize">Cómo promocionar tu negocio</p></a>
+                    <a href="mailto:info@cmfconsultants.net?subject=Consulta de taller&body=¡Hola, me gustaría saber la próxima disponibilidad para el taller 'Cómo atraer a los inversores'!"><p class="fs-5 lh-1 text-capitalize mb-4" >Cómo atraer a los inversores</p></a>
                     <div class="card text-center ">
                         <div class="card-body rounded" style={{"background":"var(--brand)"}}>
                             <h5 class="card-title  text-white">¡Contáctenos acerca de nuestro próximo taller disponible virtualmente o en persona!</h5>
@@ -127,7 +130,7 @@ function ServicesSP() {
 
                 </div>
                 <div class="col-md-5 order-md-1 mb-5" >
-                    <img src="https://www.redhat.com/cms/managed-files/styles/max_size/s3/RH-consulting-hero-0722-915x768.jpg?itok=jQu6uljp"/>
+                    <img src="https://www.redhat.com/cms/managed-files/styles/max_size/s3/RH-consulting-hero-0722-915x768.jpg?itok=jQu6uljp" alt='two women speaking'/>
 
                 </div>
             </div>
@@ -157,6 +160,22 @@ function ServicesSP() {
                     <p class="fs-5 lh-1 ">Main Street se usa para describir negocios pequeños y medianos como parte de una economía local. Por lo general, son de propiedad local y el comprador probable también es local. Las empresas de Main Street no disfrutan del beneficio de la llamada "prima de tamaño" cuando se valoran; algo que podría aplicarse a empresas más grandes que, en virtud de su tamaño, parecerían presentar un menor nivel de riesgo.</p>
                     <p class="fs-5 lh-1 ">Etapa inicial es un término que se utiliza para caracterizar una empresa de nueva creación. Se caracteriza por actividades como el desarrollo de la investigación, la investigación de mercados y el desarrollo comercial de productos, y generalmente tiene ingresos, ventas y participación de mercado limitados. La probabilidad de éxito de la empresa depende en gran medida de las acciones realizadas durante esta etapa, y CMF Consultants puede ayudarlo a trazar su plan.</p>
                     <p class="fs-5 lh-1 " >¡CMF Consultants cultivará un enfoque estratégico e integral para catapultarlo a usted y a su negocio hacia adelante! </p>
+
+                    <div id="sba-8a-business-development"></div>
+                    <br/>
+
+                    <h2 class="fw-normal lh-1 mt-5 mb-2">Small Business Administration 8(a) Desarrollo de negocios</h2>
+                    <hr/>
+                    <p class="fs-5 lh-1 ">El programa 8(a) de la SBA se creó para “brindar igualdad de condiciones para las pequeñas empresas propiedad de personas social y económicamente desfavorecidas”. De acuerdo con las pautas del programa, cualquier negocio que sea propiedad de negros en un 51 % o más tiene el potencial de competir por lucrativos contratos gubernamentales reservados, recibir ayuda para gestionar contratos federales y recibir capacitación. Para participar en el programa, las empresas primero deben obtener la certificación de la SBA.</p>
+                    <p class="fs-5 lh-1 ">Como el mayor comprador de bienes y servicios del mundo, el gobierno federal de los EE. UU. recibe un apoyo vital de las pequeñas empresas en desventaja, incluidas las del Programa de desarrollo empresarial 8(a).</p>
+                    <p class="fs-5 lh-1 ">Los beneficios del Programa de desarrollo empresarial 8(a) incluyen:</p>
+                    ‌<ul>
+                        <li>Acceso a contratos de reserva competitivos y de fuente única</li>
+                        <li>Asistencia para el desarrollo comercial de especialistas dedicados en oportunidades comerciales</li>
+                        <li>Asistencia de expertos federales en adquisiciones</li>
+                        <li>Oportunidades para crear empresas conjuntas con empresas establecidas</li>
+                        <li>Acceso prioritario a la propiedad excedente federal</li>
+                    </ul>
 
                     <div id="venture-capital-consulting"></div>
                     <br/>
@@ -191,12 +210,12 @@ function ServicesSP() {
                     <div id="sba-lenders"></div>
                     <br/>
 
-                    <h2 class="fw-normal lh-1 mt-5 mb-2">SBA Prestamistas (7A, 504 & CDC)</h2>
+                    <h2 class="fw-normal lh-1 mt-5 mb-2">SBA Prestamistas (7(a), 504 & CDC)</h2>
                     <hr/>
                     <p class="fs-5 lh-1 mb-0">El Small Business Administration (SBA) ofrece una variedad de préstamos para financiar su negocio. CMF Consultants puede ayudarlo a usted y a su empresa a encontrar y solicitar un préstamo 7(a) o 504 para promover el crecimiento empresarial y la creación de empleo. Si su empresa aún no está certificada por Certified Development Companies (CDCs), podemos ayudarlo a presentar su solicitud para que pueda ser elegible para un préstamo 504. </p>
 
                     <br/>
-                    <h5>      7A</h5>
+                    <h5>      7(a)</h5>
                     <ul class="list-unstyled">
                         <li class="fs-5 lh-1 mb-0">El Programa de Préstamo 7(a), el programa de préstamo más común de la SBA, incluye ayuda financiera para pequeñas empresas con requisitos especiales. Esta es la mejor opción cuando los bienes raíces son parte de una compra comercial, pero también se puede usar para:</li>
                         <br/>
@@ -342,7 +361,7 @@ function ServicesSP() {
             <div class="container p-4">
                 <div class="row mt-4">
                     <div class="col-lg-4 col-md-12 mb-4 mb-md-0 text-center">
-                        <a href="/"><img style={{"width":"100px", "height": "auto"}} src="https://i.imgur.com/5hGMabR.png"/></a>
+                        <a href="/"><img style={{"width":"100px", "height": "auto"}} src="https://i.imgur.com/5hGMabR.png" alt='CMF Logo'/></a>
                         <p>
                             <i class='bx bxs-envelope mt-2'></i> info@cmfconsultants.net
                         </p>

@@ -13,9 +13,11 @@ function Services() {
                         <p> <i class='bx bxs-envelope'></i> info@cmfconsultants.net</p>
                     </div>
                     <div class="col-auto social-icons">
-                        {/* <a href="#"><i class='bx bxl-facebook'></i></a> */}
+                        <a href="https://www.facebook.com/profile.php?id=100085494214237"><i class='bx bxl-facebook'></i></a>
                         <a href="https://twitter.com/cmf2022cmf"><i class='bx bxl-twitter'></i></a>
                         <a href="https://www.linkedin.com/in/robert-cmf-consultants-8b15a6250/"><i class='bx bxl-linkedin'></i></a>
+                        <a href="https://www.meetup.com/home/?suggested=true&source=EVENTS"><i class="fa-brands fa-meetup"></i></a>
+
                     </div>
                 </div>
             </div>
@@ -79,10 +81,11 @@ function Services() {
                     <hr/>
                     <p class="fs-5 lh-1 text-capitalize d-flex"><a href="#business-management-consulting">Business Management Consulting  (Main Street Businesses and up to Middle Market Companies)</a></p>
                     <p class="fs-5 lh-1 text-capitalize d-flex"><a href="#main-street-and-early-stage-plans">Main Street and Early-Stage Venture Business Plans</a></p>
+                    <p class="fs-5 lh-1 d-flex"><a href="#sba-8a-business-development">Small Business Administration 8(a) Business Development</a></p>
                     <p class="fs-5 lh-1 text-capitalize d-flex"><a href="#venture-capital-consulting">Venture Capital Consulting (Both Debt and Equity)</a></p>
                     <p class="fs-5 lh-1 text-capitalize d-flex"><a href="#business-turnarounds">Business Turnarounds</a></p>
                     <p class="fs-5 lh-1 text-capitalize d-flex"><a href="#asset-based-lenders">Asset Based Lenders (On Real Estate, A/R, Inventory, Equipment)</a></p>
-                    <p class="fs-5 lh-1 text-capitalize d-flex"><a href="#sba-lenders">SBA Lenders (7(a), 504 & CDC)</a></p>
+                    <p class="fs-5 lh-1  d-flex"><a href="#sba-lenders">SBA Lenders (7(a), 504 & CDC)</a></p>
                     <p class="fs-5 lh-1 text-capitalize d-flex"><a href="#commercial-real-estate-loans">Commercial Real Estate Loans (All Areas Covered, Rehab, Bridge, Apartments, Retail)</a></p>
                     <p class="fs-5 lh-1 text-capitalize d-flex"><a href="#specialty-finance-areas">Specialty Finance Areas (Cannabis, Gas Stations, Solar Areas & Trade Finance)</a></p>
                     <p class="fs-5 lh-1 text-capitalize d-flex"><a href="#hard-money-loans">Hard Money Loans</a></p>
@@ -100,7 +103,7 @@ function Services() {
                    
                 </div>
                 <div class="col-md-5 mb-5 align-items-center" style={{"margin-top":"100px"}}>
-                    <img class="service-img " src="https://blog.hubspot.com/hubfs/how-to-become-a-consultant.jpg"/>
+                    <img class="service-img " src="https://blog.hubspot.com/hubfs/how-to-become-a-consultant.jpg" alt='man and woman speaking'/>
                     <div class="green2"></div>
                 </div>
             </div>
@@ -125,7 +128,7 @@ function Services() {
 
                 </div>
                 <div class="col-md-5 order-md-1 mb-5" >
-                    <img src="https://www.redhat.com/cms/managed-files/styles/max_size/s3/RH-consulting-hero-0722-915x768.jpg?itok=jQu6uljp"/>
+                    <img src="https://www.redhat.com/cms/managed-files/styles/max_size/s3/RH-consulting-hero-0722-915x768.jpg?itok=jQu6uljp" alt='two women speaking'/>
 
                 </div>
             </div>
@@ -155,6 +158,22 @@ function Services() {
                     <p class="fs-5 lh-1 ">Main Street is used to describe small and mid-sized businesses as part of a local economy. They are typically locally-owned and the likely buyer is generally local, as well. Main Street businesses do not enjoy the benefit of the so-called “size premium” when being valued; something that might apply to larger businesses that, by virtue of their size, would appear to present a lower level of risk. </p>
                     <p class="fs-5 lh-1 ">Early-stage is a term used to characterize a startup business venture. It is characterized by activities such as research development, marketing research, and product business development, and generally have limited revenue, sales, and market share. The probability of success of venture depends heavily upon actions taken during this stage, and CMF Consultants can assist with mapping out your plan.</p>
                     <p class="fs-5 lh-1 " >CMF Consultants will cultivate a strategic and comprehensive approach to catapult you and your business forward! </p>
+
+                    <div id="sba-8a-business-development"></div>
+                    <br/>
+
+                    <h2 class="fw-normal lh-1 mt-5 mb-2">Small Business Administration 8(a) Business Development</h2>
+                    <hr/>
+                    <p class="fs-5 lh-1 ">The SBA’s 8(a) program was created to “provide a level playing field for small businesses owned by socially and economically disadvantaged” people. According to the program’s guidelines, any business that is 51% or more Black-owned has the potential to compete for lucrative set-aside government contracts, receive help at navigating federal contracts and get training. To take part in the program, businesses must first get certified by the SBA. </p>
+                    <p class="fs-5 lh-1 ">As the largest purchaser of goods and services in the world, the U.S. federal government receives vital support from small disadvantaged businesses, including those in the 8(a) Business Development Program.</p>
+                    <p class="fs-5 lh-1 ">Benefits of the 8(a) Business Development Program include:</p>
+                    ‌<ul>
+                        <li>Access to sole-source and competitive set-aside contracts</li>
+                        <li>Business development assistance from dedicated Business Opportunity Specialists</li>
+                        <li>Assistance from federal procurement experts</li>
+                        <li>Opportunities to create joint ventures with established businesses</li>
+                        <li>Priority access to federal surplus property</li>
+                    </ul>
 
                     <div id="venture-capital-consulting"></div>
                     <br/>
@@ -340,7 +359,7 @@ function Services() {
             <div class="container p-4">
                 <div class="row mt-4">
                     <div class="col-lg-4 col-md-12 mb-4 mb-md-0 text-center">
-                        <a href="/"><img style={{"width":"100px", "height": "auto"}} src="https://i.imgur.com/5hGMabR.png"/></a>
+                        <a href="/"><img style={{"width":"100px", "height": "auto"}} src="https://i.imgur.com/5hGMabR.png" alt='CMF Logo'/></a>
                         <p>
                             <i class='bx bxs-envelope mt-2'></i> info@cmfconsultants.net
                         </p>

@@ -5,7 +5,7 @@ import Testimonials from './pages/Testimonials';
 import Services from './pages/Services';
 import Team from './pages/Team';
 import Affiliates from './pages/Affiliates';
-import Contact from './pages/Contact';
+import Contact from './components/Contact';
 import NotFound from './pages/NotFound';
 import Confirmation from './pages/Confirmation';
 import YouTube from './pages/YouTube';

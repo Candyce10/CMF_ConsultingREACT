@@ -1,5 +1,4 @@
 import React, {useEffect} from 'react'
-import emailjs from '@emailjs/browser';
 
 
 function Affiliates() {
@@ -40,9 +39,7 @@ function Affiliates() {
 
 
 
-    const sendEmail = e => {
-        emailjs.sendForm(process.env.REACT_APP_SERVICE_ID, "template_0clbarg", e.target, process.env.REACT_APP_PUBLIC_KEY)
-    }
+
 
   return (
     <div>
@@ -53,9 +50,11 @@ function Affiliates() {
                         <p> <i class='bx bxs-envelope'></i> info@cmfconsultants.net</p>
                     </div>
                     <div class="col-auto social-icons">
-                        {/* <a href="#"><i class='bx bxl-facebook'></i></a> */}
+                        <a href="https://www.facebook.com/profile.php?id=100085494214237"><i class='bx bxl-facebook'></i></a>
                         <a href="https://twitter.com/cmf2022cmf"><i class='bx bxl-twitter'></i></a>
                         <a href="https://www.linkedin.com/in/robert-cmf-consultants-8b15a6250/"><i class='bx bxl-linkedin'></i></a>
+                        <a href="https://www.meetup.com/home/?suggested=true&source=EVENTS"><i class="fa-brands fa-meetup"></i></a>
+
                     </div>
                 </div>
             </div>
@@ -113,7 +112,7 @@ function Affiliates() {
 
 
         <div class="container col-lg-5 col-sm-8 mt-0 mb-5" style={{"border-radius": "5px", "background-color":"#f2f2f2", "padding": "20px"}}>
-            <form onSubmit={sendEmail}>
+            <form action="https://formsubmit.co/info@cmfconsultants.net" method="POST">
                 <h3>Sign Up Form</h3>
                 <label for="fname">First Name (Primer nombre)</label>
                 <input type="text" id="fname" name="firstname"  required/>
@@ -125,11 +124,15 @@ function Affiliates() {
                 <label for="contact">Contact Number (Número de teléfono)</label>
                 <input type="text" id="contact" name="contact"  required/>
                 <label for="profession">Profession (Profesión)</label>
-                <input type="text" id="profession" name="profession"  />
-                 <div class="message">
+                <input type="text" id="profession" name="profession" required />
+                <input type="hidden" name="_subject" value="New Affiliate/Referral Program Inquiry" required></input>
+                <input type="hidden" name="_next" value="https://cmfconsultants.net/contact-confirmation"></input>
+
+                <input type="hidden" name="_captcha" value="false"></input>
+                <div class="message">
                         <div class="success" id="success">Your Inquiry Has Successfully Sent!</div>
                         <div class="danger" id="danger">Fields Can't be Empty!</div>
-                    </div>
+                </div>
                 <button type="submit" class="btn btn-brand" onClick={message} >Send (Enviar)</button>
             
             </form>
@@ -187,12 +190,12 @@ function Affiliates() {
                 <a href="https://rgoldsteinconsulting.com/"> 
                     <div class="row align-items-center g-0">
                         <div class="col-md-4 ">
-                        <img src="https://i.imgur.com/kUwT4KE.png" class="img-fluid rounded-start " alt="..."/>
+                        <img src="https://i.imgur.com/kUwT4KE.png" class="img-fluid rounded-start " alt="RG Consulting Logo"/>
                         </div>
                         <div class="col-md-8 px-3">
                             <div class="card-body ">
                                 <h5 class="card-title">R Goldstein Consulting</h5>
-                                <p class="card-text">R Goldstein Consulting is the sister company to CMF Consulting. R Goldstein Consulting has been around for 6  years and counting. The focus is on debt settlement, student loan relief and any fraud or scam.  Rob Goldstein and Co-host Aaron Phillips do the podcast every Monday, called "The Debt Lifeline". You can see all past episodes on The Debt Lifeline Page. Click here for more information.</p>
+                                <p class="card-text">R Goldstein Consulting is the sister company to CMF Consulting. R Goldstein Consulting has been around for 6  years and counting. The focus is on debt settlement, student loan relief and any fraud or scam.  Rob Goldstein and Co-host Aaron Phillips do the Podcast every Monday, called "The Debt Lifeline". You can see all past episodes on The Debt Lifeline Page. Click here for more information.</p>
                             </div>
                         </div>
                     </div> 
@@ -206,7 +209,7 @@ function Affiliates() {
             <div class="container p-4">
                 <div class="row mt-4">
                     <div class="col-lg-4 col-md-12 mb-4 mb-md-0 text-center">
-                        <a href="/"><img style={{"width":"100px", "height": "auto"}} src="https://i.imgur.com/5hGMabR.png"/></a>
+                        <a href="/"><img style={{"width":"100px", "height": "auto"}} src="https://i.imgur.com/5hGMabR.png" alt='CMF Logo'/></a>
                         <p>
                             <i class='bx bxs-envelope mt-2'></i> info@cmfconsultants.net
                         </p>

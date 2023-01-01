@@ -14,9 +14,11 @@ function TestimonialsSP() {
                         <p> <i class='bx bxs-envelope'></i> info@cmfconsultants.net</p>
                     </div>
                     <div class="col-auto social-icons">
-                        {/* <a href="#"><i class='bx bxl-facebook'></i></a> */}
+                        <a href="https://www.facebook.com/profile.php?id=100085494214237"><i class='bx bxl-facebook'></i></a>
                         <a href="https://twitter.com/cmf2022cmf"><i class='bx bxl-twitter'></i></a>
                         <a href="https://www.linkedin.com/in/robert-cmf-consultants-8b15a6250/"><i class='bx bxl-linkedin'></i></a>
+                        <a href="https://www.meetup.com/home/?suggested=true&source=EVENTS"><i class="fa-brands fa-meetup"></i></a>
+
                     </div>
                 </div>
             </div>
@@ -246,7 +248,7 @@ function TestimonialsSP() {
             <div class="container p-4">
                 <div class="row mt-4">
                     <div class="col-lg-4 col-md-12 mb-4 mb-md-0 text-center">
-                        <a href="/"><img style={{"width":"100px", "height": "auto"}} src="https://i.imgur.com/5hGMabR.png"/></a>
+                        <a href="/"><img style={{"width":"100px", "height": "auto"}} src="https://i.imgur.com/5hGMabR.png" alt='CMF Logo'/></a>
                         <p>
                             <i class='bx bxs-envelope mt-2'></i> info@cmfconsultants.net
                         </p>

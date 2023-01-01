@@ -14,9 +14,11 @@ function Home() {
                         <p> <i class='bx bxs-envelope'></i> info@cmfconsultants.net</p>
                     </div>
                     <div class="col-auto social-icons">
-                        {/* <a href="#"><i class='bx bxl-facebook'></i></a> */}
+                        <a href="https://www.facebook.com/profile.php?id=100085494214237"><i class='bx bxl-facebook'></i></a>
                         <a href="https://twitter.com/cmf2022cmf"><i class='bx bxl-twitter'></i></a>
                         <a href="https://www.linkedin.com/in/robert-cmf-consultants-8b15a6250/"><i class='bx bxl-linkedin'></i></a>
+                        <a href="https://www.meetup.com/home/?suggested=true&source=EVENTS"><i class="fa-brands fa-meetup"></i></a>
+
                     </div>
                 </div>
             </div>
@@ -66,7 +68,7 @@ function Home() {
                     <div class="row">
                     <div class="col-12 text-center text-white">
                         <h6 class="text-white text-uppercase">"Helping minorities and businesses reach their funding goals"</h6>
-                        <img class="mt-4 mb-3" style={{"width":"150px", "height": "auto"}} src="https://i.imgur.com/5hGMabR.png"/>
+                        <img class="mt-4 mb-3" style={{"width":"150px", "height": "auto"}} src="https://i.imgur.com/5hGMabR.png" alt='CMF logo'/>
                         <h1 class="display-4 mb-4">COMMERCIAL & MINORITY<br />FUNDING CONSULTANTS</h1>
                         <a href="/services-and-workshops" class="btn btn-brand">Get Started</a>
                     </div>
@@ -166,7 +168,7 @@ function Home() {
             <div class="container">
                 <div class="row text-center justify-content-center gy-4">
                     <div class="col-lg-12 col-sm-6">
-                        <h6 class="fs-4 fw-semibold text-white">We are accepting application processing for minority certification to get an SBA (or other) loans & grants!</h6>
+                        <h6 class="fs-4 fw-semibold text-white">We are accepting application processing clients for minority certification to get an SBA (or other) loans & grants!</h6>
                     </div>
                 
                 </div>
@@ -316,7 +318,7 @@ function Home() {
             <div class="container p-4">
                 <div class="row mt-4">
                     <div class="col-lg-4 col-md-12 mb-4 mb-md-0 text-center">
-                        <a href="/"><img style={{"width":"100px", "height": "auto"}} src="https://i.imgur.com/5hGMabR.png"/></a>
+                        <a href="/"><img style={{"width":"100px", "height": "auto"}} src="https://i.imgur.com/5hGMabR.png" alt='CMF Logo'/></a>
                         <p>
                             <i class='bx bxs-envelope mt-2'></i> info@cmfconsultants.net
                         </p>

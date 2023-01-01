@@ -1,18 +1,9 @@
 import React from "react";
-import emailjs from '@emailjs/browser';
-import { useNavigate } from 'react-router-dom';
+
 
 function Contact() {
     
-    let navigate = useNavigate();
-    function handleClick(){
-        navigate('/contact-confirmation')
-    }
-
-    const sendEmail = e => {
-
-        emailjs.sendForm(process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID, e.target, process.env.REACT_APP_PUBLIC_KEY)
-    }
+    
 
 
   return (
@@ -30,7 +21,7 @@ function Contact() {
                                     </div>
                                 </div>
                                 <div class="col-lg-8">
-                                    <form class="p-lg-5 col-12 row g-3" onSubmit={sendEmail} >
+                                    <form class="p-lg-5 col-12 row g-3" action="https://formsubmit.co/info@cmfconsultants.net" method="POST" >
                                         <div>
                                             <h1>Get in touch (Ponerse en contacto)</h1>
                                         
@@ -66,9 +57,11 @@ function Contact() {
                                             <label for="exampleInputEmail1" class="form-label">Enter Message (Ingresar mensaje)</label>
                                             <textarea name="message" placeholder="Leave your message here." class="form-control" id="userName"  rows="4" required style={{"resize":"none"}}></textarea>
                                         </div>
+                                        <input type="hidden" name="_next" value="https://cmfconsultants.net/contact-confirmation"></input>
                                         <input type="hidden" name="_subject" value="New Contact Submission"></input>
+                                        <input type="hidden" name="_captcha" value="false"></input>
                                         <div class="col-12 mb-5">
-                                            <button type="submit" class="btn btn-brand" onClick={handleClick}>Send Message</button>
+                                            <button type="submit" class="btn btn-brand" >Send Message</button>
                                         </div>
                                     </form>
                                 </div>

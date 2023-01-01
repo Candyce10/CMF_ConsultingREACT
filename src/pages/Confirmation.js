@@ -61,7 +61,7 @@ function Confirmation() {
                 <div class="col-lg-10  col-sm-10">
                     <h1 class="display-5 fw-bold lh-1 mb-3 ">Thank you for contacting us!</h1>
                     <p class="lead fs-4">We will get in touch soon.</p>
-                    <a href="/" class="btn btn-brand ms-lg-3">Home</a>
+                    <a href="/" class="btn btn-brand ">Home</a>
                 </div>
             </div>
         </div>
@@ -69,14 +69,16 @@ function Confirmation() {
             <div class="container p-4">
                 <div class="row mt-4">
                     <div class="col-lg-4 col-md-12 mb-4 mb-md-0 text-center">
-                        <a href="/"><img style={{"width":"100px", "height": "auto"}} src="https://i.imgur.com/5hGMabR.png"/></a>
+                        <a href="/"><img style={{"width":"100px", "height": "auto"}} src="https://i.imgur.com/5hGMabR.png" alt='CMF Logo'/></a>
                         <p>
                             <i class='bx bxs-envelope mt-2'></i> info@cmfconsultants.net
                         </p>
                         <div class="col-auto social-icons">
-                            {/* <a href="#"><i class='bx bxl-facebook'></i></a> */}
+                            <a href="https://www.facebook.com/profile.php?id=100085494214237"><i class='bx bxl-facebook'></i></a>
                             <a href="https://twitter.com/cmf2022cmf"><i class='bx bxl-twitter'></i></a>
                             <a href="https://www.linkedin.com/in/robert-cmf-consultants-8b15a6250/"><i class='bx bxl-linkedin'></i></a>
+                            <a href="https://www.meetup.com/home/?suggested=true&source=EVENTS"><i class="fa-brands fa-meetup"></i></a>
+
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
